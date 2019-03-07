@@ -88,8 +88,10 @@ def main():##main method
         f.close()
         # print contents + "\n"
         if argsIndex == 1:
+            # print "I got here [1]"
             generate_tokens(contents)
         if argsIndex == 2:
+            # print "I got here [2]"
             generate_testTokens(contents)
         argsIndex += 1
 
@@ -117,10 +119,10 @@ def main():##main method
 
 #Dealing with the test file tokens
 def generate_testTokens(s):
-    s = s.replace('[', '',)
-    s = s.replace(' [ ', '',)
-    s = s.replace(']', '',)
-    s = s.replace(' ] ', '',)
+    # s = s.replace('[', '',)
+    # s = s.replace(' [ ', '',)
+    # s = s.replace(']', '',)
+    # s = s.replace(' ] ', '',)
 
     # Replace new lines with spaces
     s = re.sub(r'\s+', ' ', s)
@@ -129,14 +131,54 @@ def generate_testTokens(s):
     tokens = [token for token in s.split(" ") if token != ""]
 
     for i in range(len(tokens)):
-        # print "Tokens {}: {}".format(i+1, tokens[i])
+        #print "Tokens {}: {}".format(i+1, tokens[i])
         currToken = tokens[i]
-        resultingPOS = wordDict.get(currToken,None)
-        # print "resultingPOS: " + str(resultingPOS)
-        theMaxPOS = findMostFrequent(resultingPOS)
 
-        # print "Word: " + currToken + " POS: " + theMaxPOS
-        print currToken + "/" + theMaxPOS
+        punct = ['!',',','.','?']
+
+        #print "CurrToken: " + currToken + "\n"
+
+        def openBracket():
+            print "[",
+
+        def closeBracket():
+            print "]"
+
+        def default():
+            #print "default:"
+            resultingPOS = wordDict.get(currToken,None)
+            # print "resultingPOS: " + str(resultingPOS)
+            theMaxPOS = findMostFrequent(resultingPOS)
+            # for i in punct:
+            #     # print i
+            #     if theMaxPOS == i:
+            #         print currToken + "/" + theMaxPOS
+            #     else:
+            #         print currToken + "/" + theMaxPOS,
+            print currToken + "/" + theMaxPOS
+
+        switcher = {
+            '[': openBracket,
+            ']': closeBracket,
+        }
+
+        def switch(currToken):
+            #print "I got here [1] " + currToken
+            return switcher.get(currToken, default)()
+
+        switch(currToken)
+
+        # if currToken == "]" or currToken == "[":
+        #     print "Token was a ]: " + currToken
+        #     print "]"
+        # if currToken == "[":
+        #     print "Token was a [: " + currToken
+        #     print "["
+        # else:
+        #     print "in else statement, currToken " + currToken
+
+            # print "Word: " + currToken + " POS: " + theMaxPOS
+
 
     # stringToken = str(tokens)
     # create_tokens(tokens, wordDict)
@@ -211,6 +253,11 @@ def create_tokens(tokens, wordDict):
         # print "Tokens {}: {}".format(i+1, tokens[i])
         currToken = tokens[i]
         splitTokens = re.findall(r"\w+|\W",currToken)
+        # if currToken == '[':
+        #     print "token is " + currToken
+        # if currToken == ']':
+        #     print "token is " + currToken
+        # else:
         # print "splitTokens are " + str(splitTokens) + "\n"
         wordToken = splitTokens[0]
         posToken = splitTokens[2]
