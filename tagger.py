@@ -60,47 +60,110 @@ import re
 import sys
 from decimal import Decimal
 from random import *
+import operator
 
 wordDict = {}
 
 def main():##main method
 
-    print("This program tags words with POS.")
-    print("Created by Brandon Chin")
+    # print("This program tags words with POS.")
+    # print("Created by Brandon Chin")
 
     numberOfArgs = len(sys.argv)
-    print "there are " + str(numberOfArgs) + " arguments"
+    # print "there are " + str(numberOfArgs) + " arguments"
     # if numberOfArgs < 3:
     #     # print "Usage: " + sys.argv[0] + " n m <filenames> where n = number of grams, m = number of sentences"
     #     exit(1)
 
-    trainingData = sys.argv[1]
-    # numberOfArgs -= 1 # adjust
-    # argsIndex = 1
+    # trainingData = sys.argv[1]
+    # testData = sys.argv[2]
+    numberOfArgs -= 1 # adjust
+    argsIndex = 1
 
-    # while argsIndex <= numberOfArgs:
-    #     loadFileName = sys.argv[argsIndex]
-    #     print "opening file " + loadFileName
-    #     f = open(loadFileName,"r")
-    #     contents = f.read()
-    #     f.close()
-    #     # print contents + "\n"
-    #     generate_tags(contents)
-    #     argsIndex += 1
+    while argsIndex <= numberOfArgs:
+        loadFileName = sys.argv[argsIndex]
+        # print "opening file " + loadFileName
+        f = open(loadFileName,"r")
+        contents = f.read()
+        f.close()
+        # print contents + "\n"
+        if argsIndex == 1:
+            generate_tokens(contents)
+        if argsIndex == 2:
+            generate_testTokens(contents)
+        argsIndex += 1
 
-    loadFileName = trainingData
-    print "opening file " + loadFileName
-    f = open(loadFileName,"r")
-    contents = f.read()
-    f.close()
+    # loadFileName = trainingData
+    # print "opening file " + loadFileName
+    # f = open(loadFileName,"r")
+    # contents = f.read()
+    # f.close()
+    # # print contents + "\n"
+    # generate_tokens(contents)
+
+    # loadFileName = testData
+    # print "opening file " + loadFileName
+    # f = open(loadFileName,"r")
+    # contents = f.read()
+    # f.close()
     # print contents + "\n"
-    generate_tokens(contents)
+    # generate_testTokens(contents)
 
     # print (generate_sentences(ngramDict))
 
 
+
     # counts = dict()
 
+#Dealing with the test file tokens
+def generate_testTokens(s):
+    s = s.replace('[', '',)
+    s = s.replace(' [ ', '',)
+    s = s.replace(']', '',)
+    s = s.replace(' ] ', '',)
+
+    # Replace new lines with spaces
+    s = re.sub(r'\s+', ' ', s)
+
+    # Break sentence into the tokens, remove empty tokens
+    tokens = [token for token in s.split(" ") if token != ""]
+
+    for i in range(len(tokens)):
+        # print "Tokens {}: {}".format(i+1, tokens[i])
+        currToken = tokens[i]
+        resultingPOS = wordDict.get(currToken,None)
+        # print "resultingPOS: " + str(resultingPOS)
+        theMaxPOS = findMostFrequent(resultingPOS)
+
+        # print "Word: " + currToken + " POS: " + theMaxPOS
+        print currToken + "/" + theMaxPOS
+
+    # stringToken = str(tokens)
+    # create_tokens(tokens, wordDict)
+
+    # print "stringToken are " + stringToken + "\n"
+    # print "firstWord is " + str(firstWord) + "\n"
+
+
+    # print "Tokens are " + str(tokens) + "\n"
+
+#Find most frequent occurence in posDict
+def findMostFrequent(resultingPOS):
+
+    maxPOS = None
+    maxFreq = 0
+
+    for pos,frequency in resultingPOS.items():
+        if maxFreq < frequency:
+            maxFreq = frequency
+            maxPOS = pos
+        # print "(inside for loop) maxPOS: " + maxPOS
+    # print "(outside for loop) maxPOS: " + maxPOS
+    # print "maxPOS: " + maxPOS
+
+    return maxPOS
+
+#Dealing with the training file tokens
 def generate_tokens(s):
     # print "loading in contents"
     # Convert to lowercases
@@ -127,8 +190,8 @@ def generate_tokens(s):
     # stringToken = str(tokens)
     create_tokens(tokens, wordDict)
 
-    for key,val in wordDict.items():
-        print key, "=>", val
+    # for key,val in wordDict.items():
+    #     print key, "=>", val
 
     # print "stringToken are " + stringToken + "\n"
     # print "firstWord is " + str(firstWord) + "\n"
@@ -187,6 +250,8 @@ def generate_frequencies(wordToken, posToken, wordDict):
     #     print key, "=>", val
     # for key,val in posDict.items():
     #     print key, "=>", val
+    # findMostFrequent(posDict)
+
 
 if __name__ == "__main__":
     main()
