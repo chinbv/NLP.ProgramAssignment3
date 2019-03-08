@@ -4,7 +4,7 @@
 old/JJ ,/, will/MD join/VB
 [ the/DT board/NN ]
 as/IN
-[ a/DT nonexecutive/JJ director/NN Nov/NNP 29/CD ]
+[ a/DT nonexecutive's/JJ student-director/NN Nov./NNP 29/CD ]
 ./.
 [ Pierre/NN Vinken/NNP ]
 ,/,

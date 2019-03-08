@@ -196,7 +196,7 @@ def findMostFrequent(resultingPOS):
     maxPOS = None
     maxFreq = 0
 
-    print "resultingPOS: " + str(resultingPOS)
+    # print "resultingPOS: " + str(resultingPOS)
 
     for pos,frequency in resultingPOS.items():
         if maxFreq < frequency:
@@ -247,16 +247,16 @@ def create_tokens(tokens, wordDict):
     # print tokens
 
     for i in range(len(tokens)):
-        print "Tokens {}: {}".format(i+1, tokens[i])
+        # print "Tokens {}: {}".format(i+1, tokens[i])
         currToken = tokens[i]
-        print "currToken: " + currToken
+        # print "currToken: " + currToken
         splitTokens = currToken.split('/')
         # if currToken == '[':
         #     print "token is " + currToken
         # if currToken == ']':
         #     print "token is " + currToken
         # else:
-        print "splitTokens are " + str(splitTokens) + "\n"
+        # print "splitTokens are " + str(splitTokens) + "\n"
 
         wordToken = splitTokens[0]
 
