@@ -34,14 +34,33 @@ def main():##main method
 
     fTestFile = sys.argv[1]
     fKeyFile = sys.argv[2]
-    print "fTestFile: " + str(fTestFile)
-    print "fKeyFile: " + str(fKeyFile)
+    # print "fTestFile: " + str(fTestFile)
+    # print "fKeyFile: " + str(fKeyFile)
 
     with open(fTestFile) as fT1:
         with open(fKeyFile) as fK1:
-            generate_tokens(fT1)
+            contestTest = fT1.read()
+            contentsKey = fK1.read()
+            testTokens = generate_tokens(contestTest)
+            keyTokens = generate_tokens(contentsKey)
+        fT1.close()
+        fK1.close()
 
-    # fileTest = open(fTestFile)
+    # for i in testTokens:
+    #     for j in keyTokens:
+    #         if i == j:
+    #             print "Matched: " + str(i) + " " + str(j)
+    #         else:
+    #             print "Did not match: " + str(i) + " " + str(j)
+
+    for i in range(len(testTokens)):
+        keyTokensValue = keyTokens[i]
+        if testTokens[i] == keyTokensValue:
+            print "It matched " + str(testTokens[i]) + " " + str(keyTokensValue)
+        else:
+            print "Did not match " + str(testTokens[i]) + " " + str(keyTokensValue)
+
+
     # fileKey = open(fKeyFile)
 #Dealing with the removing excess from key
 
@@ -61,7 +80,7 @@ def generate_tokens(s):
     tokens = [token for token in s.split(" ") if token != ""]
 
     stringToken = str(tokens)
-    print "tokens are: " + stringToken + "\n"
+    # print "tokens are: " + stringToken + "\n"
 
     return tokens
 

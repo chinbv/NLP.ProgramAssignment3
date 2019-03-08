@@ -93,6 +93,7 @@ def main():##main method
         if argsIndex == 2:
             # print "I got here [2]"
             generate_testTokens(contents)
+        # print "argsIndex: " + argsIndex
         argsIndex += 1
 
     # loadFileName = trainingData
@@ -195,6 +196,8 @@ def findMostFrequent(resultingPOS):
     maxPOS = None
     maxFreq = 0
 
+    print "resultingPOS: " + str(resultingPOS)
+
     for pos,frequency in resultingPOS.items():
         if maxFreq < frequency:
             maxFreq = frequency
@@ -211,13 +214,7 @@ def generate_tokens(s):
     # Convert to lowercases
     # s = s.lower()
 
-    # Replace all punctuation with space then punctuation then space
-    # s = re.sub(r'[,]', ' , ', s)
-    # s = re.sub(r'[.]', ' . ', s)
-    # s = re.sub(r'[?]', ' ? ', s)
-    # s = re.sub(r'[!]', ' ! ', s)
-    # s = re.sub(r'[[]', ' [ ', s)
-    # s = re.sub(r'[]]', ' ] ', s)
+    # Replace all brackets with empty
     s = s.replace('[', '',)
     s = s.replace(' [ ', '',)
     s = s.replace(']', '',)
@@ -250,17 +247,21 @@ def create_tokens(tokens, wordDict):
     # print tokens
 
     for i in range(len(tokens)):
-        # print "Tokens {}: {}".format(i+1, tokens[i])
+        print "Tokens {}: {}".format(i+1, tokens[i])
         currToken = tokens[i]
-        splitTokens = re.findall(r"\w+|\W",currToken)
+        print "currToken: " + currToken
+        splitTokens = currToken.split('/')
         # if currToken == '[':
         #     print "token is " + currToken
         # if currToken == ']':
         #     print "token is " + currToken
         # else:
-        # print "splitTokens are " + str(splitTokens) + "\n"
+        print "splitTokens are " + str(splitTokens) + "\n"
+
         wordToken = splitTokens[0]
-        posToken = splitTokens[2]
+
+        posToken = splitTokens[1]
+
 
         generate_frequencies(wordToken, posToken, wordDict)
 
