@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+## 1. With no rules 
+#84.4396733774% CORRECT
+#15.5603266226% INCORRECT
+
+
 import re
 import sys
 from decimal import Decimal
