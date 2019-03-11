@@ -5,8 +5,9 @@ import sys
 from decimal import Decimal
 from random import *
 import operator
+from fractions import Fraction
 
-wordDict = {}
+keyTokenDict = {}
 
 def main():##main method
 
@@ -53,25 +54,95 @@ def main():##main method
     #         else:
     #             print "Did not match: " + str(i) + " " + str(j)
 
+    correctCount = 0
+    incorrectCount = 0
+    totalCount = 0
+
     for i in range(len(testTokens)):
         keyTokensValue = keyTokens[i]
-        if testTokens[i] == keyTokensValue:
-            print "It matched " + str(testTokens[i]) + " " + str(keyTokensValue)
+        keyTokensValue = keyTokensValue.replace("\/", "")
+        testTokensValue = testTokens[i]
+        testTokensValue = testTokensValue.replace("\/", "")
+        if testTokensValue == keyTokensValue:
+            print "It matched " + str(testTokensValue) + " " + str(keyTokensValue)
+            testSplitTokens = testTokensValue.split('/')
+            testPosToken = testSplitTokens[1]
+            # print "testPosToken: " + testPosToken
+
+            # if keyTokensValue[1] == '/':
+            #     testingToken0 = keyTokensValue[0]
+            #     testingToken2 = keyTokensValue[2]
+            #
+            #     print "testingToken0: " + testingToken0 + " testingToken2: " + testingToken2
+
+            keySplitTokens = keyTokensValue.split('/')
+            keyPosToken = keySplitTokens[1]
+
+            # print "keyPosToken: " + keyPosToken
+
+            correctCount += 1
+
+            generate_confusion_matrix(keyTokenDict,testPosToken,keyPosToken)
+
         else:
             print "Did not match " + str(testTokens[i]) + " " + str(keyTokensValue)
+            testSplitTokens = testTokensValue.split('/')
+            testPosToken = testSplitTokens[1]
 
+            # print "testPosToken: " + testPosToken
+
+
+            keySplitTokens = keyTokensValue.split('/')
+            keyPosToken = keySplitTokens[1]
+
+            # print "keyPosToken: " + keyPosToken
+
+            incorrectCount += 1
+
+            generate_confusion_matrix(keyTokenDict,testPosToken,keyPosToken)
+
+    totalCount = correctCount + incorrectCount
+
+    fractionCorrect = Fraction(correctCount,totalCount)
+    fractionIncorrect = Fraction(incorrectCount,totalCount)
+
+    # print "Correct: " + str(fractionCorrect)
+    # print "Incorrect: " + str(fractionIncorrect)
+
+    print str(float(fractionCorrect)*100) + "% CORRECT"
+    print str(float(fractionIncorrect)*100) + "% INCORRECT"
+
+    # for key,val in keyTokenDict.items():
+    #     print key, "=>", val
 
     # fileKey = open(fKeyFile)
 #Dealing with the removing excess from key
+
+def generate_confusion_matrix(keyTokenDict,testPosToken,keyPosToken):
+    if keyPosToken in keyTokenDict:
+                testTokenDict = keyTokenDict[keyPosToken]
+                if testTokenDict is not None:
+                    if testPosToken in testTokenDict:
+                        testTokenDict[testPosToken] += 1
+                    else:
+                        testTokenDict[testPosToken] = 1
+                else:
+                    testTokenDict = { testPosToken : 1 }
+                    keyTokenDict[keyPosToken] = testTokenDict
+    else:
+        testTokenDict = { testPosToken : 1 }
+        keyTokenDict[keyPosToken] = testTokenDict
+
+    for keyToken in keyTokenDict:
+        for testToken in testTokenDict:
+            print keyTokenDict.get(keyToken,testToken)
+
 
 def generate_tokens(s):
     # print "loading in contents"
     # Convert to lowercases
     # s = s.lower()
-    s = s.replace('[', '',)
-    s = s.replace(' [ ', '',)
-    s = s.replace(']', '',)
-    s = s.replace(' ] ', '',)
+    s = re.sub("[\[\]]", '', s)
 
     # Replace new lines with spaces
     s = re.sub(r'\s+', ' ', s)

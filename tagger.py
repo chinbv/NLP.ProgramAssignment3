@@ -137,7 +137,17 @@ def generate_testTokens(s):
 
         punct = ['!',',','.','?']
 
-        #print "CurrToken: " + currToken + "\n"
+        # print "CurrToken: " + currToken + "\n"
+
+        # wordDictCheck = wordDict.get(currToken, None)
+
+        # print "wordDictCheck: " + str(wordDictCheck)
+
+        # if wordDictCheck == "None":
+        #     print "Did not exist in wordDict"
+        #     generate_frequencies(currToken, "NN", wordDict)
+        #     print "should have inserted it"
+
 
         def openBracket():
             print "[",
@@ -150,13 +160,14 @@ def generate_testTokens(s):
             resultingPOS = wordDict.get(currToken,None)
             # print "resultingPOS: " + str(resultingPOS)
             theMaxPOS = findMostFrequent(resultingPOS)
+            # print "theMaxPOS: " + str(theMaxPOS)
             # for i in punct:
             #     # print i
             #     if theMaxPOS == i:
             #         print currToken + "/" + theMaxPOS
             #     else:
             #         print currToken + "/" + theMaxPOS,
-            print currToken + "/" + theMaxPOS
+            print currToken + "/" + str(theMaxPOS)
 
         switcher = {
             '[': openBracket,
@@ -198,10 +209,16 @@ def findMostFrequent(resultingPOS):
 
     # print "resultingPOS: " + str(resultingPOS)
 
-    for pos,frequency in resultingPOS.items():
-        if maxFreq < frequency:
-            maxFreq = frequency
-            maxPOS = pos
+    if resultingPOS == None:
+        # print "Did not exist in wordDict"
+        maxPOS = "NN"
+        # print "should have inserted it"
+
+    else:
+        for pos,frequency in resultingPOS.items():
+            if maxFreq < frequency:
+                maxFreq = frequency
+                maxPOS = pos
         # print "(inside for loop) maxPOS: " + maxPOS
     # print "(outside for loop) maxPOS: " + maxPOS
     # print "maxPOS: " + maxPOS
@@ -215,10 +232,7 @@ def generate_tokens(s):
     # s = s.lower()
 
     # Replace all brackets with empty
-    s = s.replace('[', '',)
-    s = s.replace(' [ ', '',)
-    s = s.replace(']', '',)
-    s = s.replace(' ] ', '',)
+    s = re.sub("[\[\]]", '', s)
 
     # Replace new lines with spaces
     s = re.sub(r'\s+', ' ', s)
