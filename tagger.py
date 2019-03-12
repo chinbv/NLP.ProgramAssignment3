@@ -120,10 +120,6 @@ def main():##main method
 
 #Dealing with the test file tokens
 def generate_testTokens(s):
-    # s = s.replace('[', '',)
-    # s = s.replace(' [ ', '',)
-    # s = s.replace(']', '',)
-    # s = s.replace(' ] ', '',)
 
     # Replace new lines with spaces
     s = re.sub(r'\s+', ' ', s)
@@ -149,11 +145,26 @@ def generate_testTokens(s):
         #     print "should have inserted it"
 
 
+        pattern = '[A-Z]'
+
+        foundToken = re.search(pattern, currToken)
+        # if foundToken.group() != None:
+        #     foundToken.group()
+        #     print "foundToken match: " + str(foundToken)
+
         def openBracket():
             print "[",
 
         def closeBracket():
             print "]"
+
+        def capitalNoun():
+            if foundToken.group() != None:
+                # foundToken.group()
+                # print "foundToken match: " + str(foundToken)
+            # print "reached here"
+                theMaxPOS = "NNP"
+                print currToken + "/" + str(theMaxPOS)
 
         def default():
             #print "default:"
@@ -172,6 +183,7 @@ def generate_testTokens(s):
         switcher = {
             '[': openBracket,
             ']': closeBracket,
+            foundToken: capitalNoun,
         }
 
         def switch(currToken):
@@ -214,6 +226,7 @@ def findMostFrequent(resultingPOS):
         maxPOS = "NN"
         # print "should have inserted it"
 
+
     else:
         for pos,frequency in resultingPOS.items():
             if maxFreq < frequency:
@@ -221,7 +234,38 @@ def findMostFrequent(resultingPOS):
                 maxPOS = pos
         # print "(inside for loop) maxPOS: " + maxPOS
     # print "(outside for loop) maxPOS: " + maxPOS
-    # print "maxPOS: " + maxPOS
+
+
+    # def emptyPos():
+    #     maxPOS = "NN"
+    #
+    # def closeBracket():
+    #     print "]"
+    #
+    # def default():
+    #     #print "default:"
+    #     resultingPOS = wordDict.get(currToken,None)
+    #     # print "resultingPOS: " + str(resultingPOS)
+    #     theMaxPOS = findMostFrequent(resultingPOS)
+    #     # print "theMaxPOS: " + str(theMaxPOS)
+    #     # for i in punct:
+    #     #     # print i
+    #     #     if theMaxPOS == i:
+    #     #         print currToken + "/" + theMaxPOS
+    #     #     else:
+    #     #         print currToken + "/" + theMaxPOS,
+    #     print currToken + "/" + str(theMaxPOS)
+    #
+    # switcher = {
+    #     '[': openBracket,
+    #     ']': closeBracket,
+    # }
+    #
+    # def switch(currToken):
+    #     #print "I got here [1] " + currToken
+    #     return switcher.get(currToken, default)()
+    #
+    # switch(currToken)
 
     return maxPOS
 

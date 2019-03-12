@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-## 1. With no rules 
+## 1. With no rules
 #84.4396733774% CORRECT
 #15.5603266226% INCORRECT
-
+## 2.
 
 import re
 import sys
@@ -69,7 +69,7 @@ def main():##main method
         testTokensValue = testTokens[i]
         testTokensValue = testTokensValue.replace("\/", "")
         if testTokensValue == keyTokensValue:
-            print "It matched " + str(testTokensValue) + " " + str(keyTokensValue)
+            # print "It matched " + str(testTokensValue) + " " + str(keyTokensValue)
             testSplitTokens = testTokensValue.split('/')
             testPosToken = testSplitTokens[1]
             # print "testPosToken: " + testPosToken
@@ -90,7 +90,7 @@ def main():##main method
             generate_confusion_matrix(keyTokenDict,testPosToken,keyPosToken)
 
         else:
-            print "Did not match " + str(testTokens[i]) + " " + str(keyTokensValue)
+            # print "Did not match " + str(testTokens[i]) + " " + str(keyTokensValue)
             testSplitTokens = testTokensValue.split('/')
             testPosToken = testSplitTokens[1]
 
@@ -117,6 +117,13 @@ def main():##main method
     print str(float(fractionCorrect)*100) + "% CORRECT"
     print str(float(fractionIncorrect)*100) + "% INCORRECT"
 
+    for keyToken in keyTokenDict:
+        #for testToken in testTokenDict:
+        for testToken in keyTokenDict.get(keyToken):
+            print str(keyToken) + " " + str(testToken) + " " + str(keyTokenDict.get(keyToken).get(testToken))
+        # print len(keyTokenDict.get(keyToken))
+    # print len(keyTokenDict)
+
     # for key,val in keyTokenDict.items():
     #     print key, "=>", val
 
@@ -137,10 +144,6 @@ def generate_confusion_matrix(keyTokenDict,testPosToken,keyPosToken):
     else:
         testTokenDict = { testPosToken : 1 }
         keyTokenDict[keyPosToken] = testTokenDict
-
-    for keyToken in keyTokenDict:
-        for testToken in testTokenDict:
-            print keyTokenDict.get(keyToken,testToken)
 
 
 def generate_tokens(s):
