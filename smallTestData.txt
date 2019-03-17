@@ -10,3 +10,6 @@ as
 ,
 [ Pierre Vinken ]
 ,
+[ 55 years old ]
+,
+[ 60 10 230 4930 4.3149 ]

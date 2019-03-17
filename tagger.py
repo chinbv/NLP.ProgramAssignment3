@@ -145,9 +145,9 @@ def generate_testTokens(s):
         #     print "should have inserted it"
 
 
-        pattern = '[A-Z]'
+        # pattern = '[A-Z]'
 
-        foundToken = re.search(pattern, currToken)
+        # foundToken = re.search(pattern, currToken)
         # if foundToken.group() != None:
         #     foundToken.group()
         #     print "foundToken match: " + str(foundToken)
@@ -158,19 +158,32 @@ def generate_testTokens(s):
         def closeBracket():
             print "]"
 
-        def capitalNoun():
-            if foundToken.group() != None:
-                # foundToken.group()
-                # print "foundToken match: " + str(foundToken)
-            # print "reached here"
-                theMaxPOS = "NNP"
-                print currToken + "/" + str(theMaxPOS)
+        # def capitalNoun():
+        #     if foundToken.group() != None:
+        #         # foundToken.group()
+        #         # print "foundToken match: " + str(foundToken)
+        #     # print "reached here"
+        #         theMaxPOS = "NNP"
+        #         print currToken + "/" + str(theMaxPOS)
 
         def default():
             #print "default:"
-            resultingPOS = wordDict.get(currToken,None)
+            # cardinalNumber = re.compile(r'[0-9]')
+            # if cardinalNumber.match(''.join(currToken)):
+            #     theMaxPOS = "CD"
+
+            # specificEnding = re.compile(r'\w+(?:\?|\.|gy\b)')
+            # if specificEnding.match(''.join(currToken)):
+            #     theMaxPOS = "RB"
+
+            specificStart = re.compile(r'\b[unUn]\w+')
+            if specificStart.match(''.join(currToken)):
+                theMaxPOS = "JJ"
+
+            else:
+                resultingPOS = wordDict.get(currToken,None)
             # print "resultingPOS: " + str(resultingPOS)
-            theMaxPOS = findMostFrequent(resultingPOS)
+                theMaxPOS = findMostFrequent(resultingPOS)
             # print "theMaxPOS: " + str(theMaxPOS)
             # for i in punct:
             #     # print i
@@ -183,7 +196,7 @@ def generate_testTokens(s):
         switcher = {
             '[': openBracket,
             ']': closeBracket,
-            foundToken: capitalNoun,
+            # foundToken: capitalNoun,
         }
 
         def switch(currToken):
@@ -320,6 +333,9 @@ def create_tokens(tokens, wordDict):
 
         posToken = splitTokens[1]
 
+        # capitalLetter = re.compile(r'.*?[A-Z].*?')
+        # if capitalLetter.match(''.join(wordToken)):
+        #     posToken = "NNP"
 
         generate_frequencies(wordToken, posToken, wordDict)
 

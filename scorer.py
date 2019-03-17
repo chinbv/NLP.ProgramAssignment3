@@ -1,9 +1,20 @@
 # -*- coding: utf-8 -*-
 
-## 1. With no rules
-#84.4396733774% CORRECT
-#15.5603266226% INCORRECT
-## 2.
+## 1. With no additional rules except for most frequent pos
+# 84.4396733774% CORRECT
+# 15.5603266226% INCORRECT
+## 2. Any capital letter means a POS with NNP, and then most frequent pos
+# 81.5042939603% CORRECT
+# 18.4957060397% INCORRECT
+## 3. Any number that is read in is classified as CD, and then most frequent pos
+# 85.1981557089% CORRECT
+# 14.8018442911% INCORRECT
+## 4. Any word that ends in -ly is classified as RB, and then most frequent pos
+# 82.8646346614% CORRECT
+# 17.1353653386% INCORRECT
+## 5. Any word that begins with un- or Un- is classified as JJ, and then most frequent pos
+# 83.3327467267% CORRECT
+# 16.6672532733% INCORRECT
 
 import re
 import sys

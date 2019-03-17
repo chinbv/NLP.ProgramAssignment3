@@ -1,10 +1,10 @@
 [ Pierre/NNP Vinken/NNP ]
 ,/,
-[ 61/CD years/NNS ]
+[ 61/NN years/NNS ]
 old/JJ ,/, will/MD join/VB
 [ the/DT board/NN ]
 as/IN
-[ a/DT nonexecutive's/JJ student-director\son/NN Nov./NNP 29/CD ]
+[ a/DT nonexecutive's/JJ student-director\son/NN Nov./NNP 29/NN ]
 ./.
 [ Pierre/NN Vinken/NNP ]
 ,/,

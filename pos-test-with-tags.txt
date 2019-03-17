@@ -148,7 +148,7 @@ banks/NNS
 refused/VBN
 to/TO
 step/VB
-up/RP
+up/JJ
 to/TO
 [ the/DT
 plate/NN
@@ -201,7 +201,7 @@ Board/NNP
 stocks/NNS
 ]
 --/:
-[ UAL/NN
+[ UAL/JJ
 ]
 ,/,
 [ AMR/NN
@@ -230,7 +230,7 @@ Group/NNP
 stopped/VBD
 trading/NN
 and/CC
-never/RB
+never/JJ
 resumed/NN
 ./.
 [ The/DT
@@ -256,7 +256,7 @@ specialists/NNS
 ]
 }/)
 were/VBD
-not/RB
+not/JJ
 able/JJ
 to/TO
 handle/VB
@@ -356,7 +356,7 @@ of/IN
 [ that/IN
 ]
 is/VBZ
-not/RB
+not/JJ
 there/EX
 in/IN
 [ the/DT
@@ -428,7 +428,7 @@ year/NN
 ]
 ,/,
 chalking/NN
-up/RP
+up/JJ
 [ a/DT
 190.58-point/NN
 ]
@@ -582,14 +582,14 @@ Monday/NNP
 [ Shares/NN
 ]
 of/IN
-[ UAL/NN
+[ UAL/JJ
 ]
 ,/,
 [ the/DT
 parent/NN
 ]
 of/IN
-[ United/NNP
+[ United/JJ
 Airlines/NN
 ]
 ,/,
@@ -603,7 +603,7 @@ Friday/NNP
 ,/,
 reacting/NN
 to/TO
-[ news/NN
+[ news/JJ
 ]
 and/CC
 [ rumors/NN
@@ -642,7 +642,7 @@ arbitragers/NN
 ''/''
 had/VBD
 placed/VBN
-unusually/RB
+unusually/JJ
 [ large/JJ
 bets/NN
 ]
@@ -653,7 +653,7 @@ takeover/NN
 would/MD
 succeed/VB
 and/CC
-[ UAL/NN
+[ UAL/JJ
 stock/NN
 ]
 would/MD
@@ -668,7 +668,7 @@ EDT/NN
 came/VBD
 [ the/DT
 sickening/NN
-news/NN
+news/JJ
 ]
 :/:
 [ The/DT
@@ -679,12 +679,12 @@ was/VBD
 halting/NN
 trading/NN
 in/IN
-[ UAL/NN
+[ UAL/JJ
 ]
 ,/,
 ``/``
 [ pending/VBG
-news/NN
+news/JJ
 ]
 ./.
 ''/''
@@ -698,7 +698,7 @@ floor/NN
 as/IN
 soon/RB
 as/IN
-[ UAL/NN
+[ UAL/JJ
 ]
 stopped/VBD
 trading/NN
@@ -731,7 +731,7 @@ heads/VBZ
 ]
 when/WRB
 [ the/DT
-news/NN
+news/JJ
 ]
 flashed/NN
 ./.
@@ -777,16 +777,16 @@ minutes/NNS
 ]
 after/IN
 [ the/DT
-UAL/NN
+UAL/JJ
 trading/NN
 halt/NN
 ]
 came/VBD
-[ news/NN
+[ news/JJ
 ]
 that/IN
 [ the/DT
-UAL/NN
+UAL/JJ
 group/NN
 ]
 could/MD
@@ -824,7 +824,7 @@ could/MD
 n't/RB
 dump/NN
 [ their/PRP$
-UAL/NN
+UAL/JJ
 stock/NN
 ]
 --/:
@@ -835,7 +835,7 @@ rid/NN
 [ themselves/PRP
 ]
 of/IN
-nearly/RB
+nearly/JJ
 [ every/DT
 ]
 ``/``
@@ -863,7 +863,7 @@ to/TO
 be/VB
 declared/VBD
 in/IN
-[ USAir/NN
+[ USAir/JJ
 Group/NNP
 ]
 ,/,
@@ -1100,7 +1100,7 @@ Dow/NNP
 industrials/NNS
 ]
 ./.
-Under/IN
+Under/JJ
 [ an/DT
 agreement/NN
 ]
@@ -1161,7 +1161,7 @@ and/CC
 ]
 continued/VBD
 to/TO
-notch/NN
+notch/JJ
 [ prices/NNS
 ]
 down/RB
@@ -1247,7 +1247,7 @@ traders/NNS
 screwed/VBD
 [ things/NNS
 ]
-up/RP
+up/JJ
 ,/,
 ''/''
 said/VBD
@@ -1470,7 +1470,7 @@ sell/VB
 ]
 began/VBD
 piling/NN
-up/RP
+up/JJ
 ,/,
 while/IN
 [ stocks/NNS
@@ -1508,7 +1508,7 @@ think/VBP
 [ it/PRP
 ]
 's/POS
-nonproductive/NN
+nonproductive/JJ
 at/IN
 [ this/DT
 point/NN
@@ -1532,7 +1532,7 @@ hurt/VB
 ]
 ./.
 ''/''
-Under/IN
+Under/JJ
 [ another/DT
 post-crash/NN
 system/NN
@@ -1597,7 +1597,7 @@ out/RP
 at/IN
 [ a/DT
 high-tech/JJ
-nerve/NN
+nerve/JJ
 center/NN
 ]
 on/IN
@@ -1615,7 +1615,7 @@ where/WRB
 ]
 could/MD
 watch/VB
-updates/NN
+updates/JJ
 on/IN
 [ prices/NNS
 ]
@@ -1820,7 +1820,7 @@ Co./NNP
 ]
 of/IN
 [ America/NNP
-unit/NN
+unit/JJ
 ]
 ,/,
 took/VBD
@@ -1879,7 +1879,7 @@ to/TO
 advise/NN
 [ clients/NNS
 ]
-not/RB
+not/JJ
 to/TO
 sell/VB
 ,/,
@@ -1910,7 +1910,7 @@ Lynch/NNP
 ]
 ,/,
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 biggest/JJS
 brokerage/NN
@@ -1918,7 +1918,7 @@ firm/NN
 ]
 ,/,
 [ a/DT
-news/NN
+news/JJ
 release/NN
 ]
 was/VBD
@@ -2125,7 +2125,7 @@ But/CC
 [ there/EX
 ]
 were/VBD
-[ no/DT
+[ no/JJ
 buyers/NNS
 ]
 ./.
@@ -2192,7 +2192,7 @@ levels/NNS
 ]
 are/VBP
 set/VBN
-up/RP
+up/JJ
 to/TO
 be/VB
 hammered/NN
@@ -2225,7 +2225,7 @@ off/RP
 ]
 ./.
 But/CC
-[ nobody/NN
+[ nobody/JJ
 ]
 knows/VBZ
 at/IN
@@ -2256,7 +2256,7 @@ markets/NNS
 Friday/NNP
 ]
 will/MD
-undoubtedly/NN
+undoubtedly/JJ
 cause/NN
 renewed/VBN
 [ debate/NN
@@ -2387,7 +2387,7 @@ crash/NN
 [ the/DT
 ]
 ``/``
-[ upstairs/NN
+[ upstairs/JJ
 ]
 ''/''
 [ firms/NNS
@@ -2515,9 +2515,9 @@ kingdom/NN
 [ It/PRP
 ]
 's/POS
-now/RB
+now/JJ
 [ the/DT
-United/NNP
+United/JJ
 Kingdom/NNP
 ]
 of/IN
@@ -2602,10 +2602,10 @@ to/TO
 total/NN
 ]
 of/IN
-[ nine/CD
+[ nine/JJ
 ]
 [ the/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ planes/NN
@@ -2647,7 +2647,7 @@ sales/NNS
 ]
 will/MD
 be/VB
-used/VBN
+used/JJ
 to/TO
 repay/NN
 [ its/PRP$
@@ -2926,7 +2926,7 @@ from/IN
 [ its/PRP$
 creditors/NNS
 ]
-under/IN
+under/JJ
 [ Chapter/NN
 11/CD
 ]
@@ -2985,7 +2985,7 @@ that/IN
 [ he/PRP
 ]
 has/VBZ
-not/RB
+not/JJ
 yet/RB
 seen/VBN
 [ the/DT
@@ -3353,7 +3353,7 @@ by/IN
 police/NNS
 officer/NN
 ]
-named/VBN
+named/JJ
 [ John/NNP
 Klute/NN
 ]
@@ -3394,7 +3394,7 @@ company/NN
 ]
 grew/VBD
 modestly/RB
-until/IN
+until/JJ
 [ 1986/CD
 ]
 ,/,
@@ -3706,7 +3706,7 @@ ended/VBD
 7/CD
 ]
 ,/,
-up/RP
+up/JJ
 [ 14.8/NN
 %/NN
 ]
@@ -3739,7 +3739,7 @@ week/NN
 total/NN
 ]
 was/VBD
-up/RP
+up/JJ
 [ 6.2/NN
 %/NN
 ]
@@ -3761,7 +3761,7 @@ was/VBD
 tons/NNS
 ]
 ,/,
-up/RP
+up/JJ
 [ 7.8/NN
 %/NN
 ]
@@ -3910,7 +3910,7 @@ of/IN
 [ cash/NN
 ]
 ./.
-Unlike/IN
+Unlike/JJ
 [ the/DT
 weekend/NN
 ]
@@ -3938,7 +3938,7 @@ managers/NNS
 ]
 have/VBP
 built/VBN
-up/RP
+up/JJ
 [ cash/NN
 levels/NNS
 ]
@@ -3961,7 +3961,7 @@ Investments/NN
 ]
 ,/,
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 largest/JJS
 fund/NN
@@ -3972,7 +3972,7 @@ company/NN
 volume/NN
 ]
 was/VBD
-up/RP
+up/JJ
 sharply/RB
 ,/,
 but/CC
@@ -4147,7 +4147,7 @@ shareholders/NNS
 have/VBP
 held/VBN
 off/RP
-until/IN
+until/JJ
 [ today/NN
 ]
 because/IN
@@ -4186,7 +4186,7 @@ n't/RB
 begin/VB
 to/TO
 snowball/NN
-until/IN
+until/JJ
 after/IN
 [ the/DT
 market/NN
@@ -4310,7 +4310,7 @@ Fund/NNP
 ]
 ,/,
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 largest/JJS
 stock/NN
@@ -4318,7 +4318,7 @@ fund/NN
 ]
 ,/,
 built/VBN
-up/RP
+up/JJ
 [ cash/NN
 ]
 to/TO
@@ -4376,7 +4376,7 @@ let/VB
 money/NN
 ]
 build/VB
-up/RP
+up/JJ
 ,/,
 ''/''
 [ Mr./NNP
@@ -4507,7 +4507,7 @@ withdrawals/NN
 is/VBZ
 much/JJ
 more/RBR
-unlikely/NN
+unlikely/JJ
 [ this/DT
 time/NN
 ]
@@ -4574,8 +4574,8 @@ levels/NNS
 [ There/EX
 ]
 's/POS
-not/RB
-nearly/RB
+not/JJ
+nearly/JJ
 as/IN
 [ much/JJ
 ]
@@ -4614,7 +4614,7 @@ managers/NNS
 ]
 argue/VBP
 that/IN
-now/RB
+now/JJ
 's/POS
 [ the/DT
 time/NN
@@ -4706,7 +4706,7 @@ part/NN
 ]
 ,/,
 snapped/VBD
-up/RP
+up/JJ
 [ Southern/NNP
 Co./NNP
 ]
@@ -4889,7 +4889,7 @@ country/NN
 [ The/DT
 centers/VBZ
 ]
-normally/RB
+normally/JJ
 are/VBP
 closed/VBD
 through/IN
@@ -4946,7 +4946,7 @@ requests/NNS
 Baltimore-based/NN
 group/NN
 ]
-noted/VBD
+noted/JJ
 that/IN
 [ some/DT
 investors/NNS
@@ -5059,7 +5059,7 @@ decline/NN
 ]
 as/IN
 offering/VBG
-[ us/PRP
+[ us/JJ
 ]
 [ a/DT
 buying/VBG
@@ -5256,7 +5256,7 @@ highs/NN
 [ This/DT
 ]
 is/VBZ
-not/RB
+not/JJ
 [ a/DT
 major/JJ
 crash/NN
@@ -5343,7 +5343,7 @@ bullish/NN
 'd/MD
 really/RB
 be/VB
-upset/VBN
+upset/JJ
 ./.
 ''/''
 [ The/DT
@@ -5377,7 +5377,7 @@ years/NNS
 ]
 ago/RB
 ,/,
-unlike/IN
+unlike/JJ
 [ today/NN
 ]
 ,/,
@@ -5601,7 +5601,7 @@ strike/NN
 by/IN
 [ 55,000/NN
 Machinists/NN
-union/NN
+union/JJ
 members/NNS
 ]
 against/IN
@@ -5679,7 +5679,7 @@ stoppage/NN
 at/IN
 Boeing/NNP
 ,/,
-now/RB
+now/JJ
 entering/VBG
 [ its/PRP$
 13th/NN
@@ -5719,7 +5719,7 @@ on/IN
 West/NNP
 ]
 would/MD
-now/RB
+now/JJ
 be/VB
 put/VB
 on/IN
@@ -5752,7 +5752,7 @@ would/MD
 n't/RB
 be/VB
 delivered/NN
-until/IN
+until/JJ
 [ Nov./NNP
 7/CD
 ]
@@ -5782,14 +5782,14 @@ flights/NNS
 ,/,
 including/VBG
 [ three/CD
-nonstops/NN
+nonstops/JJ
 ]
 to/TO
 [ Phoenix/NN
 ]
 and/CC
 [ one/CD
-nonstop/NN
+nonstop/JJ
 ]
 to/TO
 [ Las/NNP
@@ -5806,7 +5806,7 @@ n't/RB
 expected/VBN
 to/TO
 begin/VB
-until/IN
+until/JJ
 [ Jan/NN
 ]
 ./.
@@ -5854,7 +5854,7 @@ At/IN
 point/NN
 ]
 ,/,
-[ no/DT
+[ no/JJ
 other/JJ
 America/NNP
 West/NNP
@@ -5906,7 +5906,7 @@ company/NN
 's/POS
 reaction/NN
 ]
-underscores/NN
+underscores/JJ
 [ the/DT
 domino/NN
 effect/NN
@@ -6052,7 +6052,7 @@ that/IN
 [ American/JJ
 ]
 and/CC
-[ United/NNP
+[ United/JJ
 ]
 probably/RB
 have/VBP
@@ -6074,7 +6074,7 @@ fleets/NN
 [ they/PRP
 ]
 might/MD
-not/RB
+not/JJ
 miss/NN
 [ one/CD
 ]
@@ -6162,7 +6162,7 @@ to/TO
 ]
 's/POS
 told/VBD
-[ us/PRP
+[ us/JJ
 ]
 [ there/EX
 ]
@@ -6295,7 +6295,7 @@ Meanwhile/RB
 [ supervisors/NN
 ]
 and/CC
-[ non-striking/NN
+[ non-striking/JJ
 employees/NNS
 ]
 have/VBP
@@ -6611,11 +6611,11 @@ that/IN
 company/NN
 ]
 and/CC
-[ union/NN
+[ union/JJ
 ]
 may/MD
 resume/VB
-[ negotiations/NNS
+[ negotiations/JJ
 ]
 as/IN
 early/JJ
@@ -6755,7 +6755,7 @@ company/NN
 ]
 miscalculated/NN
 [ the/DT
-union/NN
+union/JJ
 's/POS
 resolve/VB
 ]
@@ -6807,7 +6807,7 @@ company/NN
 ]
 ./.
 [ The/DT
-union/NN
+union/JJ
 ]
 is/VBZ
 continuing/VBG
@@ -6843,7 +6843,7 @@ back/RB
 indefinitely/RB
 ./.
 --/:
-[ United/NNP
+[ United/JJ
 Auto/NN
 Workers/NNS
 Local/NNP
@@ -6860,7 +6860,7 @@ at/IN
 Boeing/NNP
 [ 's/POS
 helicopter/NN
-unit/NN
+unit/JJ
 ]
 in/IN
 [ Delaware/NN
@@ -6888,7 +6888,7 @@ basis/NN
 with/IN
 [ a/DT
 10-day/JJ
-notification/NN
+notification/JJ
 ]
 to/TO
 cancel/NN
@@ -6976,10 +6976,10 @@ engines/NN
 ]
 is/VBZ
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
-[ United/NNP
+[ United/JJ
 Technologies/NN
 Inc/NNP
 ]
@@ -7021,7 +7021,7 @@ of/IN
 ]
 ,/,
 but/CC
-not/RB
+not/JJ
 because/IN
 of/IN
 [ the/DT
@@ -7043,7 +7043,7 @@ Ltd./NNP
 ]
 said/VBD
 [ its/PRP$
-utilities/NN
+utilities/JJ
 arm/NN
 ]
 is/VBZ
@@ -7067,7 +7067,7 @@ Canadian/JJ
 dollars/NNS
 ]
 (/(
-[ US$/$
+[ US$/JJ
 851/NN
 million/CD
 ]
@@ -7098,9 +7098,9 @@ said/VBD
 [ its/PRP$
 50.1%-owned/NN
 Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 Ltd./NNP
-unit/NN
+unit/JJ
 ]
 is/VBZ
 reviewing/VBG
@@ -7192,7 +7192,7 @@ alone/RB
 ''/''
 and/CC
 [ Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 '/POS
 equity/NN
 stake/NN
@@ -7292,7 +7292,7 @@ generating/NN
 would/MD
 be/VB
 formed/VBN
-under/IN
+under/JJ
 [ the/DT
 country/NN
 's/POS
@@ -7306,7 +7306,7 @@ water/NN
 ]
 and/CC
 [ electric/JJ
-utilities/NN
+utilities/JJ
 ]
 ./.
 [ Britain/NNP
@@ -7340,7 +7340,7 @@ water/NN
 ]
 and/CC
 [ electric/JJ
-utilities/NN
+utilities/JJ
 ]
 ,/,
 beginning/VBG
@@ -7351,7 +7351,7 @@ month/NN
 [ The/DT
 planned/VBD
 electric/JJ
-utility/NN
+utility/JJ
 sale/NN
 ]
 ,/,
@@ -7382,7 +7382,7 @@ public/JJ
 offering/VBG
 ]
 ./.
-Under/IN
+Under/JJ
 [ terms/NNS
 ]
 of/IN
@@ -7405,7 +7405,7 @@ for/IN
 of/IN
 [ customers/NNS
 ]
-until/IN
+until/JJ
 [ 1994/NN
 ]
 ,/,
@@ -7423,7 +7423,7 @@ and/CC
 ]
 ./.
 [ Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 ]
 had/VBD
 [ 1988/CD
@@ -7443,7 +7443,7 @@ gas/NN
 ]
 and/CC
 [ electric/JJ
-utility/NN
+utility/JJ
 businesses/NNS
 ]
 in/IN
@@ -7490,7 +7490,7 @@ said/VBD
 ,/,
 and/CC
 [ Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 ]
 hopes/VBZ
 to/TO
@@ -7509,7 +7509,7 @@ thrust/NN
 ]
 on/IN
 [ our/PRP$
-utility/NN
+utility/JJ
 side/NN
 ]
 ,/,
@@ -7521,7 +7521,7 @@ said/VBD
 adding/VBG
 that/IN
 [ Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 ]
 is/VBZ
 also/RB
@@ -7529,7 +7529,7 @@ mulling/NN
 [ projects/NNS
 ]
 in/IN
-[ underdeveloped/NN
+[ underdeveloped/JJ
 countries/NNS
 ]
 ,/,
@@ -7542,7 +7542,7 @@ be/VB
 ]
 ./.
 [ Canadian/JJ
-Utilities/NNP
+Utilities/JJ
 ]
 is/VBZ
 n't/RB
@@ -7821,7 +7821,7 @@ in/IN
 [ Look/NN
 ]
 ,/,
-Up/IN
+Up/JJ
 in/IN
 [ the/DT
 Sky/NN
@@ -8015,7 +8015,7 @@ Corp./NNP
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Heitman/NN
@@ -8124,7 +8124,7 @@ that/IN
 [ it/PRP
 ]
 may/MD
-not/RB
+not/JJ
 get/VB
 [ the/DT
 approvals/NN
@@ -8260,7 +8260,7 @@ kind/NN
 ``/``
 [ We/PRP
 ]
-usually/RB
+usually/JJ
 operate/VBP
 in/IN
 [ that/IN
@@ -8271,7 +8271,7 @@ manner/NN
 ''/''
 By/IN
 setting/VBG
-up/RP
+up/JJ
 [ the/DT
 joint/JJ
 venture/NN
@@ -8318,7 +8318,7 @@ company/NN
 ]
 is/VBZ
 putting/VBG
-up/RP
+up/JJ
 only/RB
 [ 10/CD
 %/NN
@@ -8432,7 +8432,7 @@ Stookey/NN
 appeared/VBD
 to/TO
 be/VB
-[ nothing/NN
+[ nothing/JJ
 ]
 less/JJR
 than/IN
@@ -8502,11 +8502,11 @@ thinks/VBZ
 ./.
 ''/''
 But/CC
-now/RB
+now/JJ
 [ prices/NNS
 ]
 have/VBP
-[ nose-dived/NN
+[ nose-dived/JJ
 ]
 and/CC
 [ Quantum/NN
@@ -8523,7 +8523,7 @@ analysts/NNS
 are/VBP
 looking/VBG
 for/IN
-no/DT
+no/JJ
 better/RBR
 than/IN
 [ break-even/NN
@@ -8573,7 +8573,7 @@ stock/NN
 ,/,
 having/VBG
 lost/VBN
-nearly/RB
+nearly/JJ
 [ a/DT
 quarter/NN
 ]
@@ -8661,7 +8661,7 @@ history/NN
 [ these/DT
 producers/NNS
 ]
-now/RB
+now/JJ
 see/VB
 [ their/PRP$
 prices/NNS
@@ -8677,7 +8677,7 @@ be/VB
 sure/JJ
 ,/,
 are/VBP
-[ nothing/NN
+[ nothing/JJ
 ]
 new/JJ
 for/IN
@@ -8897,7 +8897,7 @@ to/TO
 resin/NN
 ]
 ,/,
-used/VBN
+used/JJ
 to/TO
 make/VB
 [ garbage/NN
@@ -8955,7 +8955,7 @@ Chemical/NNP
 Co./NNP
 ]
 ,/,
-[ Union/NNP
+[ Union/JJ
 Carbide/NNP
 Corp./NNP
 ]
@@ -9013,7 +9013,7 @@ share/NN
 ]
 ,/,
 provided/VBN
-[ no/DT
+[ no/JJ
 other/JJ
 variables/NN
 ]
@@ -9102,7 +9102,7 @@ of/IN
 n't/RB
 ]
 dropped/VBD
-nearly/RB
+nearly/JJ
 so/RB
 fast/RB
 ./.
@@ -9127,7 +9127,7 @@ about/IN
 of/IN
 [ its/PRP$
 ethylene/NN
-needs/VBZ
+needs/JJ
 ]
 ./.
 By/IN
@@ -9254,7 +9254,7 @@ as/IN
 [ prices/NNS
 ]
 spiraled/NN
-up/RP
+up/JJ
 ./.
 ``/``
 [ People/NNS
@@ -9405,12 +9405,12 @@ that/IN
 to/TO
 [ firm/NN
 ]
-up/RP
+up/JJ
 [ prices/NNS
 ]
 will/MD
 be/VB
-undermined/NN
+undermined/JJ
 by/IN
 [ producers/NNS
 '/POS
@@ -9657,7 +9657,7 @@ dividend/NN
 regularly/NN
 --/:
 as/IN
-[ nothing/NN
+[ nothing/JJ
 ]
 more/RBR
 than/IN
@@ -9823,7 +9823,7 @@ in/IN
 fortunes/NN
 ]
 ./.
-Until/IN
+Until/JJ
 [ this/DT
 year/NN
 ]
@@ -9841,7 +9841,7 @@ rate/NN
 ]
 and/CC
 picking/VBG
-up/RP
+up/JJ
 [ trade-group/NN
 safety/NN
 awards/VBZ
@@ -9890,7 +9890,7 @@ profit/NN
 and/CC
 thus/RB
 claims/VBZ
-under/IN
+under/JJ
 [ business-interruption/NN
 insurance/NN
 ]
@@ -9899,7 +9899,7 @@ straightforward/NN
 ./.
 But/CC
 [ the/DT
-numbers/NNS
+numbers/JJ
 ]
 become/VB
 [ trickier/NN
@@ -9987,7 +9987,7 @@ then/RB
 still/RB
 have/VBP
 to/TO
-negotiate/VB
+negotiate/JJ
 ./.
 ''/''
 [ Quantum/NN
@@ -10003,7 +10003,7 @@ limited/VBN
 [ production/NN
 ]
 got/VBD
-under/IN
+under/JJ
 [ way/NN
 last/JJ
 week/NN
@@ -10023,7 +10023,7 @@ end/NN
 [ The/DT
 plant/NN
 ]
-usually/RB
+usually/JJ
 accounts/NNS
 for/IN
 [ 20/CD
@@ -10209,7 +10209,7 @@ get/VB
 [ past/JJ
 ]
 right/NN
-now/RB
+now/JJ
 ./.
 [ Some/DT
 analysts/NNS
@@ -10227,7 +10227,7 @@ suitor/NN
 ]
 ./.
 [ The/DT
-name/NN
+name/JJ
 surfacing/NN
 ]
 in/IN
@@ -10279,7 +10279,7 @@ have/VBP
 policy/NN
 ]
 of/IN
-not/RB
+not/JJ
 commenting/VBG
 on/IN
 [ rumors/NN
@@ -10310,7 +10310,7 @@ division/NN
 responsible/NN
 for/IN
 [ buying/VBG
-network/NN
+network/JJ
 advertising/NN
 time/NN
 ]
@@ -10387,7 +10387,7 @@ down/RB
 RJR/NN
 Nabisco/NN
 Broadcast/NN
-unit/NN
+unit/JJ
 ]
 ,/,
 and/CC
@@ -10415,7 +10415,7 @@ said/VBD
 is/VBZ
 discussing/VBG
 [ its/PRP$
-network-buying/NN
+network-buying/JJ
 plans/VBZ
 ]
 with/IN
@@ -10483,7 +10483,7 @@ RJR/NN
 ]
 spends/VBZ
 on/IN
-[ network/NN
+[ network/JJ
 television/NN
 time/NN
 ]
@@ -10507,7 +10507,7 @@ about/IN
 million/CD
 ]
 on/IN
-[ network/NN
+[ network/JJ
 television/NN
 time/NN
 ]
@@ -10531,7 +10531,7 @@ spokesman/NN
 said/VBD
 [ the/DT
 broadcast/NN
-unit/NN
+unit/JJ
 ]
 will/MD
 be/VB
@@ -10572,7 +10572,7 @@ in/IN
 [ New/NNP
 York/NNP
 ]
-until/IN
+until/JJ
 [ a/DT
 year/NN
 ]
@@ -10653,7 +10653,7 @@ buyers/NNS
 ]
 for/IN
 [ the/DT
-unit/NN
+unit/JJ
 ]
 within/IN
 [ the/DT
@@ -10710,9 +10710,9 @@ time/NN
 ]
 for/IN
 [ the/DT
-networks/NNS
+networks/JJ
 '/POS
-upcoming/NN
+upcoming/JJ
 season/NN
 ]
 ./.
@@ -10724,15 +10724,15 @@ studies/NNS
 on/IN
 closing/VBG
 [ the/DT
-unit/NN
+unit/JJ
 ]
 }/)
 could/MD
 n't/RB
 be/VB
 completed/VBD
-until/IN
-now/RB
+until/JJ
+now/JJ
 ,/,
 ''/''
 [ he/PRP
@@ -10788,7 +10788,7 @@ market/NN
 to/TO
 developing/VBG
 and/CC
-newly/RB
+newly/JJ
 industrialized/VBN
 [ countries/NNS
 ]
@@ -10796,7 +10796,7 @@ industrialized/VBN
 ]
 have/VBP
 relatively/RB
-[ unsubsidized/NN
+[ unsubsidized/JJ
 steel/NN
 industries/NN
 ]
@@ -10807,7 +10807,7 @@ Meanwhile/RB
 U.S./NNP
 ]
 has/VBZ
-negotiated/VBN
+negotiated/JJ
 [ a/DT
 significant/JJ
 cut/VB
@@ -10852,7 +10852,7 @@ Korea/NNP
 is/VBZ
 expected/VBN
 to/TO
-negotiate/VB
+negotiate/JJ
 [ a/DT
 somewhat/NN
 bigger/JJR
@@ -10867,7 +10867,7 @@ than/IN
 [ it/PRP
 ]
 had/VBD
-under/IN
+under/JJ
 [ the/DT
 previous/JJ
 five-year/JJ
@@ -10939,11 +10939,11 @@ tons/NNS
 of/IN
 [ steel/NN
 ]
-used/VBN
+used/JJ
 annually/RB
 by/IN
 [ the/DT
-nation/NN
+nation/JJ
 ]
 ./.
 Of/IN
@@ -10953,11 +10953,11 @@ remaining/VBG
 [ 20/CD
 %/NN
 ]
-needed/VBN
+needed/JJ
 ,/,
 [ the/DT
 steel-quota/NN
-negotiations/NNS
+negotiations/JJ
 ]
 allocate/NN
 about/IN
@@ -11075,7 +11075,7 @@ restraint/NN
 agreements/NN
 ]
 ,/,
-until/IN
+until/JJ
 [ March/NNP
 31/CD
 ]
@@ -11090,7 +11090,7 @@ said/VBD
 [ it/PRP
 ]
 would/MD
-use/VB
+use/JJ
 [ that/IN
 two-and-a-half/NN
 year/NN
@@ -11105,7 +11105,7 @@ consensus/NN
 ]
 on/IN
 freeing/NN
-up/RP
+up/JJ
 [ the/DT
 international/JJ
 steel/NN
@@ -11116,7 +11116,7 @@ trade/NN
 ]
 has/VBZ
 been/VBN
-notoriously/NN
+notoriously/JJ
 managed/VBN
 ,/,
 subsidized/NN
@@ -11199,7 +11199,7 @@ from/IN
 [ 0.48/NN
 %/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 previous/JJ
 quotas/NNS
@@ -11215,7 +11215,7 @@ had/VBD
 [ 1.9/CD
 %/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 previous/JJ
 quotas/NNS
@@ -11489,7 +11489,7 @@ to/TO
 [ the/DT
 U.S./NNP
 ]
-under/IN
+under/JJ
 [ the/DT
 quota/NN
 program/NN
@@ -11550,7 +11550,7 @@ talks/NNS
 was/VBD
 essentially/RB
 made/VBN
-up/RP
+up/JJ
 of/IN
 [ a/DT
 1/CD
@@ -11587,7 +11587,7 @@ will/MD
 repeat/NN
 [ these/DT
 quota/NN
-negotiations/NNS
+negotiations/JJ
 ]
 next/JJ
 [ year/NN
@@ -11634,7 +11634,7 @@ program/NN
 to/TO
 give/VB
 [ its/PRP$
-negotiators/NNS
+negotiators/JJ
 leverage/NN
 ]
 with/IN
@@ -11785,7 +11785,7 @@ on/IN
 ]
 of/IN
 just/RB
-under/IN
+under/JJ
 [ $/$
 4/CD
 million/CD
@@ -11989,7 +11989,7 @@ processor/NN
 will/MD
 make/VB
 [ further/JJ
-use/VB
+use/JJ
 ]
 of/IN
 [ the/DT
@@ -12029,7 +12029,7 @@ Pierce/NN
 ]
 said/VBD
 ,/,
-not/RB
+not/JJ
 just/RB
 phones/NN
 produced/VBN
@@ -12062,7 +12062,7 @@ accept/VB
 ]
 ,/,
 for/IN
-[ use/VB
+[ use/JJ
 ]
 in/IN
 [ hotel/NN
@@ -12130,7 +12130,7 @@ from/IN
 ]
 and/CC
 was/VBD
-up/RP
+up/JJ
 [ 7.6/NN
 %/NN
 ]
@@ -12584,7 +12584,7 @@ Cheer/NN
 share/NN
 ]
 is/VBZ
-now/RB
+now/JJ
 estimated/VBN
 to/TO
 be/VB
@@ -12656,10 +12656,10 @@ market/NN
 [ the/DT
 product/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 Cheer/NN
-name/NN
+name/JJ
 ]
 since/IN
 [ it/PRP
@@ -12763,11 +12763,11 @@ here/RB
 concentrated/VBD
 detergent/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 Ariel/NN
 brand/NN
-name/NN
+name/JJ
 ]
 that/IN
 [ it/PRP
@@ -12893,7 +12893,7 @@ because/IN
 ]
 will/MD
 take/VB
-up/RP
+up/JJ
 [ less/JJR
 shelf/NN
 space/NN
@@ -12940,7 +12940,7 @@ for/IN
 [ that/IN
 ]
 's/POS
-no/DT
+no/JJ
 longer/RBR
 [ the/DT
 case/NN
@@ -13231,7 +13231,7 @@ discussion/NN
 ]
 of/IN
 [ the/DT
-need/VBP
+need/JJ
 ]
 for/IN
 [ the/DT
@@ -13268,7 +13268,7 @@ as/IN
 's/POS
 chief/NN
 trade/NN
-negotiator/NN
+negotiator/JJ
 ]
 had/VBD
 [ a/DT
@@ -13304,7 +13304,7 @@ by/IN
 spring/NN
 ]
 in/IN
-[ negotiations/NNS
+[ negotiations/JJ
 ]
 over/IN
 [ fundamental/NN
@@ -13382,7 +13382,7 @@ objective/NN
 ]
 ``/``
 is/VBZ
-not/RB
+not/JJ
 to/TO
 get/VB
 [ definitive/JJ
@@ -13513,7 +13513,7 @@ saw/VBD
 as/IN
 [ a/DT
 classic/JJ
-negotiating/VBG
+negotiating/JJ
 tactic/NN
 ]
 ./.
@@ -13684,7 +13684,7 @@ Hills/NNP
 said/VBD
 at/IN
 [ a/DT
-news/NN
+news/JJ
 conference/NN
 Saturday/NNP
 afternoon/NN
@@ -13776,7 +13776,7 @@ Hills/NNP
 firmly/NN
 reiterated/NN
 [ the/DT
-need/VBP
+need/JJ
 ]
 for/IN
 [ progress/NN
@@ -13802,7 +13802,7 @@ and/CC
 areas/NNS
 ]
 targeted/VBN
-under/IN
+under/JJ
 [ the/DT
 Super/NN
 301/CD
@@ -13878,7 +13878,7 @@ targets/NNS
 ./.
 At/IN
 [ her/PRP$
-news/NN
+news/JJ
 conference/NN
 ]
 for/IN
@@ -13891,7 +13891,7 @@ economics/NNS
 journalist/NN
 ]
 summed/NN
-up/RP
+up/JJ
 [ the/DT
 Japanese/JJ
 sense/NN
@@ -14058,7 +14058,7 @@ At/IN
 ]
 of/IN
 [ her/PRP$
-news/NN
+news/JJ
 conferences/NN
 ]
 ,/,
@@ -14100,7 +14100,7 @@ trade/NN
 [ I/PRP
 ]
 will/MD
-not/RB
+not/JJ
 enter/VB
 into/IN
 [ an/DT
@@ -14167,7 +14167,7 @@ said/VBD
 is/VBZ
 considering/VBG
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 financing/NN
@@ -14262,7 +14262,7 @@ results/NNS
 In/IN
 [ the/DT
 latest/JJS
-nine/CD
+nine/JJ
 months/NNS
 net/JJ
 income/NN
@@ -14347,7 +14347,7 @@ Trade/NNP
 Commission/NNP
 ]
 ./.
-Under/IN
+Under/JJ
 [ an/DT
 agreement/NN
 ]
@@ -14409,7 +14409,7 @@ buyer/NN
 of/IN
 [ its/PRP$
 computerized/JJ
-newspaper-publishing/NN
+newspaper-publishing/JJ
 system/NN
 ]
 ,/,
@@ -14441,7 +14441,7 @@ lawsuit/NN
 ]
 by/IN
 [ two/CD
-units/NNS
+units/JJ
 ]
 of/IN
 [ Morris/NN
@@ -14475,7 +14475,7 @@ provided/VBN
 by/IN
 [ the/DT
 Morris/NN
-units/NNS
+units/JJ
 ]
 to/TO
 [ Information/NNP
@@ -14531,7 +14531,7 @@ in/IN
 ]
 ./.
 [ The/DT
-units/NNS
+units/JJ
 ]
 [ that/IN
 ]
@@ -14607,7 +14607,7 @@ subsidiary/NN
 ]
 is/VBZ
 operationally/NN
-[ unrelated/NN
+[ unrelated/JJ
 ]
 becomes/VBZ
 [ a/DT
@@ -15072,7 +15072,7 @@ year/NN
 ]
 and/CC
 generally/RB
-not/RB
+not/JJ
 very/RB
 good/JJ
 [ this/DT
@@ -15146,7 +15146,7 @@ oil/NN
 prices/NNS
 ]
 were/VBD
-up/RP
+up/JJ
 [ some/DT
 ]
 from/IN
@@ -15166,7 +15166,7 @@ say/VBP
 [ margins/NNS
 ]
 picked/VBD
-up/RP
+up/JJ
 in/IN
 [ September/NNP
 ]
@@ -15188,7 +15188,7 @@ quarter/NN
 ,/,
 though/IN
 still/RB
-not/RB
+not/JJ
 to/TO
 [ the/DT
 level/NN
@@ -15411,7 +15411,7 @@ remains/VBZ
 summer/NN
 ]
 was/VBD
-notable/NN
+notable/JJ
 for/IN
 [ a/DT
 heat/NN
@@ -15423,7 +15423,7 @@ and/CC
 [ that/IN
 ]
 caused/VBN
-[ utilities/NN
+[ utilities/JJ
 ]
 to/TO
 burn/NN
@@ -15440,7 +15440,7 @@ demand/NN
 from/IN
 [ air/VBP
 conditioning/NN
-use/VB
+use/JJ
 ]
 ./.
 [ This/DT
@@ -15496,7 +15496,7 @@ gas/NN
 price/NN
 ]
 is/VBZ
-not/RB
+not/JJ
 going/VBG
 to/TO
 assist/VB
@@ -15797,7 +15797,7 @@ have/VBP
 supplied/NN
 [ the/DT
 Soviet/JJ
-Union/NNP
+Union/JJ
 ]
 with/IN
 [ sophisticated/JJ
@@ -15808,7 +15808,7 @@ devices/NNS
 ]
 could/MD
 be/VB
-used/VBN
+used/JJ
 to/TO
 build/VB
 [ parts/NNS
@@ -16060,7 +16060,7 @@ lobbyist/NN
 ]
 for/IN
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ U.S./NNP
@@ -16084,7 +16084,7 @@ policies/NNS
 ]
 ,/,
 reflecting/VBG
-[ unhealed/NN
+[ unhealed/JJ
 divisions/NNS
 ]
 among/IN
@@ -16201,7 +16201,7 @@ liberalization/NN
 [ There/EX
 ]
 's/POS
-[ no/DT
+[ no/JJ
 evidence/NN
 ]
 that/IN
@@ -16287,7 +16287,7 @@ Banking/NNP
 Corp/NNP
 ]
 ./.
-Under/IN
+Under/JJ
 [ the/DT
 latest/JJS
 offer/NN
@@ -16298,7 +16298,7 @@ offer/NN
 million/CD
 ]
 (/(
-[ US$/$
+[ US$/JJ
 8/CD
 million/CD
 ]
@@ -16666,7 +16666,7 @@ that/IN
 ]
 ``/``
 [ disproportionate/JJ
-number/NN
+number/JJ
 ]
 ''/''
 of/IN
@@ -16704,7 +16704,7 @@ Boesky/NN
 and/CC
 [ Drexel/NN
 ]
-negotiated/VBN
+negotiated/JJ
 [ an/DT
 agreement/NN
 ]
@@ -16799,7 +16799,7 @@ damages/NNS
 ]
 ./.
 Also/RB
-named/VBN
+named/JJ
 in/IN
 [ the/DT
 suit/NN
@@ -17124,7 +17124,7 @@ merger/NN
 proposal/NN
 ]
 ./.
-Under/IN
+Under/JJ
 [ the/DT
 agreement/NN
 ]
@@ -17306,7 +17306,7 @@ in/IN
 [ the/DT
 crop/NN
 ]
-now/RB
+now/JJ
 being/VBG
 planted/NN
 could/MD
@@ -17328,7 +17328,7 @@ are/VBP
 that/IN
 [ the/DT
 Soviet/JJ
-Union/NNP
+Union/JJ
 ]
 will/MD
 place/NN
@@ -17370,7 +17370,7 @@ before/IN
 winter/NN
 wheat/NN
 ]
-now/RB
+now/JJ
 being/VBG
 planted/NN
 is/VBZ
@@ -17441,7 +17441,7 @@ would/MD
 slightly/RB
 increase/NN
 [ the/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ acres/NNS
@@ -17489,7 +17489,7 @@ bushels/NN
 ./.
 [ It/PRP
 ]
-now/RB
+now/JJ
 estimates/VBZ
 [ production/NN
 ]
@@ -17499,7 +17499,7 @@ year/NN
 ]
 at/IN
 just/RB
-under/IN
+under/JJ
 [ 2.6/CD
 billion/CD
 bushels/NN
@@ -17538,14 +17538,14 @@ of/IN
 winter/NN
 wheat/NN
 ]
-now/RB
+now/JJ
 being/VBG
 planted/NN
 wo/MD
 n't/RB
 be/VB
 felt/VBD
-until/IN
+until/JJ
 [ the/DT
 second/JJ
 ]
@@ -17556,7 +17556,7 @@ of/IN
 year/NN
 ]
 ./.
-Until/IN
+Until/JJ
 then/RB
 ,/,
 limited/VBN
@@ -17568,7 +17568,7 @@ to/TO
 keep/VB
 [ prices/NNS
 ]
-near/IN
+near/JJ
 [ the/DT
 $/$
 4-a-bushel/NN
@@ -17783,7 +17783,7 @@ futures/NNS
 market/NN
 ]
 ./.
-Unseasonably/NN
+Unseasonably/JJ
 [ hot/JJ
 ]
 ,/,
@@ -17895,7 +17895,7 @@ said/VBD
 ./.
 [ The/DT
 Soviet/JJ
-Union/NNP
+Union/JJ
 has/VBZ
 n't/RB
 ]
@@ -18034,7 +18034,7 @@ received/VBD
 [ what/WP
 ]
 would/MD
-normally/RB
+normally/JJ
 have/VBP
 been/VBN
 [ a/DT
@@ -18057,7 +18057,7 @@ crop/NN
 [ It/PRP
 ]
 was/VBD
-near/IN
+near/JJ
 [ the/DT
 low/JJ
 range/NN
@@ -18503,7 +18503,7 @@ at/IN
 barrel/NN
 ]
 ,/,
-up/RP
+up/JJ
 [ 42/CD
 cents/NNS
 ]
@@ -18528,7 +18528,7 @@ Sea/NNP
 crudes/NN
 ]
 were/VBD
-up/RP
+up/JJ
 [ 35/CD
 ]
 to/TO
@@ -18599,7 +18599,7 @@ Exchange/NNP
 has/VBZ
 been/VBN
 [ little/JJ
-news/NN
+news/JJ
 ]
 to/TO
 account/NN
@@ -18655,7 +18655,7 @@ recurring/NN
 that/IN
 [ the/DT
 Soviet/JJ
-Union/NNP
+Union/JJ
 ]
 is/VBZ
 having/VBG
@@ -18697,7 +18697,7 @@ foresee/NN
 tightening/NN
 ]
 of/IN
-[ near-term/NN
+[ near-term/JJ
 supplies/VBZ
 ]
 ,/,
@@ -18808,7 +18808,7 @@ giant/JJ
 [ last/JJ
 week/NN
 ]
-named/VBN
+named/JJ
 [ a/DT
 new/JJ
 chief/NN
@@ -18888,7 +18888,7 @@ Backer/NNP
 Spielvogel/NNP
 Bates/NNP
 advertising/NN
-unit/NN
+unit/JJ
 ]
 ,/,
 said/VBD
@@ -18947,7 +18947,7 @@ if/IN
 bidder/NN
 ]
 came/VBD
-up/RP
+up/JJ
 with/IN
 [ a/DT
 ]
@@ -18975,7 +18975,7 @@ beat/VB
 ]
 would/MD
 have/VBP
-[ no/DT
+[ no/JJ
 choice/NN
 ]
 but/CC
@@ -18994,7 +18994,7 @@ otherwise/NN
 [ it/PRP
 ]
 would/MD
-undoubtedly/NN
+undoubtedly/JJ
 come/VB
 back/RB
 ''/''
@@ -19055,7 +19055,7 @@ of/IN
 board/NN
 ]
 ,/,
-nor/CC
+nor/JJ
 are/VBP
 [ any/DT
 ]
@@ -19078,7 +19078,7 @@ executive/NN
 ]
 did/VBD
 n't/RB
-name/NN
+name/JJ
 [ any/DT
 price/NN
 ]
@@ -19121,7 +19121,7 @@ officer/NN
 only/RB
 to/TO
 clean/VB
-up/RP
+up/JJ
 [ the/DT
 company/NN
 ]
@@ -19319,10 +19319,10 @@ had/VBD
 impact/NN
 ]
 on/IN
-[ us/PRP
+[ us/JJ
 ]
 ,/,
-nor/CC
+nor/JJ
 do/VBP
 [ we/PRP
 ]
@@ -19379,7 +19379,7 @@ said/VBD
 [ We/PRP
 ]
 have/VBP
-[ no/DT
+[ no/JJ
 problem/NN
 ]
 with/IN
@@ -19449,7 +19449,7 @@ said/VBD
 [ they/PRP
 ]
 saw/VBD
-[ no/DT
+[ no/JJ
 effect/NN
 ]
 ./.
@@ -19657,7 +19657,7 @@ employee/NN
 ]
 ,/,
 pleaded/VBD
-not/RB
+not/JJ
 guilty/JJ
 in/IN
 [ federal/JJ
@@ -20034,7 +20034,7 @@ discontinued/NN
 product/NN
 ]
 has/VBZ
-never/RB
+never/JJ
 been/VBN
 [ a/DT
 major/JJ
@@ -20098,7 +20098,7 @@ cents/NNS
 share/NN
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ the/DT
 year-earlier/JJ
@@ -20246,7 +20246,7 @@ concern/NN
 ]
 ,/,
 operating/NN
-under/IN
+under/JJ
 [ bankruptcy-law/NN
 proceedings/NNS
 ]
@@ -20340,7 +20340,7 @@ years/NNS
 old/JJ
 ,/,
 was/VBD
-named/VBN
+named/JJ
 [ chairman/NN
 ]
 of/IN
@@ -20426,7 +20426,7 @@ roles/NN
 [ PCS/NN
 ]
 also/RB
-named/VBN
+named/JJ
 [ Rex/NN
 R./NNP
 Malson/NN
@@ -20530,7 +20530,7 @@ without/IN
 ,/,
 based/VBN
 in/IN
-[ Upsala/NN
+[ Upsala/JJ
 ]
 ,/,
 [ Sweden/NN
@@ -20573,7 +20573,7 @@ acid/NN
 rooster-comb/NN
 extract/NN
 ]
-used/VBN
+used/JJ
 in/IN
 [ eye/NN
 surgery/NN
@@ -20588,7 +20588,7 @@ lawsuit/NN
 ]
 is/VBZ
 seeking/VBG
-[ unspecified/NN
+[ unspecified/JJ
 damages/NNS
 ]
 and/CC
@@ -20832,7 +20832,7 @@ results/NNS
 aided/NN
 by/IN
 [ favorable/JJ
-newsprint/NN
+newsprint/JJ
 prices/NNS
 ]
 and/CC
@@ -20854,7 +20854,7 @@ Northeast/NNP
 ./.
 Adding/NN
 to/TO
-[ unsteadiness/NN
+[ unsteadiness/JJ
 ]
 in/IN
 [ the/DT
@@ -20869,11 +20869,11 @@ spending/NN
 [ patterns/NNS
 ]
 in/IN
-[ newspapers/NNS
+[ newspapers/JJ
 ]
 have/VBP
 been/VBN
-upset/VBN
+upset/JJ
 by/IN
 [ shifts/NN
 ]
@@ -20916,7 +20916,7 @@ for/IN
 from/IN
 [ creditors/NNS
 ]
-under/IN
+under/JJ
 [ Chapter/NN
 11/CD
 ]
@@ -20975,14 +20975,14 @@ booming/VBG
 category/NN
 ]
 for/IN
-[ newspapers/NNS
+[ newspapers/JJ
 ]
 in/IN
 [ recent/JJ
 years/NNS
 ]
 ./.
-Until/IN
+Until/JJ
 recently/RB
 ,/,
 [ industry/NN
@@ -21069,7 +21069,7 @@ linage/NN
 ]
 [ they/PRP
 ]
-usually/RB
+usually/JJ
 run/VB
 ,/,
 ''/''
@@ -21123,7 +21123,7 @@ pages/NNS
 ]
 dropped/VBD
 at/IN
-[ USA/NNP
+[ USA/JJ
 Today/NN
 ]
 ,/,
@@ -21152,8 +21152,8 @@ daily/JJ
 ]
 and/CC
 [ 35/CD
-non-daily/NN
-newspapers/NNS
+non-daily/JJ
+newspapers/JJ
 ]
 reported/VBD
 [ a/DT
@@ -21215,7 +21215,7 @@ officer/NN
 ]
 ./.
 At/IN
-[ USA/NNP
+[ USA/JJ
 Today/NN
 ]
 ,/,
@@ -21256,7 +21256,7 @@ Olympics/NN
 ]
 ./.
 While/IN
-[ USA/NNP
+[ USA/JJ
 Today/NN
 's/POS
 total/NN
@@ -21308,13 +21308,13 @@ and/CC
 ]
 in/IN
 [ the/DT
-nine/CD
+nine/JJ
 months/NNS
 ]
 ./.
 In/IN
 [ the/DT
-nine/CD
+nine/JJ
 months/NNS
 ]
 ,/,
@@ -21611,7 +21611,7 @@ volume/NN
 at/IN
 [ the/DT
 Boston/NNP
-newspaper/NN
+newspaper/JJ
 ]
 ./.
 [ Third-quarter/NN
@@ -21631,7 +21631,7 @@ by/IN
 price/NN
 ]
 of/IN
-[ newsprint/NN
+[ newsprint/JJ
 ]
 ,/,
 [ which/WDT
@@ -21702,17 +21702,17 @@ year/NN
 ]
 with/IN
 [ daily/JJ
-newspapers/NNS
+newspapers/JJ
 ]
 in/IN
 [ the/DT
 Northeast/NNP
 ]
 will/MD
-need/VBP
+need/JJ
 [ the/DT
 stable/JJ
-newsprint/NN
+newsprint/JJ
 prices/NNS
 ]
 to/TO
@@ -21766,7 +21766,7 @@ Newsday/NN
 and/CC
 [ Hartford/NNP
 Courant/NN
-newspapers/NNS
+newspapers/JJ
 ]
 ./.
 [ Trouble/NN
@@ -21797,7 +21797,7 @@ Times/NN
 week/NN
 ]
 also/RB
-unveiled/NN
+unveiled/JJ
 [ a/DT
 redesign/NN
 ]
@@ -21837,7 +21837,7 @@ and/CC
 deep/NN
 discounting/NN
 of/IN
-[ newsprint/NN
+[ newsprint/JJ
 ]
 at/IN
 [ its/PRP$
@@ -21855,11 +21855,11 @@ Co./NNP
 's/POS
 regional/JJ
 daily/JJ
-newspapers/NNS
+newspapers/JJ
 ]
 are/VBP
 holding/VBG
-up/RP
+up/JJ
 well/RB
 ,/,
 but/CC
@@ -21952,7 +21952,7 @@ at/IN
 ]
 ./.
 [ The/DT
-news-weekly/NN
+news-weekly/JJ
 ]
 has/VBZ
 faced/VBN
@@ -21981,7 +21981,7 @@ is/VBZ
 faced/VBN
 with/IN
 [ continued/VBD
-uncertainty/NN
+uncertainty/JJ
 ]
 over/IN
 [ the/DT
@@ -22036,7 +22036,7 @@ of/IN
 [ its/PRP$
 major/JJ
 daily/JJ
-newspapers/NNS
+newspapers/JJ
 ]
 ,/,
 such/JJ
@@ -22076,7 +22076,7 @@ when/WRB
 ``/``
 was/VBD
 starting/VBG
-up/RP
+up/JJ
 [ a/DT
 Hispanic/NN
 edition/NN
@@ -22117,7 +22117,7 @@ of/IN
 [ that/IN
 ]
 angered/VBD
-[ union/NN
+[ union/JJ
 officials/NNS
 ]
 in/IN
@@ -22141,7 +22141,7 @@ assembly/NN
 plants/NNS
 ]
 may/MD
-not/RB
+not/JJ
 survive/VB
 [ the/DT
 mid-1990s/NNS
@@ -22174,7 +22174,7 @@ week/NN
 effectively/RB
 signed/VBD
 [ death/NN
-notices/NN
+notices/JJ
 ]
 for/IN
 [ two/CD
@@ -22203,7 +22203,7 @@ factories/NN
 [ GM/NN
 ]
 is/VBZ
-under/IN
+under/JJ
 [ intense/JJ
 pressure/NN
 ]
@@ -22214,7 +22214,7 @@ close/VB
 [ that/IN
 ]
 became/VBD
-unprofitable/NN
+unprofitable/JJ
 as/IN
 [ the/DT
 giant/JJ
@@ -22237,7 +22237,7 @@ company/NN
 ]
 ,/,
 currently/RB
-using/VBG
+using/JJ
 about/IN
 [ 80/CD
 %/NN
@@ -22312,7 +22312,7 @@ appears/VBZ
 to/TO
 be/VB
 stepping/VBG
-up/RP
+up/JJ
 [ the/DT
 pace/NN
 ]
@@ -22376,10 +22376,10 @@ match/NN
 ]
 is/VBZ
 that/IN
-[ United/NNP
+[ United/JJ
 Auto/NN
 Workers/NNS
-union/NN
+union/JJ
 officials/NNS
 ]
 have/VBP
@@ -22388,7 +22388,7 @@ signaled/NN
 ]
 want/VBP
 [ tighter/NN
-no-layoff/NN
+no-layoff/JJ
 provisions/NNS
 ]
 in/IN
@@ -22403,7 +22403,7 @@ contract/NN
 ]
 will/MD
 be/VB
-negotiated/VBN
+negotiated/JJ
 [ next/JJ
 year/NN
 ]
@@ -22454,7 +22454,7 @@ at/IN
 time/NN
 ]
 when/WRB
-[ UAW/NN
+[ UAW/JJ
 leaders/NNS
 ]
 are/VBP
@@ -22467,7 +22467,7 @@ silence/NN
 ]
 charge/NN
 [ the/DT
-union/NN
+union/JJ
 ]
 is/VBZ
 too/RB
@@ -22486,7 +22486,7 @@ Against/IN
 backdrop/NN
 ]
 ,/,
-[ UAW/NN
+[ UAW/JJ
 Vice/NNP
 President/NNP
 Stephen/NNP
@@ -22502,7 +22502,7 @@ became/VBD
 ]
 of/IN
 [ the/DT
-union/NN
+union/JJ
 's/POS
 GM/NN
 department/NN
@@ -22523,7 +22523,7 @@ insensitivity/NN
 ]
 ''/''
 toward/IN
-[ union/NN
+[ union/JJ
 members/NNS
 ]
 ./.
@@ -22569,7 +22569,7 @@ and/CC
 [ inability/NN
 ]
 or/CC
-[ unwillingness/NN
+[ unwillingness/JJ
 ]
 to/TO
 provide/VB
@@ -22686,11 +22686,11 @@ White/NNP
 [ Canadian/JJ
 Auto/NN
 Workers/NNS
-union/NN
+union/JJ
 president/NN
 ]
 ,/,
-used/VBN
+used/JJ
 [ the/DT
 impending/VBG
 Scarborough/NN
@@ -22772,7 +22772,7 @@ told/VBD
 facilities/NNS
 ]
 are/VBP
-[ no/DT
+[ no/JJ
 longer/RBR
 being/VBG
 ]
@@ -22824,7 +22824,7 @@ Therese/NN
 [ company/NN
 ]
 and/CC
-[ union/NN
+[ union/JJ
 officials/NNS
 ]
 said/VBD
@@ -22833,7 +22833,7 @@ said/VBD
 announcement/NN
 ]
 left/VBD
-[ union/NN
+[ union/JJ
 officials/NNS
 ]
 in/IN
@@ -22843,7 +22843,7 @@ Nuys/NN
 and/CC
 [ Oklahoma/NN
 City/NNP
-uncertain/NN
+uncertain/JJ
 ]
 about/IN
 [ their/PRP$
@@ -22880,7 +22880,7 @@ after/IN
 Shrieves/NN
 ]
 ,/,
-[ UAW/NN
+[ UAW/JJ
 local/JJ
 president/NN
 ]
@@ -22893,7 +22893,7 @@ was/VBD
 asked/VBD
 to/TO
 draw/VB
-up/RP
+up/JJ
 [ plans/VBZ
 ]
 to/TO
@@ -22921,7 +22921,7 @@ of/IN
 ]
 on/IN
 [ short/JJ
-notice/NN
+notice/JJ
 ]
 to/TO
 satisfy/NN
@@ -22954,7 +22954,7 @@ cars/NNS
 Featherston/NN
 ]
 ,/,
-[ UAW/NN
+[ UAW/JJ
 local/JJ
 vice/NN
 president/NN
@@ -22965,19 +22965,19 @@ said/VBD
 plant/NN
 ]
 has/VBZ
-[ no/DT
+[ no/JJ
 new/JJ
 product/NN
 ]
 lined/NN
-up/RP
+up/JJ
 ,/,
 and/CC
 ``/``
-[ none/NN
+[ none/JJ
 ]
 of/IN
-[ us/PRP
+[ us/JJ
 ]
 knows/VBZ
 ''/''
@@ -23024,7 +23024,7 @@ decision/NN
 appears/VBZ
 to/TO
 erase/NN
-[ UAW/NN
+[ UAW/JJ
 hopes/VBZ
 ]
 that/IN
@@ -23062,7 +23062,7 @@ as/IN
 model/NN
 ]
 of/IN
-[ union-management/NN
+[ union-management/JJ
 cooperation/NN
 ]
 at/IN
@@ -23088,7 +23088,7 @@ last/JJ
 year/NN
 ]
 ./.
-[ Union/NNP
+[ Union/JJ
 officials/NNS
 ]
 have/VBP
@@ -23103,11 +23103,11 @@ result/VB
 ]
 ./.
 [ Dissident/NN
-UAW/NN
+UAW/JJ
 members/NNS
 ]
 have/VBP
-used/VBN
+used/JJ
 [ the/DT
 Fiero/NN
 plant/NN
@@ -23156,7 +23156,7 @@ Canadian/JJ
 dollars/NNS
 ]
 (/(
-[ US$/$
+[ US$/JJ
 801.6/NN
 million/CD
 ]
@@ -23317,7 +23317,7 @@ has/VBZ
 made/VBN
 [ an/DT
 adverse/NN
-net-benefit/NN
+net-benefit/JJ
 decision/NN
 ]
 about/IN
@@ -23381,7 +23381,7 @@ provision/NN
 ]
 has/VBZ
 been/VBN
-used/VBN
+used/JJ
 before/IN
 ,/,
 ''/''
@@ -23524,7 +23524,7 @@ ruling/NN
 was/VBD
 n't/RB
 ]
-unexpected/NN
+unexpected/JJ
 ./.
 ``/``
 [ This/DT
@@ -23590,14 +23590,14 @@ dispute/NN
 ]
 with/IN
 [ the/DT
-University/NNP
+University/JJ
 ]
 of/IN
 [ Toronto/NNP
 ]
 ./.
 [ The/DT
-University/NNP
+University/JJ
 ]
 is/VBZ
 seeking/VBG
@@ -23634,7 +23634,7 @@ in/IN
 ]
 ./.
 [ The/DT
-university/NN
+university/JJ
 ]
 is/VBZ
 considering/VBG
@@ -23648,7 +23648,7 @@ by/IN
 ]
 ./.
 While/IN
-[ neither/DT
+[ neither/JJ
 side/NN
 ]
 will/MD
@@ -23835,8 +23835,8 @@ planned/VBD
 to/TO
 offer/NN
 [ an/DT
-undetermined/NN
-number/NN
+undetermined/JJ
+number/JJ
 ]
 of/IN
 [ common/JJ
@@ -23862,7 +23862,7 @@ exchange/NN
 ratio/NN
 ]
 was/VBD
-never/RB
+never/JJ
 established/VBD
 ./.
 [ Weatherford/NN
@@ -23933,7 +23933,7 @@ plans/VBZ
 ]
 to/TO
 catch/VB
-up/RP
+up/JJ
 on/IN
 [ dividends/NNS
 ]
@@ -24020,7 +24020,7 @@ and/CC
 Inc./NNP
 ]
 ,/,
-[ underwriters/NNS
+[ underwriters/JJ
 ]
 for/IN
 [ the/DT
@@ -24052,7 +24052,7 @@ cover/VB
 ]
 will/MD
 be/VB
-used/VBN
+used/JJ
 to/TO
 eliminate/VB
 and/CC
@@ -24079,7 +24079,7 @@ for/IN
 most/JJS
 of/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 major/JJ
 pharmaceutical/JJ
@@ -24102,7 +24102,7 @@ as/IN
 [ companies/NNS
 ]
 with/IN
-[ newer/JJR
+[ newer/JJ
 ]
 ,/,
 [ big-selling/NN
@@ -24171,7 +24171,7 @@ and/CC
 [ the/DT
 Squibb/NN
 Corp./NNP
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Bristol-Myers/NN
@@ -24209,7 +24209,7 @@ at/IN
 Inc./NNP
 ]
 and/CC
-[ Upjohn/NN
+[ Upjohn/JJ
 Co./NNP
 ]
 were/VBD
@@ -24363,7 +24363,7 @@ While/IN
 [ that/IN
 ]
 's/POS
-not/RB
+not/JJ
 [ spectacular/JJ
 ]
 ,/,
@@ -24789,7 +24789,7 @@ this/DT
 year/NN
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ $/$
 190/CD
@@ -25030,7 +25030,7 @@ company/NN
 ]
 has/VBZ
 ``/``
-[ no/DT
+[ no/JJ
 problems/NNS
 ]
 ''/''
@@ -25228,7 +25228,7 @@ said/VBD
 [ they/PRP
 ]
 expected/VBN
-[ Upjohn/NN
+[ Upjohn/JJ
 's/POS
 profit/NN
 ]
@@ -25271,7 +25271,7 @@ year/NN
 ]
 ago/RB
 ./.
-[ Upjohn/NN
+[ Upjohn/JJ
 's/POS
 biggest-selling/NN
 drugs/NNS
@@ -25322,7 +25322,7 @@ publicity/NN
 about/IN
 [ the/DT
 excessive/JJ
-use/VB
+use/JJ
 ]
 of/IN
 [ the/DT
@@ -25370,7 +25370,7 @@ has/VBZ
 been/VBN
 reduced/VBN
 by/IN
-[ Upjohn/NN
+[ Upjohn/JJ
 's/POS
 expensive/JJ
 print/VB
@@ -25393,7 +25393,7 @@ In/IN
 [ Mich./NNP
 ]
 ,/,
-[ Upjohn/NN
+[ Upjohn/JJ
 ]
 declined/VBD
 [ comment/NN
@@ -25435,7 +25435,7 @@ by/IN
 ]
 of/IN
 [ an/DT
-unexpected/NN
+unexpected/JJ
 loss/NN
 ]
 for/IN
@@ -25496,7 +25496,7 @@ expected/VBN
 to/TO
 be/VB
 ``/``
-up/RP
+up/JJ
 modestly/RB
 ''/''
 from/IN
@@ -25791,7 +25791,7 @@ having/VBG
 been/VBN
 subjected/NN
 to/TO
-[ news/NN
+[ news/JJ
 footage/NN
 ]
 of/IN
@@ -25862,7 +25862,7 @@ In/IN
 lovely/JJ
 ]
 ,/,
-[ novelistic/NN
+[ novelistic/JJ
 memoir/NN
 ]
 ,/,
@@ -25928,7 +25928,7 @@ Cunningham/NN
 ]
 ,/,
 [ a/DT
-novelist/NN
+novelist/JJ
 ]
 and/CC
 [ playwright/NN
@@ -26026,7 +26026,7 @@ buildings/NNS
 glamorized/NN
 ''/''
 with/IN
-[ names/NNS
+[ names/JJ
 ]
 like/IN
 [ AnaMor/NN
@@ -26121,7 +26121,7 @@ and/CC
 [ funny/JJ
 ]
 but/CC
-never/RB
+never/JJ
 mean/VB
 ,/,
 [ she/PRP
@@ -26236,7 +26236,7 @@ man/NN
 may/MD
 or/CC
 may/MD
-not/RB
+not/JJ
 have/VBP
 known/VBN
 about/IN
@@ -26385,7 +26385,7 @@ reminding/NN
 [ she/PRP
 ]
 was/VBD
-unwanted/NN
+unwanted/JJ
 ,/,
 slept/NN
 on/IN
@@ -26464,7 +26464,7 @@ When/WRB
 died/VBN
 ,/,
 [ her/PRP$
-uncles/NN
+uncles/JJ
 ]
 moved/VBN
 in/IN
@@ -26511,7 +26511,7 @@ detail/NN
 ]
 recalls/VBZ
 [ her/PRP$
-Uncle/NN
+Uncle/JJ
 Gabe/NN
 ]
 ,/,
@@ -26540,7 +26540,7 @@ song/NN
 )/)
 ;/:
 and/CC
-[ Uncle/NN
+[ Uncle/JJ
 Len/NN
 ]
 ,/,
@@ -26573,7 +26573,7 @@ like/IN
 [ an/DT
 ]
 ``/``
-[ undercover/NN
+[ undercover/JJ
 President/NNP
 ]
 on/IN
@@ -26597,7 +26597,7 @@ honestly/NN
 grandmother/NN
 ]
 ,/,
-[ no/DT
+[ no/JJ
 cookie/NN
 baker/NN
 ]
@@ -26708,7 +26708,7 @@ Jay/NNP
 Friedman/NN
 's/POS
 latest/JJS
-novel/NN
+novel/JJ
 ]
 ,/,
 [ which/WDT
@@ -26766,7 +26766,7 @@ and/CC
 For/IN
 [ his/PRP$
 sixth/JJ
-novel/NN
+novel/JJ
 ]
 ,/,
 [ Mr./NNP
@@ -26794,7 +26794,7 @@ Towns/NN
 [ Harry/NN
 ]
 is/VBZ
-now/RB
+now/JJ
 [ a/DT
 57-year-old/NN
 writer/NN
@@ -26916,7 +26916,7 @@ size/NN
 [ each/DT
 other/JJ
 ]
-up/RP
+up/JJ
 ,/,
 immediately/RB
 canceling/NN
@@ -26962,14 +26962,14 @@ operas/NN
 ]
 and/CC
 [ mystery/NN
-novels/NN
+novels/JJ
 ]
 [ she/PRP
 ]
 barely/NN
 seems/VBZ
 to/TO
-notice/NN
+notice/JJ
 when/WRB
 [ her/PRP$
 husband/NN
@@ -27060,7 +27060,7 @@ In/IN
 [ the/DT
 EPA/NN
 ]
-notified/NN
+notified/JJ
 [ Gulf/NNP
 Resources/NNPS
 ]
@@ -27091,7 +27091,7 @@ at/IN
 [ the/DT
 site/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 federal/JJ
 Superfund/NN
@@ -27134,7 +27134,7 @@ make/VB
 [ it/PRP
 ]
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ a/DT
@@ -27180,7 +27180,7 @@ EPA/NN
 made/VBN
 [ certain/JJ
 voluntary/JJ
-undertakings/NN
+undertakings/JJ
 ]
 with/IN
 [ respect/NN
@@ -27304,14 +27304,14 @@ liabilities/NN
 ]
 may/MD
 incur/NN
-under/IN
+under/JJ
 [ the/DT
 Superfund/NN
 law/NN
 ]
 ./.
 ''/''
-Under/IN
+Under/JJ
 [ the/DT
 agreement/NN
 ]
@@ -27329,7 +27329,7 @@ days/NNS
 advance/NN
 ]
 written/VBN
-[ notice/NN
+[ notice/JJ
 ]
 before/IN
 issuing/VBG
@@ -27348,7 +27348,7 @@ net/JJ
 worth/IN
 ]
 can/MD
-not/RB
+not/JJ
 fall/NN
 below/IN
 [ $/$
@@ -27425,7 +27425,7 @@ days/NNS
 advance/NN
 ]
 written/VBN
-[ notice/NN
+[ notice/JJ
 ]
 of/IN
 [ any/DT
@@ -27499,7 +27499,7 @@ reorganization/NN
 ]
 of/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 highest-ranking/NN
 executives/NNS
@@ -27554,7 +27554,7 @@ harbinger/NN
 ]
 of/IN
 [ good/JJ
-news/NN
+news/JJ
 ]
 --/:
 as/IN
@@ -27636,7 +27636,7 @@ lot/NN
 ]
 of/IN
 [ that/IN
-nonsense/NN
+nonsense/JJ
 ]
 ,/,
 [ it/PRP
@@ -27771,7 +27771,7 @@ executives/NNS
 ]
 were/VBD
 remarkably/NN
-unperturbed/NN
+unperturbed/JJ
 by/IN
 [ the/DT
 plunge/NN
@@ -27808,7 +27808,7 @@ fortunes/NN
 [ I/PRP
 ]
 'm/VBP
-not/RB
+not/JJ
 going/VBG
 to/TO
 worry/VBP
@@ -28150,7 +28150,7 @@ of/IN
 ]
 in/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 output/NN
 ]
@@ -28252,7 +28252,7 @@ sit/VB
 [ vacant/JJ
 ]
 and/CC
-newly/RB
+newly/JJ
 constructed/NN
 [ space/NN
 ]
@@ -28277,7 +28277,7 @@ sign/NN
 leases/NNS
 because/IN
 of/IN
-[ uncertainty/NN
+[ uncertainty/JJ
 ]
 about/IN
 [ the/DT
@@ -28300,7 +28300,7 @@ that/IN
 [ rents/NN
 ]
 have/VBP
-not/RB
+not/JJ
 yet/RB
 hit/VB
 [ bottom/NN
@@ -28311,7 +28311,7 @@ hit/VB
 ]
 is/VBZ
 [ an/DT
-unbelievable/NN
+unbelievable/JJ
 amount/NN
 ]
 of/IN
@@ -28348,7 +28348,7 @@ for/IN
 [ rent/NN
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ a/DT
 more/RBR
@@ -28432,9 +28432,9 @@ says/VBZ
 ,/,
 [ tenants/NN
 ]
-usually/RB
+usually/JJ
 can/MD
-negotiate/VB
+negotiate/JJ
 to/TO
 pay/VB
 [ rents/NN
@@ -28496,7 +28496,7 @@ And/CC
 ,/,
 in/IN
 [ some/DT
-neighborhoods/NNS
+neighborhoods/JJ
 ]
 ,/,
 [ rents/NN
@@ -28559,7 +28559,7 @@ rents/NN
 ]
 had/VBD
 run/VB
-up/RP
+up/JJ
 rapidly/RB
 since/IN
 [ 1986/CD
@@ -28590,7 +28590,7 @@ or/CC
 depart/NN
 ,/,
 [ the/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ employees/NNS
@@ -28598,7 +28598,7 @@ of/IN
 [ who/WP
 ]
 might/MD
-use/VB
+use/JJ
 [ retail/JJ
 services/NNS
 ]
@@ -28674,7 +28674,7 @@ calls/VBZ
 ]
 primarily/RB
 serve/VB
-[ neighborhood/NN
+[ neighborhood/JJ
 residents/NN
 ]
 ./.
@@ -28740,7 +28740,7 @@ for/IN
 ]
 is/VBZ
 also/RB
-[ no/DT
+[ no/JJ
 comfort/NN
 ]
 to/TO
@@ -28766,7 +28766,7 @@ stores/NNS
 ]
 anchor/NN
 [ retail/JJ
-neighborhoods/NNS
+neighborhoods/JJ
 ]
 ,/,
 are/VBP
@@ -28944,7 +28944,7 @@ command/VB
 [ rents/NN
 ]
 of/IN
-up/RP
+up/JJ
 to/TO
 [ $/$
 500/CD
@@ -28959,8 +28959,8 @@ and/CC
 250/CD
 ]
 is/VBZ
-not/RB
-uncommon/NN
+not/JJ
+uncommon/JJ
 ./.
 [ The/DT
 ]
@@ -28984,7 +28984,7 @@ foot/NN
 ,/,
 as/IN
 do/VBP
-[ up-and-coming/NN
+[ up-and-coming/JJ
 locations/NN
 ]
 along/IN
@@ -29471,8 +29471,8 @@ four/CD
 justices/NN
 ]
 are/VBP
-[ no/DT
-newcomers/NN
+[ no/JJ
+newcomers/JJ
 ]
 to/TO
 dissent/NN
@@ -29516,7 +29516,7 @@ been/VBN
 able/JJ
 to/TO
 pick/VB
-up/RP
+up/JJ
 [ a/DT
 fifth/JJ
 vote/NN
@@ -29525,7 +29525,7 @@ to/TO
 eke/NN
 out/RP
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ major/JJ
@@ -29587,7 +29587,7 @@ mid-1960s/NN
 liberal/NN
 majority/NN
 ]
-under/IN
+under/JJ
 [ Chief/NN
 Justice/NNP
 Earl/NN
@@ -29785,7 +29785,7 @@ said/VBD
 that/IN
 [ he/PRP
 ]
-now/RB
+now/JJ
 knows/VBZ
 how/WRB
 [ Justice/NNP
@@ -29872,7 +29872,7 @@ could/MD
 sweep/NN
 [ it/PRP
 ]
-under/IN
+under/JJ
 [ the/DT
 rug/NN
 ]
@@ -29885,7 +29885,7 @@ but/CC
 [ I/PRP
 ]
 'm/VBP
-not/RB
+not/JJ
 going/VBG
 to/TO
 do/VBP
@@ -30095,7 +30095,7 @@ said/VBD
 [ he/PRP
 ]
 was/VBD
-[ no/DT
+[ no/JJ
 more/RBR
 ]
 discouraged/NN
@@ -30333,7 +30333,7 @@ Howard/NN
 ]
 of/IN
 [ the/DT
-University/NNP
+University/JJ
 ]
 of/IN
 [ Virginia/NNP
@@ -30505,7 +30505,7 @@ foreign/JJ
 bank/NN
 ]
 ./.
-Under/IN
+Under/JJ
 [ these/DT
 deals/NNS
 ]
@@ -30665,7 +30665,7 @@ But/CC
 [ it/PRP
 ]
 's/POS
-uncertain/NN
+uncertain/JJ
 whether/IN
 [ these/DT
 institutions/NNS
@@ -30852,7 +30852,7 @@ markets/NNS
 ]
 will/MD
 acquire/VB
-[ University/NNP
+[ University/JJ
 Federal/NNP
 Savings/NNPS
 Association/NNP
@@ -31246,7 +31246,7 @@ Inc./NNP
 ,/,
 offering/VBG
 of/IN
-up/RP
+up/JJ
 to/TO
 [ $/$
 300/CD
@@ -31343,7 +31343,7 @@ and/CC
 shares/NNS
 ]
 by/IN
-[ UniHealth/NN
+[ UniHealth/JJ
 America/NNP
 Inc/NNP
 ]
@@ -31431,7 +31431,7 @@ of/IN
 150/CD
 million/CD
 senior/JJ
-notes/NNS
+notes/JJ
 ]
 ,/,
 via/IN
@@ -31518,7 +31518,7 @@ dramatically/RB
 ]
 ''/''
 [ its/PRP$
-use/VB
+use/JJ
 ]
 of/IN
 [ electronic/JJ
@@ -31580,7 +31580,7 @@ development/NN
 ]
 ,/,
 [ the/DT
-news-weekly/NN
+news-weekly/JJ
 ]
 ,/,
 for/IN
@@ -31790,7 +31790,7 @@ world/NN
 ]
 of/IN
 [ magazine/NN
-news-weeklies/NN
+news-weeklies/JJ
 ]
 ./.
 But/CC
@@ -31827,7 +31827,7 @@ executives/NNS
 think/VBP
 selling/VBG
 [ a/DT
-news/NN
+news/JJ
 magazine/NN
 ]
 with/IN
@@ -31951,7 +31951,7 @@ However/RB
 [ Time/NNP
 executives/NNS
 ]
-used/VBN
+used/JJ
 [ the/DT
 same/JJ
 explanation/NN
@@ -32073,14 +32073,14 @@ in/IN
 ]
 are/VBP
 of/IN
-[ no/DT
+[ no/JJ
 consequence/NN
 ]
 ./.
 [ It/PRP
 ]
 's/POS
-not/RB
+not/JJ
 [ a/DT
 show/NN
 ]
@@ -32181,7 +32181,7 @@ Heinemann/NN
 [ Time/NNP
 's/POS
 rivals/NN
-news-weeklies/NN
+news-weeklies/JJ
 ]
 ,/,
 [ Washington/NNP
@@ -32249,7 +32249,7 @@ month/NN
 ./.
 When/WRB
 [ the/DT
-news/NN
+news/JJ
 ]
 broke/VBD
 of/IN
@@ -32313,7 +32313,7 @@ come/VB
 since/IN
 [ its/PRP$
 birth/NN
-nine/CD
+nine/JJ
 years/NNS
 ]
 ago/RB
@@ -32328,7 +32328,7 @@ laughingstock/NN
 ]
 of/IN
 [ television/NN
-news/NN
+news/JJ
 ]
 ./.
 [ It/PRP
@@ -32343,7 +32343,7 @@ more/RBR
 profitable/JJ
 than/IN
 [ the/DT
-news/NN
+news/JJ
 divisions/NNS
 ]
 of/IN
@@ -32354,17 +32354,17 @@ of/IN
 three/CD
 major/JJ
 broadcast/NN
-networks/NNS
+networks/JJ
 ]
 ./.
 [ Its/PRP$
-niche/NN
+niche/JJ
 ]
 as/IN
 [ the/DT
 ]
 ``/``
-[ network/NN
+[ network/JJ
 ]
 of/IN
 [ record/NN
@@ -32404,7 +32404,7 @@ soars/NN
 ]
 when/WRB
 [ big/JJ
-news/NN
+news/JJ
 ]
 breaks/VBZ
 ,/,
@@ -32424,13 +32424,13 @@ executives/NNS
 worry/VBP
 that/IN
 [ the/DT
-network/NN
+network/JJ
 's/POS
 punchy/NN
 ]
 but/CC
 [ repetitive/NN
-news/NN
+news/JJ
 format/NN
 ]
 may/MD
@@ -32452,7 +32452,7 @@ alternatives/NNS
 ]
 multiply/NN
 for/IN
-[ news/NN
+[ news/JJ
 ]
 and/CC
 [ information/NN
@@ -32474,7 +32474,7 @@ on/IN
 hours/NNS
 ]
 is/VBZ
-[ no/DT
+[ no/JJ
 longer/RBR
 bulletin/NN
 ]
@@ -32492,12 +32492,12 @@ vice/NN
 president/NN
 ]
 ,/,
-[ news/NN
+[ news/JJ
 gathering/NN
 ]
 (/(
 and/CC
-[ no/DT
+[ no/JJ
 relation/NN
 ]
 to/TO
@@ -32522,7 +32522,7 @@ So/RB
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Atlanta-based/JJ
@@ -32563,7 +32563,7 @@ of/IN
 [ mind/VB
 ]
 ''/''
-[ network/NN
+[ network/JJ
 ]
 ./.
 Tonight/NN
@@ -32582,7 +32582,7 @@ premiere/NN
 [ its/PRP$
 first/JJ
 prime-time/NN
-newscast/NN
+newscast/JJ
 ]
 in/IN
 [ years/NNS
@@ -32606,8 +32606,8 @@ head-to-head/NN
 ]
 against/IN
 [ the/DT
-network/NN
-newscasts/NN
+network/JJ
+newscasts/JJ
 ]
 ./.
 [ The/DT
@@ -32639,7 +32639,7 @@ queen/NN
 [ who/WP
 ]
 has/VBZ
-never/RB
+never/JJ
 held/VBN
 [ a/DT
 job/NN
@@ -32662,13 +32662,13 @@ boldest/NN
 ]
 in/IN
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ steps/NNS
 ]
 [ the/DT
-network/NN
+network/JJ
 ]
 is/VBZ
 taking/VBG
@@ -32779,8 +32779,8 @@ leaders/NNS
 ]
 [ who/WP
 ]
-use/VB
-[ us/PRP
+use/JJ
+[ us/JJ
 ]
 as/IN
 [ a/DT
@@ -32821,7 +32821,7 @@ News/NNP
 [ CNN/NN
 's/POS
 sister/NN
-network/NN
+network/JJ
 ]
 ./.
 But/CC
@@ -32924,7 +32924,7 @@ aimed/VBN
 at/IN
 [ CNN/NN
 's/POS
-unsteady/NN
+unsteady/JJ
 viewership/NN
 ]
 --/:
@@ -32939,7 +32939,7 @@ to/TO
 as/IN
 [ the/DT
 cable-TV/NN
-news/NN
+news/JJ
 market/NN
 ]
 grows/VBZ
@@ -32985,7 +32985,7 @@ to/TO
 pursue/VB
 [ more/RBR
 general/JJ
-news/NN
+news/JJ
 ]
 in/IN
 [ the/DT
@@ -33008,7 +33008,7 @@ more/RBR
 local/JJ
 and/CC
 [ regional/JJ
-news/NN
+news/JJ
 programs/NNS
 ]
 produced/VBN
@@ -33051,7 +33051,7 @@ of/IN
 ]
 ''/''
 and/CC
-[ news/NN
+[ news/JJ
 junkies/NN
 ]
 ,/,
@@ -33096,7 +33096,7 @@ watch/VB
 [ the/DT
 major/JJ
 broadcast/NN
-networks/NNS
+networks/JJ
 ]
 ./.
 [ The/DT
@@ -33169,9 +33169,9 @@ focused/VBN
 on/IN
 [ building/NN
 ]
-up/RP
+up/JJ
 [ its/PRP$
-news/NN
+news/JJ
 bureaus/NN
 ]
 around/IN
@@ -33196,7 +33196,7 @@ and/CC
 longer/RBR
 than/IN
 [ other/JJ
-networks/NNS
+networks/JJ
 ]
 ./.
 [ It/PRP
@@ -33207,7 +33207,7 @@ daily/JJ
 schedule/NN
 ]
 with/IN
-[ newscasts/NN
+[ newscasts/JJ
 ]
 called/VBN
 ``/``
@@ -33390,7 +33390,7 @@ Today/NN
 ''/''
 [ the/DT
 prime-time/NN
-newscast/NN
+newscast/JJ
 ]
 featuring/VBG
 [ Mr./NNP
@@ -33401,8 +33401,8 @@ and/CC
 Crier/NN
 ]
 ./.
-Until/IN
-now/RB
+Until/JJ
+now/JJ
 ,/,
 [ CNN/NN
 ]
@@ -33432,7 +33432,7 @@ households/NN
 [ that/IN
 ]
 watch/VB
-[ news/NN
+[ news/JJ
 ]
 do/VBP
 so/RB
@@ -33446,7 +33446,7 @@ p.m./NN
 ]
 ,/,
 [ the/DT
-network/NN
+network/JJ
 ]
 discovered/VBN
 ,/,
@@ -33486,7 +33486,7 @@ at/IN
 [ least/JJS
 ]
 for/IN
-now/RB
+now/JJ
 ,/,
 appearing/VBG
 [ similar/JJ
@@ -33495,7 +33495,7 @@ to/TO
 [ CNN/NN
 's/POS
 other/JJ
-newcasts/NN
+newcasts/JJ
 ]
 ./.
 [ Some/DT
@@ -33541,7 +33541,7 @@ mind/VB
 is/VBZ
 [ the/DT
 same/JJ
-news/NN
+news/JJ
 ]
 ,/,
 ''/''
@@ -33570,7 +33570,7 @@ Report/NNP
 ./.
 [ The/DT
 evening/NN
-news/NN
+news/JJ
 ]
 is/VBZ
 also/RB
@@ -33595,7 +33595,7 @@ In/IN
 ]
 ,/,
 [ the/DT
-network/NN
+network/JJ
 ]
 hired/VBN
 [ award-winning/NN
@@ -33609,7 +33609,7 @@ former/JJ
 head/NN
 ]
 of/IN
-[ news/NN
+[ news/JJ
 specials/NN
 ]
 at/IN
@@ -33740,7 +33740,7 @@ pieces/NNS
 [ They/PRP
 ]
 've/VBP
-never/RB
+never/JJ
 shown/VBN
 [ any/DT
 inclination/NN
@@ -33770,7 +33770,7 @@ NewsHour/NN
 ,/,
 [ who/WP
 ]
-notes/NNS
+notes/JJ
 that/IN
 [ CNN/NN
 ]
@@ -33782,7 +33782,7 @@ job/NN
 ]
 ./.
 [ The/DT
-network/NN
+network/JJ
 's/POS
 salaries/NNS
 ]
@@ -33825,12 +33825,12 @@ but/CC
 're/VBP
 still/RB
 drastically/NN
-[ underpaid/NN
+[ underpaid/JJ
 ]
 compared/VBN
 with/IN
 [ the/DT
-networks/NNS
+networks/JJ
 ]
 ./.
 Says/VBZ
@@ -33920,7 +33920,7 @@ discourage/VB
 would/MD
 obviously/RB
 be/VB
-upset/VBN
+upset/JJ
 if/IN
 [ those/DT
 kinds/NN
@@ -34001,7 +34001,7 @@ Phosphate/NN
 case/NN
 ]
 did/VBD
-not/RB
+not/JJ
 repudiate/NN
 [ the/DT
 position/NN
@@ -34059,7 +34059,7 @@ that/IN
 [ courts/NNS
 ]
 will/MD
-not/RB
+not/JJ
 enforce/VB
 [ agreements/NN
 ]
@@ -34070,7 +34070,7 @@ to/TO
 parties/NNS
 ]
 did/VBD
-not/RB
+not/JJ
 intend/VB
 to/TO
 be/VB
@@ -34106,7 +34106,7 @@ found/VBD
 [ there/EX
 ]
 was/VBD
-[ no/DT
+[ no/JJ
 intention/NN
 ]
 to/TO
@@ -34272,13 +34272,13 @@ because/IN
 of/IN
 [ an/DT
 informal/NN
-notice/NN
+notice/JJ
 ]
 that/IN
 [ Imperial/NN
 's/POS
 thrift/NN
-unit/NN
+unit/JJ
 ]
 failed/VBD
 to/TO
@@ -34563,7 +34563,7 @@ that/IN
 suits/NN
 ]
 ,/,
-numbering/NN
+numbering/JJ
 [ 700/CD
 ]
 to/TO
@@ -34580,12 +34580,12 @@ dismissed/VBN
 as/IN
 moot/NN
 because/IN
-[ neither/DT
+[ neither/JJ
 ]
 [ the/DT
 S&Ls/NN
 ]
-nor/CC
+nor/JJ
 [ the/DT
 extinct/NN
 Federal/NNP
@@ -34652,7 +34652,7 @@ willing/JJ
 to/TO
 entertain/VB
 [ the/DT
-notion/NN
+notion/JJ
 ]
 ,/,
 and/CC
@@ -34678,7 +34678,7 @@ defense/NN
 ]
 is/VBZ
 permitted/VBN
-under/IN
+under/JJ
 [ state/NN
 law/NN
 ]
@@ -34811,7 +34811,7 @@ that/IN
 [ there/EX
 ]
 will/MD
-never/RB
+never/JJ
 be/VB
 [ any/DT
 assets/NNS
@@ -34828,7 +34828,7 @@ against/IN
 [ Sunbelt/NN
 Savings/NNPS
 ]
-nor/CC
+nor/JJ
 [ any/DT
 means/VBZ
 ]
@@ -34931,7 +34931,7 @@ brief/JJ
 [ this/DT
 week/NN
 ]
-urging/VBG
+urging/JJ
 [ the/DT
 district/NN
 judge/NN
@@ -35090,7 +35090,7 @@ court/NN
 ]
 for/IN
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ things/NNS
@@ -35142,7 +35142,7 @@ Thygerson/NN
 [ who/WP
 ]
 was/VBD
-named/VBN
+named/JJ
 [ president/NN
 ]
 of/IN
@@ -35203,7 +35203,7 @@ president/NN
 was/VBD
 n't/RB
 ]
-named/VBN
+named/JJ
 ./.
 [ SOUTH/NN
 AFRICA/NN
@@ -35248,7 +35248,7 @@ activists/NN
 tumultuous/JJ
 reception/NN
 ]
-upon/IN
+upon/JJ
 [ their/PRP$
 return/NN
 ]
@@ -35292,7 +35292,7 @@ in/IN
 along/IN
 with/IN
 [ black/JJ
-nationalist/NN
+nationalist/JJ
 Nelson/NNP
 Mandela/NN
 ]
@@ -35382,7 +35382,7 @@ expected/VBN
 ./.
 [ The/DT
 Soviet/JJ
-Union/NNP
+Union/JJ
 ]
 reported/VBD
 that/IN
@@ -35394,7 +35394,7 @@ of/IN
 of/IN
 [ goods/NNS
 ]
-needed/VBN
+needed/JJ
 to/TO
 ease/VB
 [ widespread/JJ
@@ -35402,11 +35402,11 @@ shortages/NN
 ]
 across/IN
 [ the/DT
-nation/NN
+nation/JJ
 ]
 were/VBD
 piled/NN
-up/RP
+up/JJ
 at/IN
 [ ports/NN
 ]
@@ -35526,7 +35526,7 @@ president/NN
 ,/,
 at/IN
 [ a/DT
-news/NN
+news/JJ
 conference/NN
 Friday/NNP
 ]
@@ -35582,7 +35582,7 @@ in/IN
 friend-of-the-court/NN
 brief/JJ
 ]
-urging/VBG
+urging/JJ
 [ the/DT
 Supreme/NNP
 Court/NNP
@@ -35602,7 +35602,7 @@ restrict/NN
 ]
 of/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 governors/NNS
 ]
@@ -35907,7 +35907,7 @@ than/IN
 [ 1,200/NN
 ]
 [ the/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ emigres/NN
@@ -36062,13 +36062,13 @@ occupied/NN
 lands/NN
 ]
 ,/,
-[ underground/NN
+[ underground/JJ
 leaders/NNS
 ]
 of/IN
 [ the/DT
 Arab/NN
-uprising/NN
+uprising/JJ
 ]
 rejected/VBD
 [ a/DT
@@ -36131,7 +36131,7 @@ from/IN
 plan/NN
 ]
 currently/RB
-under/IN
+under/JJ
 [ study/NN
 ]
 gives/VBZ
@@ -36452,9 +36452,9 @@ Posner/NN
 ]
 is/VBZ
 totally/NN
-unacceptable/NN
+unacceptable/JJ
 to/TO
-[ us/PRP
+[ us/JJ
 ]
 ,/,
 because/IN
@@ -36646,7 +36646,7 @@ for/IN
 goods/NNS
 ]
 shot/NN
-up/RP
+up/JJ
 [ 0.9/CD
 %/NN
 last/JJ
@@ -36733,7 +36733,7 @@ data/NNS
 [ the/DT
 grimmest/NN
 inflation/NN
-news/NN
+news/JJ
 ]
 in/IN
 [ months/NNS
@@ -36748,7 +36748,7 @@ Federal/NNP
 Reserve/NNP
 ]
 was/VBD
-unlikely/NN
+unlikely/JJ
 to/TO
 allow/VB
 [ interest/NN
@@ -36919,7 +36919,7 @@ signaled/NN
 by/IN
 [ the/DT
 new/JJ
-numbers/NNS
+numbers/JJ
 ]
 ./.
 ``/``
@@ -37028,9 +37028,9 @@ say/VBP
 [ this/DT
 ]
 is/VBZ
-not/RB
+not/JJ
 [ bad/JJ
-news/NN
+news/JJ
 ]
 ;/:
 [ this/DT
@@ -37051,7 +37051,7 @@ core/NN
 rate/NN
 ]
 is/VBZ
-not/RB
+not/JJ
 really/RB
 out/RP
 of/IN
@@ -37091,7 +37091,7 @@ for/IN
 ./.
 [ Inflation/NN
 ]
-unquestionably/NN
+unquestionably/JJ
 has/VBZ
 fallen/VBN
 back/RB
@@ -37222,7 +37222,7 @@ year/NN
 's/POS
 good/JJ
 inflation/NN
-news/NN
+news/JJ
 ]
 may/MD
 have/VBP
@@ -37236,7 +37236,7 @@ when/WRB
 prices/NNS
 ]
 zoomed/VBN
-up/RP
+up/JJ
 [ 6.5/NN
 %/NN
 ]
@@ -37274,7 +37274,7 @@ pace/NN
 of/IN
 [ inflation/NN
 ]
-uncertain/NN
+uncertain/JJ
 ./.
 [ Analysts/NNS
 ]
@@ -37732,7 +37732,7 @@ in/IN
 ]
 and/CC
 edging/NN
-up/RP
+up/JJ
 [ 0.2/CD
 %/NN
 ]
@@ -37825,7 +37825,7 @@ of/IN
 ]
 ,/,
 but/CC
-[ no/DT
+[ no/JJ
 per-share/NN
 earnings/NNS
 ]
@@ -37857,7 +37857,7 @@ factors/NNS
 [ He/PRP
 ]
 said/VBD
-nonperforming/NN
+nonperforming/JJ
 [ assets/NNS
 ]
 rose/VBD
@@ -37891,7 +37891,7 @@ total/NN
 ]
 consisted/NN
 of/IN
-nonperforming/NN
+nonperforming/JJ
 [ commercial/JJ
 real/JJ
 estate/NN
@@ -38449,7 +38449,7 @@ paying/VBG
 stock/NN
 dividends/NNS
 ]
-until/IN
+until/JJ
 [ its/PRP$
 operations/NNS
 ]
@@ -38460,7 +38460,7 @@ on/IN
 ./.
 For/IN
 [ the/DT
-nine/CD
+nine/JJ
 months/NNS
 ]
 ended/VBD
@@ -38520,7 +38520,7 @@ thrift/NN
 ]
 in/IN
 [ the/DT
-nation/NN
+nation/JJ
 ]
 ./.
 Since/IN
@@ -38907,7 +38907,7 @@ Bank/NNP
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Great/JJ
@@ -38997,7 +38997,7 @@ in/IN
 ,/,
 long/JJ
 before/IN
-now/RB
+now/JJ
 ./.
 [ Many/JJ
 ]
@@ -39205,7 +39205,7 @@ of/IN
 [ CenTrust/NN
 ]
 by/IN
-not/RB
+not/JJ
 renewing/NN
 more/RBR
 than/IN
@@ -39233,7 +39233,7 @@ is/VBZ
 also/RB
 working/VBG
 to/TO
-unload/NN
+unload/JJ
 [ its/PRP$
 junk-bond/JJ
 portfolio/NN
@@ -39267,7 +39267,7 @@ affiliate/NN
 ,/,
 as/IN
 required/VBN
-under/IN
+under/JJ
 [ the/DT
 new/JJ
 thrift/NN
@@ -39278,7 +39278,7 @@ On/IN
 [ a/DT
 recent/JJ
 Saturday/NNP
-night/NN
+night/JJ
 ]
 ,/,
 in/IN
@@ -39306,7 +39306,7 @@ that/IN
 [ she/PRP
 ]
 could/MD
-name/NN
+name/JJ
 [ any/DT
 ]
 of/IN
@@ -39317,7 +39317,7 @@ cheeses/NN
 after/IN
 just/RB
 [ one/CD
-nibble/NN
+nibble/JJ
 ]
 ,/,
 while/IN
@@ -39630,7 +39630,7 @@ of/IN
 most/JJS
 popular/JJ
 Saturday/NNP
-night/NN
+night/JJ
 programs/NNS
 ]
 features/NNS
@@ -39806,7 +39806,7 @@ that/IN
 ]
 could/MD
 pile/NN
-up/RP
+up/JJ
 [ $/$
 150/CD
 worth/IN
@@ -39823,7 +39823,7 @@ coin/NN
 [ Mr./NNP
 Burt/NNP
 ]
-nonetheless/NN
+nonetheless/JJ
 paid/VBN
 [ the/DT
 penalty/NN
@@ -39888,7 +39888,7 @@ because/IN
 [ these/DT
 shows/VBZ
 ]
-need/VBP
+need/JJ
 [ all/DT
 the/DT
 protection/NN
@@ -39901,7 +39901,7 @@ get/VB
 [ European/JJ
 programs/NNS
 ]
-usually/RB
+usually/JJ
 target/NN
 [ only/RB
 their/PRP$
@@ -39944,9 +39944,9 @@ Britain/NNP
 ,/,
 and/CC
 almost/RB
-never/RB
+never/JJ
 show/NN
-up/RP
+up/JJ
 on/IN
 [ U.S./NNP
 screens/NNS
@@ -40052,7 +40052,7 @@ in/IN
 U.S.-made/NN
 imitation/NN
 ]
-under/IN
+under/JJ
 [ the/DT
 title/NN
 ]
@@ -40115,7 +40115,7 @@ Theater/NN
 ,/,
 ''/''
 make/VB
-up/RP
+up/JJ
 [ a/DT
 ]
 relatively/RB
@@ -40369,7 +40369,7 @@ Mafia/NN
 ]
 was/VBD
 [ front-page/NN
-news/NN
+news/JJ
 ]
 in/IN
 [ Italy/NNP
@@ -40423,7 +40423,7 @@ is/VBZ
 pretty/RB
 well/RB
 established/VBD
-now/RB
+now/JJ
 that/IN
 [ local/JJ
 programs/NNS
@@ -40601,7 +40601,7 @@ sluggish/JJ
 development/NN
 ]
 ./.
-Until/IN
+Until/JJ
 recently/RB
 ,/,
 [ national/JJ
@@ -40622,7 +40622,7 @@ allowed/VBN
 [ little/JJ
 ]
 or/CC
-[ no/DT
+[ no/JJ
 advertising/NN
 ]
 ./.
@@ -40662,7 +40662,7 @@ programs/NNS
 are/VBP
 ./.
 But/CC
-not/RB
+not/JJ
 [ much/JJ
 money/NN
 ]
@@ -40806,14 +40806,14 @@ most/JJS
 plentiful/NN
 programming/NN
 ]
-now/RB
+now/JJ
 [ available/JJ
 ]
 --/:
 [ reruns/NNS
 ]
 --/:
-usually/RB
+usually/JJ
 of/IN
 [ shows/VBZ
 ]
@@ -40917,7 +40917,7 @@ Reef/NN
 only/RB
 to/TO
 be/VB
-urged/VBD
+urged/JJ
 by/IN
 [ the/DT
 British/JJ
@@ -40987,7 +40987,7 @@ said/VBD
 [ they/PRP
 ]
 are/VBP
-nearing/NN
+nearing/JJ
 [ an/DT
 agreement/NN
 ]
@@ -41222,7 +41222,7 @@ fraud/NN
 at/IN
 [ a/DT
 U.S./NNP
-unit/NN
+unit/JJ
 ]
 ./.
 [ The/DT
@@ -41297,14 +41297,14 @@ PLC/NNP
 ]
 ./.
 But/CC
-[ neither/DT
+[ neither/JJ
 Matra/NN
 ]
-nor/CC
+nor/JJ
 [ GEC/NN
 ]
 --/:
-unrelated/NN
+unrelated/JJ
 to/TO
 [ Stamford/NNP
 ]
@@ -41465,7 +41465,7 @@ contracts/NNS
 at/IN
 [ a/DT
 U.S./NNP
-unit/NN
+unit/JJ
 ]
 ,/,
 [ International/NNP
@@ -41572,7 +41572,7 @@ Aerospace/NN
 spokeswoman/NN
 ]
 appeared/VBD
-[ unperturbed/NN
+[ unperturbed/JJ
 ]
 by/IN
 [ the/DT
@@ -41594,7 +41594,7 @@ for/IN
 ]
 is/VBZ
 [ the/DT
-name/NN
+name/JJ
 ]
 of/IN
 [ the/DT
@@ -41631,7 +41631,7 @@ in/IN
 [ We/PRP
 ]
 have/VBP
-[ nothing/NN
+[ nothing/JJ
 ]
 to/TO
 say/VBP
@@ -41645,7 +41645,7 @@ affair/NN
 does/VBZ
 n't/RB
 concern/NN
-[ us/PRP
+[ us/JJ
 ]
 ,/,
 ''/''
@@ -41671,7 +41671,7 @@ said/VBD
 ,/,
 is/VBZ
 [ a/DT
-needed/VBN
+needed/JJ
 response/NN
 ]
 to/TO
@@ -41705,7 +41705,7 @@ markets/NNS
 ]
 have/VBP
 come/VB
-under/IN
+under/JJ
 [ pressure/NN
 ]
 from/IN
@@ -41862,7 +41862,7 @@ say/VBP
 ,/,
 [ they/PRP
 ]
-need/VBP
+need/JJ
 [ a/DT
 partnership/NN
 ]
@@ -41975,7 +41975,7 @@ million/CD
 Canadian-dollar/NN
 ]
 (/(
-[ US$/$
+[ US$/JJ
 705.6/CD
 million/CD
 ]
@@ -42181,8 +42181,8 @@ further/JJ
 making/VBG
 [ expansion/NN
 ]
-unnecessary/NN
-until/IN
+unnecessary/JJ
+until/JJ
 perhaps/RB
 [ the/DT
 mid-1990s/NNS
@@ -42254,7 +42254,7 @@ budgets/NN
 accordingly/NN
 ./.
 [ The/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ active/JJ
@@ -42277,7 +42277,7 @@ ago/RB
 ,/,
 and/CC
 [ the/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ completed/VBD
@@ -42655,7 +42655,7 @@ falling/VBG
 output/NN
 ]
 ./.
-Under/IN
+Under/JJ
 [ terms/NNS
 ]
 of/IN
@@ -42886,7 +42886,7 @@ as/IN
 labor/NN
 costs/NNS
 ]
-under/IN
+under/JJ
 [ its/PRP$
 new/JJ
 contract/NN
@@ -42915,7 +42915,7 @@ Ryerson/NN
 ]
 &/CC
 [ Son/NN
-unit/NN
+unit/JJ
 ]
 ./.
 [ The/DT
@@ -43620,7 +43620,7 @@ and/CC
 [ displays/NN
 ]
 ./.
-Until/IN
+Until/JJ
 recently/RB
 ,/,
 [ Adobe/NN
@@ -43848,10 +43848,10 @@ generally/RB
 [ It/PRP
 ]
 creates/NN
-[ uncertainty/NN
+[ uncertainty/JJ
 ]
 and/CC
-usually/RB
+usually/JJ
 [ slows/NN
 ]
 down/RB
@@ -43898,7 +43898,7 @@ of/IN
 [ a/DT
 ]
 widely/RB
-used/VBN
+used/JJ
 [ computer/NN
 publishing/NN
 program/NN
@@ -44018,7 +44018,7 @@ called/VBN
 ,/,
 while/IN
 [ the/DT
-nine/CD
+nine/JJ
 other/JJ
 leading/VBG
 computer/NN
@@ -44041,7 +44041,7 @@ method/NN
 ]
 ./.
 ``/``
-[ Users/NN
+[ Users/JJ
 ]
 do/VBP
 n't/RB
@@ -44086,14 +44086,14 @@ for/IN
 [ instance/NN
 ]
 ,/,
-uses/VBZ
+uses/JJ
 [ four/CD
 different/JJ
 buses/NNS
 ]
 ``/``
 and/CC
-[ no/DT
+[ no/JJ
 one/CD
 ]
 seems/VBZ
@@ -44395,7 +44395,7 @@ expects/VBZ
 [ Compaq/NN
 ]
 to/TO
-unveil/NN
+unveil/JJ
 [ a/DT
 family/NN
 ]
@@ -44424,7 +44424,7 @@ for/IN
 ]
 within/IN
 [ large/JJ
-networks/NNS
+networks/JJ
 ]
 of/IN
 [ desk-top/NN
@@ -44490,7 +44490,7 @@ states/NNS
 is/VBZ
 on/IN
 [ the/DT
-upswing/NN
+upswing/JJ
 ]
 ,/,
 according/VBG
@@ -44566,7 +44566,7 @@ increase/NN
 ]
 is/VBZ
 [ good/JJ
-news/NN
+news/JJ
 ]
 for/IN
 [ a/DT
@@ -44668,7 +44668,7 @@ race/NN
 [ Seven/NN
 ]
 of/IN
-[ nine/CD
+[ nine/JJ
 states/NNS
 ]
 have/VBP
@@ -44759,7 +44759,7 @@ early/JJ
 1980s/NN
 ]
 are/VBP
-now/RB
+now/JJ
 losing/VBG
 [ population/NN
 ]
@@ -44840,7 +44840,7 @@ regions/NNS
 has/VBZ
 clearly/RB
 started/VBD
-[ narrowing/NN
+[ narrowing/JJ
 ]
 ./.
 [ More/JJR
@@ -44892,7 +44892,7 @@ study/NN
 ]
 of/IN
 [ the/DT
-noninstitutionalized/NN
+noninstitutionalized/JJ
 population/NN
 ]
 shows/VBZ
@@ -44919,7 +44919,7 @@ in/IN
 [ 1988/CD
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ 59/CD
 %/NN
@@ -45232,7 +45232,7 @@ strongly/RB
 felt/VBD
 [ the/DT
 ]
-need/VBP
+need/JJ
 to/TO
 be/VB
 successful/JJ
@@ -45252,7 +45252,7 @@ said/VBD
 strongly/RB
 felt/VBD
 [ the/DT
-need/VBP
+need/JJ
 ]
 to/TO
 spend/VB
@@ -45287,7 +45287,7 @@ for/IN
 group/NN
 ]
 ./.
-Unlike/IN
+Unlike/JJ
 [ most/JJS
 studies/NNS
 ]
@@ -45348,7 +45348,7 @@ groups/NNS
 ]
 ,/,
 [ the/DT
-upper-middle/NN
+upper-middle/JJ
 class/NN
 ]
 ./.
@@ -45368,7 +45368,7 @@ population/NN
 [ they/PRP
 ]
 control/NN
-nearly/RB
+nearly/JJ
 one-third/NN
 of/IN
 [ discretionary/JJ
@@ -45399,7 +45399,7 @@ just/RB
 ]
 [ they/PRP
 ]
-need/VBP
+need/JJ
 ,/,
 and/CC
 appreciate/NN
@@ -45584,7 +45584,7 @@ management/NN
 ]
 in/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 largest/JJS
 banks/NNS
@@ -45607,7 +45607,7 @@ that/IN
 [ women/NNS
 ]
 make/VB
-up/RP
+up/JJ
 [ 47/CD
 %/NN
 ]
@@ -45624,7 +45624,7 @@ top/JJ
 banks/NNS
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ 33/CD
 %/NN
@@ -45688,7 +45688,7 @@ of/IN
 [ income/NN
 ]
 divvied/NN
-up/RP
+up/JJ
 for/IN
 [ each/DT
 man/NN
@@ -45707,7 +45707,7 @@ in/IN
 [ 1988/CD
 ]
 ,/,
-up/RP
+up/JJ
 [ 6.6/NN
 %/NN
 ]
@@ -45755,7 +45755,7 @@ in/IN
 fall/NN
 ]
 ,/,
-up/RP
+up/JJ
 [ 2/CD
 %/NN
 ]
@@ -46002,7 +46002,7 @@ claim/NN
 has/VBZ
 been/VBN
 maligned/NN
-unjustly/NN
+unjustly/JJ
 for/IN
 [ years/NNS
 ]
@@ -46012,7 +46012,7 @@ Obviously/NN
 [ they/PRP
 ]
 're/VBP
-not/RB
+not/JJ
 in/IN
 [ touch/VB
 ]
@@ -46058,7 +46058,7 @@ insists/VBZ
 ,/,
 where/WRB
 ``/``
-[ upscale/NN
+[ upscale/JJ
 ]
 ,/,
 [ suit-and-tie/NN
@@ -46103,7 +46103,7 @@ Besides/IN
 behavior/NN
 ]
 seems/VBZ
-[ unlikely/NN
+[ unlikely/JJ
 ]
 at/IN
 [ the/DT
@@ -46119,7 +46119,7 @@ average/JJ
 200/CD
 ]
 [ a/DT
-night/NN
+night/JJ
 ]
 and/CC
 [ the/DT
@@ -46208,7 +46208,7 @@ of/IN
 [ Addison/NN
 ]
 is/VBZ
-[ no/DT
+[ no/JJ
 stranger/NN
 ]
 to/TO
@@ -46384,12 +46384,12 @@ local/JJ
 color/VB
 ]
 ;/:
-unfortunately/NN
-[ neither/DT
+unfortunately/JJ
+[ neither/JJ
 ]
 [ he/PRP
 ]
-nor/CC
+nor/JJ
 [ the/DT
 producers/NNS
 ]
@@ -46416,9 +46416,9 @@ For/IN
 ]
 )/)
 is/VBZ
-not/RB
+not/JJ
 [ the/DT
-ultimate/NN
+ultimate/JJ
 insult/NN
 ]
 ;/:
@@ -46450,7 +46450,7 @@ shirt/NN
 ]
 and/CC
 rolling/NN
-up/RP
+up/JJ
 [ its/PRP$
 long/JJ
 sleeves/NN
@@ -46470,7 +46470,7 @@ is/VBZ
 ]
 ,/,
 ''/''
-not/RB
+not/JJ
 ``/``
 [ bruddah/NN
 ]
@@ -46480,7 +46480,7 @@ And/CC
 even/RB
 if/IN
 [ a/DT
-nurse/NN
+nurse/JJ
 ]
 would/MD
 wear/VB
@@ -46513,7 +46513,7 @@ behind/IN
 ]
 left/VBD
 ,/,
-not/RB
+not/JJ
 right/NN
 ,/,
 [ ear/NN
@@ -46526,7 +46526,7 @@ right/NN
 show/NN
 ]
 does/VBZ
-not/RB
+not/JJ
 even/RB
 have/VBP
 [ the/DT
@@ -46566,7 +46566,7 @@ most/JJS
 troublesome/JJ
 ]
 right/NN
-now/RB
+now/JJ
 ?/.
 [ A/DT
 good/JJ
@@ -46615,7 +46615,7 @@ airing/NN
 ]
 on/IN
 [ Tuesday/NNP
-nights/NN
+nights/JJ
 ]
 (/(
 [ 9:30-10/NN
@@ -46677,7 +46677,7 @@ water/NN
 Here/RB
 ,/,
 in/IN
-[ neutral/NN
+[ neutral/JJ
 language/NN
 ]
 ,/,
@@ -46754,7 +46754,7 @@ support/VB
 [ black/JJ
 candidates/NNS
 ]
-uncritically/NN
+uncritically/JJ
 ./.
 [ He/PRP
 ]
@@ -46782,7 +46782,7 @@ support/VB
 [ black/JJ
 candidates/NNS
 ]
-uncritically/NN
+uncritically/JJ
 ./.
 [ He/PRP
 ]
@@ -46814,9 +46814,9 @@ Of/IN
 Mason/NNP
 ]
 did/VBD
-not/RB
-use/VB
-[ neutral/NN
+not/JJ
+use/JJ
+[ neutral/JJ
 language/NN
 ]
 ./.
@@ -46844,7 +46844,7 @@ television/NN
 ]
 and/CC
 [ the/DT
-nightclub/NN
+nightclub/JJ
 circuit/NN
 ]
 ,/,
@@ -46903,7 +46903,7 @@ If/IN
 Mason/NNP
 ]
 had/VBD
-used/VBN
+used/JJ
 [ less/JJR
 derogatory/NN
 language/NN
@@ -46944,13 +46944,13 @@ because/IN
 [ few/JJ
 ]
 or/CC
-[ none/NN
+[ none/JJ
 ]
 of/IN
 [ the/DT
 people/NNS
 ]
-upset/VBN
+upset/JJ
 by/IN
 [ Mr./NNP
 Mason/NNP
@@ -46976,7 +46976,7 @@ fact/NN
 that/IN
 [ he/PRP
 ]
-used/VBN
+used/JJ
 [ insulting/NN
 language/NN
 ]
@@ -47111,7 +47111,7 @@ humor/NN
 ]
 of/IN
 [ the/DT
-underdog/NN
+underdog/JJ
 ]
 ,/,
 and/CC
@@ -47223,7 +47223,7 @@ about/IN
 and/CC
 [ politics/NNS
 ]
-not/RB
+not/JJ
 mixing/NN
 ,/,
 [ they/PRP
@@ -47313,7 +47313,7 @@ Perhaps/RB
 [ intolerance/NN
 ]
 would/MD
-not/RB
+not/JJ
 boil/NN
 over/IN
 with/IN
@@ -47343,7 +47343,7 @@ still/RB
 exist/VB
 (/(
 as/IN
-undeniably/NN
+undeniably/JJ
 [ they/PRP
 ]
 do/VBP
@@ -47401,7 +47401,7 @@ that/IN
 in/IN
 [ its/PRP$
 desperate/NN
-need/VBP
+need/JJ
 ]
 to/TO
 attract/VB
@@ -47409,7 +47409,7 @@ attract/VB
 ]
 and/CC
 offend/VB
-[ nobody/NN
+[ nobody/JJ
 ]
 ,/,
 resembles/VBZ
@@ -47469,7 +47469,7 @@ But/CC
 [ these/DT
 ]
 are/VBP
-not/RB
+not/JJ
 [ the/DT
 differences/NNS
 ]
@@ -47546,7 +47546,7 @@ Maggart/NN
 [ 's/POS
 worth/IN
 ]
-noting/VBG
+noting/JJ
 that/IN
 [ both/DT
 ]
@@ -47766,7 +47766,7 @@ Soup/NNP
 ]
 ''/''
 is/VBZ
-not/RB
+not/JJ
 whether/IN
 [ the/DT
 pot/NN
@@ -47847,7 +47847,7 @@ show/NN
 tries/NN
 to/TO
 enlighten/NN
-[ us/PRP
+[ us/JJ
 ]
 about/IN
 [ ethnic/NN
@@ -47867,7 +47867,7 @@ For/IN
 dislikes/NN
 [ Jackie/NN
 ]
-not/RB
+not/JJ
 because/IN
 [ he/PRP
 ]
@@ -48016,7 +48016,7 @@ differences/NNS
 [ I/PRP
 ]
 'm/VBP
-not/RB
+not/JJ
 suggesting/NN
 that/IN
 [ the/DT
@@ -48064,9 +48064,9 @@ to/TO
 cool/JJ
 down/RB
 ,/,
-not/RB
+not/JJ
 heat/NN
-up/RP
+up/JJ
 ,/,
 before/IN
 [ it/PRP
@@ -48143,7 +48143,7 @@ make/VB
 ]
 without/IN
 turning/VBG
-up/RP
+up/JJ
 [ the/DT
 flame/NN
 ]
@@ -48172,7 +48172,7 @@ of/IN
 ]
 ,/,
 right/NN
-up/RP
+up/JJ
 through/IN
 [ Friday/NNP
 ]
@@ -48256,7 +48256,7 @@ crash/NN
 :/:
 ``/``
 [ The/DT
-underlying/VBG
+underlying/JJ
 economy/NN
 ]
 remains/VBZ
@@ -48266,7 +48266,7 @@ remains/VBZ
 [ There/EX
 ]
 is/VBZ
-[ nothing/NN
+[ nothing/JJ
 ]
 wrong/JJ
 with/IN
@@ -48279,7 +48279,7 @@ the/DT
 indices/NN
 ]
 are/VBP
-up/RP
+up/JJ
 ./.
 ''/''
 Heard/NN
@@ -48477,7 +48477,7 @@ year/NN
 ./.
 [ Late/RB
 Friday/NNP
-night/NN
+night/JJ
 ]
 ,/,
 [ the/DT
@@ -48514,7 +48514,7 @@ widened/NN
 ,/,
 rather/RB
 than/IN
-narrowed/NN
+narrowed/JJ
 ,/,
 [ the/DT
 federal/JJ
@@ -48654,7 +48654,7 @@ provision/NN
 ]
 ./.
 [ House-Senate/NNP
-negotiations/NNS
+negotiations/JJ
 ]
 are/VBP
 likely/JJ
@@ -48772,7 +48772,7 @@ bill/NN
 ]
 do/VBP
 n't/RB
-need/VBP
+need/JJ
 [ this/DT
 ]
 as/IN
@@ -49053,7 +49053,7 @@ completed/VBD
 Bush/NNP
 ]
 has/VBZ
-until/IN
+until/JJ
 [ midnight/NN
 tonight/NN
 ]
@@ -49077,7 +49077,7 @@ law/NN
 hope/VBP
 that/IN
 [ the/DT
-need/VBP
+need/JJ
 ]
 to/TO
 avoid/VB
@@ -49174,7 +49174,7 @@ Committee/NNP
 [ it/PRP
 ]
 is/VBZ
-uncertain/NN
+uncertain/JJ
 whether/IN
 [ a/DT
 clean/VB
@@ -49185,7 +49185,7 @@ be/VB
 achieved/VBN
 in/IN
 [ the/DT
-upcoming/NN
+upcoming/JJ
 conference/NN
 ]
 with/IN
@@ -49237,7 +49237,7 @@ But/CC
 senators/NN
 ]
 saw/VBD
-[ no/DT
+[ no/JJ
 way/NN
 ]
 to/TO
@@ -49252,7 +49252,7 @@ garner/NN
 60/CD
 votes/NN
 ]
-needed/VBN
+needed/JJ
 to/TO
 win/VB
 [ the/DT
@@ -49294,7 +49294,7 @@ though/IN
 ]
 ,/,
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ which/WDT
@@ -49478,7 +49478,7 @@ entire/JJ
 physician-reimbursement/NN
 system/NN
 ]
-under/IN
+under/JJ
 [ Medicare/NN
 ]
 ./.
@@ -49516,7 +49516,7 @@ why/WRB
 ]
 were/VBD
 giving/VBG
-up/RP
+up/JJ
 so/RB
 much/JJ
 ,/,
@@ -49586,7 +49586,7 @@ because/IN
 [ there/EX
 ]
 were/VBD
-[ no/DT
+[ no/JJ
 exceptions/NN
 ]
 :/:
@@ -49661,7 +49661,7 @@ calls/VBZ
 ./.
 [ It/PRP
 ]
-no/DT
+no/JJ
 longer/RBR
 includes/VBZ
 [ a/DT
@@ -49687,7 +49687,7 @@ of/IN
 [ which/WDT
 ]
 is/VBZ
-used/VBN
+used/JJ
 by/IN
 [ military/JJ
 contractors/NNS
@@ -49714,7 +49714,7 @@ permitted/VBN
 [ corporations/NNS
 ]
 to/TO
-use/VB
+use/JJ
 [ excess/JJ
 pension/NN
 funds/NNS
@@ -50059,7 +50059,7 @@ interest/NN
 from/IN
 [ loans/NNS
 ]
-used/VBN
+used/JJ
 to/TO
 acquire/VB
 [ securities/NNS
@@ -50142,7 +50142,7 @@ taxes/NNS
 --/:
 [ Speed/NN
 ]
-up/RP
+up/JJ
 [ the/DT
 collection/NN
 ]
@@ -50175,7 +50175,7 @@ such/JJ
 as/IN
 [ those/DT
 ]
-used/VBN
+used/JJ
 in/IN
 [ air/VBP
 conditioners/NN
@@ -50504,7 +50504,7 @@ collect/NN
 million/CD
 ]
 from/IN
-[ users/NNS
+[ users/JJ
 ]
 of/IN
 [ Coast/NN
@@ -50577,7 +50577,7 @@ piece/NN
 on/IN
 how/WRB
 [ long/JJ
-unemployment/NN
+unemployment/JJ
 ]
 lasts/NN
 (/(
@@ -50633,7 +50633,7 @@ in/IN
 ]
 ./.
 [ My/PRP$
-unemployment/NN
+unemployment/JJ
 insurance/NN
 ]
 ran/VBD
@@ -50731,7 +50731,7 @@ seemed/VBD
 to/TO
 be/VB
 [ an/DT
-underlying/VBG
+underlying/JJ
 attitude/NN
 ]
 to/TO
@@ -50759,7 +50759,7 @@ if/IN
 [ you/PRP
 ]
 're/VBP
-unemployed/NN
+unemployed/JJ
 ,/,
 [ it/PRP
 ]
@@ -50785,7 +50785,7 @@ graph/NN
 showing/VBG
 [ the/DT
 average/JJ
-number/NN
+number/JJ
 ]
 of/IN
 [ months/NNS
@@ -50836,7 +50836,7 @@ people/NNS
 [ Your/PRP$
 paper/NN
 ]
-needs/VBZ
+needs/JJ
 [ a/DT
 serious/JJ
 reality/NN
@@ -50862,7 +50862,7 @@ is/VBZ
 [ a/DT
 U.S./NNP
 majority-owned/NN
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Cie./NN
@@ -50878,11 +50878,11 @@ edition/NN
 ]
 ,/,
 [ the/DT
-name/NN
+name/JJ
 ]
 of/IN
 [ the/DT
-unit/NN
+unit/JJ
 ]
 was/VBD
 misstated/NN
@@ -50896,7 +50896,7 @@ See/VB
 Chairman/NNP
 ]
 to/TO
-[ Use/NN
+[ Use/JJ
 U.S./NNP
 Acquisitions/NN
 ]
@@ -50996,7 +50996,7 @@ keep/VB
 [ the/DT
 debt/NN
 ]
-under/IN
+under/JJ
 [ review/NN
 ]
 for/IN
@@ -51104,7 +51104,7 @@ thrift/NN
 's/POS
 senior/JJ
 subordinated/VBN
-notes/NNS
+notes/JJ
 ]
 ./.
 [ The/DT
@@ -51221,7 +51221,7 @@ severe/JJ
 attack/NN
 ]
 of/IN
-[ nerves/NN
+[ nerves/JJ
 ]
 ./.
 Does/NN
@@ -51343,7 +51343,7 @@ and/CC
 still/RB
 [ a/DT
 well-known/JJ
-newsletter/NN
+newsletter/JJ
 writer/NN
 ]
 ./.
@@ -51407,7 +51407,7 @@ signals/VBZ
 ]
 ./.
 Right/RB
-now/RB
+now/JJ
 [ they/PRP
 ]
 're/VBP
@@ -51427,11 +51427,11 @@ out/RP
 [ I/PRP
 ]
 see/VB
-[ no/DT
+[ no/JJ
 major/JJ
 support/VB
 ]
-until/IN
+until/JJ
 [ 2200/NN
 ]
 ./.
@@ -51462,7 +51462,7 @@ even/RB
 think/VBP
 of/IN
 buying/VBG
-until/IN
+until/JJ
 at/IN
 [ least/JJS
 600/NN
@@ -51499,7 +51499,7 @@ says/VBZ
 ,/,
 ``/``
 have/VBP
-[ no/DT
+[ no/JJ
 idea/NN
 ]
 [ what/WP
@@ -51562,7 +51562,7 @@ says/VBZ
 ,/,
 ``/``
 was/VBD
-not/RB
+not/JJ
 [ a/DT
 crash/NN
 ]
@@ -51709,7 +51709,7 @@ calculates/NN
 average/JJ
 stock/NN
 ]
-now/RB
+now/JJ
 sells/VBZ
 for/IN
 about/IN
@@ -51804,7 +51804,7 @@ says/VBZ
 [ he/PRP
 ]
 expects/VBZ
-[ no/DT
+[ no/JJ
 1987-style/NN
 crash/NN
 ]
@@ -51912,7 +51912,7 @@ even/RB
 be/VB
 [ an/DT
 ]
-up/RP
+up/JJ
 [ day/NN
 ]
 ,/,
@@ -52128,7 +52128,7 @@ time/NN
 ]
 to/TO
 pick/VB
-up/RP
+up/JJ
 [ bargains/NN
 ]
 ,/,
@@ -52142,7 +52142,7 @@ think/VBP
 ]
 's/POS
 [ any/DT
-need/VBP
+need/JJ
 ]
 to/TO
 rush/NN
@@ -52180,14 +52180,14 @@ major/JJ
 differences/NNS
 ]
 between/IN
-now/RB
+now/JJ
 and/CC
 [ two/CD
 years/NNS
 ]
 ago/RB
 ./.
-Unlike/IN
+Unlike/JJ
 [ 1987/CD
 ]
 ,/,
@@ -52201,7 +52201,7 @@ falling/VBG
 year/NN
 ]
 ./.
-Unlike/IN
+Unlike/JJ
 [ 1987/CD
 ]
 ,/,
@@ -52213,7 +52213,7 @@ been/VBN
 strong/JJ
 ./.
 And/CC
-unlike/IN
+unlike/JJ
 [ 1987/CD
 ]
 ,/,
@@ -52284,7 +52284,7 @@ concludes/NN
 [ This/DT
 ]
 is/VBZ
-not/RB
+not/JJ
 [ a/DT
 good/JJ
 environment/NN
@@ -52324,7 +52324,7 @@ portfolios/NNS
 [ I/PRP
 ]
 would/MD
-not/RB
+not/JJ
 do/VBP
 [ any/DT
 ]
@@ -52510,7 +52510,7 @@ has/VBZ
 made/VBN
 [ investors/NNS
 ]
-uneasy/NN
+uneasy/JJ
 and/CC
 [ the/DT
 corporations/NNS
@@ -52564,7 +52564,7 @@ takes/VBZ
 [ more/RBR
 error/NN
 ]
-now/RB
+now/JJ
 to/TO
 have/VBP
 [ a/DT
@@ -52699,7 +52699,7 @@ continue/VB
 market/NN
 ]
 was/VBD
-up/RP
+up/JJ
 [ 35/CD
 %/NN
 ]
@@ -52737,7 +52737,7 @@ crash/NN
 ]
 is/VBZ
 ``/``
-[ unlikely/NN
+[ unlikely/JJ
 ]
 ,/,
 ''/''
@@ -52747,7 +52747,7 @@ says/VBZ
 ]
 was/VBD
 ``/``
-nibbling/NN
+nibbling/JJ
 at/IN
 ''/''
 selected/NN
@@ -52837,7 +52837,7 @@ of/IN
 ]
 at/IN
 [ Columbia/NNP
-University/NNP
+University/JJ
 ]
 and/CC
 [ former/JJ
@@ -52982,7 +52982,7 @@ to/TO
 do/VBP
 [ today/NN
 ]
-until/IN
+until/JJ
 [ he/PRP
 ]
 sees/VBZ
@@ -53017,7 +53017,7 @@ stocks/NNS
 ]
 --/:
 especially/RB
-[ utilities/NN
+[ utilities/JJ
 ]
 ,/,
 [ which/WDT
@@ -53040,7 +53040,7 @@ Curzio/NN
 [ Many/JJ
 people/NNS
 ]
-now/RB
+now/JJ
 claim/NN
 to/TO
 have/VBP
@@ -53051,7 +53051,7 @@ crash/NN
 ]
 ./.
 [ Queens/NN
-newsletter/NN
+newsletter/JJ
 writer/NN
 Francis/NNP
 X./NN
@@ -53099,7 +53099,7 @@ says/VBZ
 [ what/WP
 ]
 happens/VBZ
-now/RB
+now/JJ
 will/MD
 depend/VB
 [ a/DT
@@ -53147,7 +53147,7 @@ down/RB
 ./.
 ''/''
 If/IN
-not/RB
+not/JJ
 ,/,
 ``/``
 [ We/PRP
@@ -53309,7 +53309,7 @@ Money/NNP
 Matters/NN
 ]
 :/:
-[ Unloading/NN
+[ Unloading/JJ
 Stocks/NN
 Worst/NN
 Step/NN
@@ -53487,7 +53487,7 @@ Constitution/NNP
 ./.
 [ He/PRP
 ]
-used/VBN
+used/JJ
 about/IN
 [ 56/NN
 words/NNS
@@ -53500,7 +53500,7 @@ constitutional/NN
 rights/NNS
 ]
 ./.
-Unfortunately/RB
+Unfortunately/JJ
 ,/,
 by/IN
 [ my/PRP$
@@ -53510,7 +53510,7 @@ guess/NN
 ,/,
 [ he/PRP
 ]
-used/VBN
+used/JJ
 better/RBR
 than/IN
 [ 5,000/CD
@@ -53581,7 +53581,7 @@ are/VBP
 currently/RB
 being/VBG
 held/VBN
-up/RP
+up/JJ
 to/TO
 scorn/NN
 for/IN
@@ -53596,7 +53596,7 @@ Amendment/NNP
 ]
 certainly/RB
 is/VBZ
-not/RB
+not/JJ
 [ the/DT
 supposed/NN
 ]
@@ -53621,7 +53621,7 @@ That/DT
 [ committee/NN
 ]
 does/VBZ
-not/RB
+not/JJ
 deal/NN
 with/IN
 [ any/DT
@@ -53644,7 +53644,7 @@ realize/VB
 [ we/PRP
 ]
 are/VBP
-not/RB
+not/JJ
 [ a/DT
 court/NN
 .../:
@@ -53695,7 +53695,7 @@ is/VBZ
 in/IN
 ./.
 Right/RB
-now/RB
+now/JJ
 [ they/PRP
 ]
 're/VBP
@@ -53706,7 +53706,7 @@ pursuing/NN
 [ That/DT
 ]
 's/POS
-not/RB
+not/JJ
 [ a/DT
 bad/JJ
 way/NN
@@ -53847,7 +53847,7 @@ activity/NN
 ]
 ?/.
 Why/WRB
-not/RB
+not/JJ
 simply/RB
 [ questions/NNS
 ]
@@ -53970,7 +53970,7 @@ mind/VB
 Journal/NNP
 ]
 did/VBD
-not/RB
+not/JJ
 ``/``
 defend/NN
 [ sleaze/NN
@@ -54025,14 +54025,14 @@ pointed/VBD
 out/RP
 in/IN
 [ a/DT
-number/NN
+number/JJ
 ]
 of/IN
 [ articles/NNS
 ]
 ,/,
 is/VBZ
-not/RB
+not/JJ
 [ the/DT
 likes/NN
 ]
@@ -54104,7 +54104,7 @@ is/VBZ
 problem/NN
 ]
 ,/,
-not/RB
+not/JJ
 [ an/DT
 individual/JJ
 member/NN
@@ -54142,7 +54142,7 @@ got/VBD
 [ I/PRP
 ]
 do/VBP
-not/RB
+not/JJ
 by/IN
 [ any/DT
 means/VBZ
@@ -54176,7 +54176,7 @@ danger/NN
 ]
 to/TO
 [ American/JJ
-notions/NN
+notions/JJ
 ]
 of/IN
 [ liberty/NN
@@ -54255,7 +54255,7 @@ that/IN
 [ one/CD
 ]
 should/MD
-not/RB
+not/JJ
 draw/VB
 [ an/DT
 adverse/NN
@@ -54292,7 +54292,7 @@ in/IN
 part/NN
 ]
 that/IN
-[ no/DT
+[ no/JJ
 person/NN
 ]
 ``/``
@@ -54339,7 +54339,7 @@ defendant/NN
 [ who/WP
 ]
 chooses/NN
-not/RB
+not/JJ
 to/TO
 testify/VB
 ./.
@@ -54355,7 +54355,7 @@ case/NN
 prosecutor/NN
 ]
 can/MD
-not/RB
+not/JJ
 comment/NN
 on/IN
 [ a/DT
@@ -54365,7 +54365,7 @@ failure/NN
 ]
 to/TO
 testify/VB
-nor/CC
+nor/JJ
 can/MD
 [ the/DT
 defendant/NN
@@ -54440,7 +54440,7 @@ Fifth/NN
 Amendment/NNP
 ]
 does/VBZ
-not/RB
+not/JJ
 preclude/VB
 [ the/DT
 inference/NN
@@ -54588,7 +54588,7 @@ civil/NN
 matter/NN
 ]
 is/VBZ
-not/RB
+not/JJ
 based/VBN
 on/IN
 [ a/DT
@@ -54626,8 +54626,8 @@ matter/NN
 ]
 could/MD
 be/VB
-unconstitutionally/NN
-used/VBN
+unconstitutionally/JJ
+used/JJ
 against/IN
 [ him/PRP
 ]
@@ -54670,7 +54670,7 @@ Fifth/NN
 ]
 in/IN
 [ a/DT
-noncriminal/NN
+noncriminal/JJ
 proceeding/NN
 ]
 ,/,
@@ -54707,7 +54707,7 @@ testimony/NN
 ]
 could/MD
 be/VB
-used/VBN
+used/JJ
 against/IN
 [ him/PRP
 ]
@@ -54770,12 +54770,12 @@ inference/NN
 ]
 in/IN
 [ a/DT
-noncriminal/NN
+noncriminal/JJ
 congressional/JJ
 hearing/NN
 ]
 does/VBZ
-not/RB
+not/JJ
 offend/VB
 [ the/DT
 Fifth/NN
@@ -54814,7 +54814,7 @@ stock/NN
 market/NN
 ]
 plummeted/NN
-nearly/RB
+nearly/JJ
 [ 200/CD
 points/NNS
 ]
@@ -54833,7 +54833,7 @@ is/VBZ
 ]
 of/IN
 [ the/DT
-number/NN
+number/JJ
 13/CD
 ]
 --/:
@@ -54854,7 +54854,7 @@ effect/NN
 has/VBZ
 been/VBN
 set/VBN
-up/RP
+up/JJ
 and/CC
 shot/NN
 down/RB
@@ -54878,7 +54878,7 @@ of/IN
 ]
 at/IN
 [ the/DT
-University/NNP
+University/JJ
 ]
 of/IN
 [ Miami/NNP
@@ -54923,7 +54923,7 @@ be/VB
 jinxed/NN
 by/IN
 [ an/DT
-unlucky/NN
+unlucky/JJ
 choice/NN
 ]
 of/IN
@@ -54940,7 +54940,7 @@ market/NN
 ]
 took/VBD
 falls/NN
-[ nine/CD
+[ nine/JJ
 times/NNS
 ]
 in/IN
@@ -54965,7 +54965,7 @@ be/VB
 plus/CC
 ]
 ,/,
-not/RB
+not/JJ
 [ a/DT
 minus/NN
 ]
@@ -55162,7 +55162,7 @@ in/IN
 stocks/NNS
 ]
 went/VBD
-[ unanswered/NN
+[ unanswered/JJ
 ]
 ./.
 ``/``
@@ -55222,7 +55222,7 @@ years/NNS
 ago/RB
 ./.
 Whether/NN
-[ unanswered/NN
+[ unanswered/JJ
 phone/NN
 calls/VBZ
 ]
@@ -55231,7 +55231,7 @@ had/VBD
 effect/NN
 ]
 or/CC
-not/RB
+not/JJ
 ,/,
 [ Nasdaq/NNP
 stocks/NNS
@@ -55485,7 +55485,7 @@ of/IN
 complaints/NNS
 ]
 about/IN
-[ unanswered/NN
+[ unanswered/JJ
 phone/NN
 calls/VBZ
 ]
@@ -55828,7 +55828,7 @@ from/IN
 [ sellers/NN
 ]
 when/WRB
-[ no/DT
+[ no/JJ
 one/CD
 ]
 else/RB
@@ -56056,7 +56056,7 @@ carrying/VBG
 [ big/JJ
 inventories/NNS
 ]
-now/RB
+now/JJ
 ,/,
 ''/''
 said/VBD
@@ -56115,7 +56115,7 @@ is/VBZ
 third/JJ
 smaller/JJR
 ]
-now/RB
+now/JJ
 than/IN
 [ it/PRP
 ]
@@ -56166,7 +56166,7 @@ selling/VBG
 ,/,
 [ he/PRP
 ]
-never/RB
+never/JJ
 considered/VBN
 [ the/DT
 situation/NN
@@ -56235,7 +56235,7 @@ in/IN
 [ stock/NN
 prices/NNS
 ]
-undoubtedly/NN
+undoubtedly/JJ
 will/MD
 shake/VB
 [ many/JJ
@@ -56495,13 +56495,13 @@ said/VBD
 [ retail/JJ
 investors/NNS
 ]
-nervously/NN
+nervously/JJ
 sold/VBN
 [ stock/NN
 Friday/NNP
 ]
 and/CC
-never/RB
+never/JJ
 returned/VBN
 to/TO
 [ bargain-hunt/NN
@@ -56553,7 +56553,7 @@ from/IN
 ]
 ,/,
 but/CC
-not/RB
+not/JJ
 as/IN
 [ much/JJ
 panic/NN
@@ -56852,7 +56852,7 @@ day/NN
 when/WRB
 [ negative/JJ
 takeover-related/NN
-news/NN
+news/JJ
 ]
 did/VBD
 n't/RB
@@ -57131,7 +57131,7 @@ low/JJ
 5\/8/NN
 %/NN
 ]
-near/IN
+near/JJ
 [ closing/VBG
 bid/NN
 ]
@@ -57151,7 +57151,7 @@ banks/NNS
 ]
 for/IN
 [ overnight/JJ
-use/VB
+use/JJ
 ]
 in/IN
 [ amounts/NNS
@@ -57324,7 +57324,7 @@ PAPER/NN
 :/:
 [ High-grade/JJ
 unsecured/JJ
-notes/NNS
+notes/JJ
 ]
 sold/VBN
 through/IN
@@ -57419,7 +57419,7 @@ of/IN
 C.D.s/NNS
 ]
 ,/,
-usually/RB
+usually/JJ
 on/IN
 [ amounts/NNS
 ]
@@ -57434,7 +57434,7 @@ and/CC
 ./.
 [ The/DT
 minimum/JJ
-unit/NN
+unit/JJ
 ]
 is/VBZ
 [ $/$
@@ -57753,7 +57753,7 @@ from/IN
 value/NN
 ]
 in/IN
-[ units/NNS
+[ units/JJ
 ]
 of/IN
 [ $/$
@@ -57932,7 +57932,7 @@ past/JJ
 days/NNS
 ]
 ;/:
-not/RB
+not/JJ
 [ a/DT
 forecast/NN
 ]
@@ -57961,7 +57961,7 @@ said/VBD
 ]
 began/VBD
 scooping/NN
-up/RP
+up/JJ
 [ stocks/NNS
 ]
 during/IN
@@ -58074,7 +58074,7 @@ n't/RB
 abandon/VB
 [ stocks/NNS
 ]
-unless/IN
+unless/JJ
 [ conditions/NNS
 ]
 get/VB
@@ -58322,7 +58322,7 @@ Inc./NNP
 [ There/EX
 ]
 is/VBZ
-[ no/DT
+[ no/JJ
 justification/NN
 ]
 on/IN
@@ -58336,7 +58336,7 @@ crash/NN
 ]
 ./.
 ''/''
-Unlike/IN
+Unlike/JJ
 [ mutual/JJ
 funds/NNS
 ]
@@ -59001,7 +59001,7 @@ block/VB
 houses/NNS
 ]
 asking/VBG
-[ us/PRP
+[ us/JJ
 ]
 if/IN
 [ we/PRP
@@ -59034,7 +59034,7 @@ on/IN
 [ investments/NNS
 ]
 chalked/NN
-up/RP
+up/JJ
 earlier/JJR
 ,/,
 declined/VBD
@@ -59160,7 +59160,7 @@ price/NN
 ]
 ./.
 [ The/DT
-nation/NN
+nation/JJ
 's/POS
 largest/JJS
 short-selling/NN
@@ -59201,7 +59201,7 @@ for/IN
 [ the/DT
 year/NN
 ]
-up/RP
+up/JJ
 to/TO
 [ that/IN
 point/NN
@@ -59211,7 +59211,7 @@ point/NN
 ]
 [ that/IN
 ]
-now/RB
+now/JJ
 has/VBZ
 changed/VBD
 ./.
@@ -59242,7 +59242,7 @@ Feshbach/NN
 [ We/PRP
 ]
 're/VBP
-not/RB
+not/JJ
 making/VBG
 [ a/DT
 killing/VBG
@@ -59300,7 +59300,7 @@ in/IN
 [ Neither/DT
 Vitarine/NN
 ]
-nor/CC
+nor/JJ
 [ any/DT
 ]
 of/IN
@@ -59385,7 +59385,7 @@ at/IN
 retail/JJ
 level/NN
 its/PRP$
-urinary/NN
+urinary/JJ
 tract/NN
 antibiotic/NN
 ]
@@ -59518,7 +59518,7 @@ presented/VBN
 ]
 [ it/PRP
 ]
-uncovered/NN
+uncovered/JJ
 to/TO
 [ the/DT
 company/NN
@@ -59662,9 +59662,9 @@ of/IN
 stockholders/NNS
 ]
 ./.
-Up/IN
+Up/JJ
 to/TO
-now/RB
+now/JJ
 [ only/RB
 specific/JJ
 aspects/NNS
@@ -59678,20 +59678,20 @@ been/VBN
 challenged/NN
 ,/,
 though/IN
-unsuccessfully/RB
+unsuccessfully/JJ
 ,/,
 [ ASKO/NN
 's/POS
 Dutch/NNP
 lawyers/NNS
 ]
-noted/VBD
+noted/JJ
 ./.
 Should/NN
 [ the/DT
 courts/NNS
 ]
-uphold/NN
+uphold/JJ
 [ the/DT
 validity/NN
 ]
@@ -60377,7 +60377,7 @@ affect/NN
 bid/NN
 ]
 for/IN
-[ United/NNP
+[ United/JJ
 Airlines/NN
 ]
 ,/,
@@ -60398,7 +60398,7 @@ PLC/NNP
 analysts/NNS
 ]
 say/VBP
-[ uncertainty/NN
+[ uncertainty/JJ
 ]
 about/IN
 [ Washington/NNP
@@ -60414,7 +60414,7 @@ that/IN
 financing/NN
 for/IN
 [ the/DT
-United/NNP
+United/JJ
 Airlines/NN
 takeover/NN
 ]
@@ -60463,7 +60463,7 @@ crash/NN
 Then/RB
 ,/,
 as/IN
-now/RB
+now/JJ
 ,/,
 [ the/DT
 budget/NN
@@ -60609,7 +60609,7 @@ deficit/NN
 actually/RB
 rose/VBD
 by/IN
-nearly/RB
+nearly/JJ
 [ $/$
 12/CD
 billion/CD
@@ -60793,7 +60793,7 @@ interview/NN
 [ That/DT
 ]
 did/VBD
-not/RB
+not/JJ
 happen/VB
 ./.
 [ They/PRP
@@ -60879,7 +60879,7 @@ around/IN
 ]
 is/VBZ
 [ an/DT
-underlying/VBG
+underlying/JJ
 concern/NN
 ]
 on/IN
@@ -60902,7 +60902,7 @@ that/IN
 administration/NN
 ]
 has/VBZ
-not/RB
+not/JJ
 gone/VBN
 far/RB
 enough/RB
@@ -60926,7 +60926,7 @@ cut/VB
 administration/NN
 ]
 asked/VBD
-[ us/PRP
+[ us/JJ
 ]
 to/TO
 cut/VB
@@ -61033,7 +61033,7 @@ legislation/NN
 [ There/EX
 ]
 is/VBZ
-[ no/DT
+[ no/JJ
 prospect/NN
 ]
 of/IN
@@ -61055,7 +61055,7 @@ simply/RB
 did/VBD
 n't/RB
 live/VBP
-up/RP
+up/JJ
 to/TO
 [ this/DT
 year/NN
@@ -61137,7 +61137,7 @@ that/IN
 Republicans/NNPS
 ]
 were/VBD
-negotiating/VBG
+negotiating/JJ
 [ a/DT
 deal/NN
 ]
@@ -61273,7 +61273,7 @@ n't/RB
 expected/VBN
 to/TO
 begin/VB
-until/IN
+until/JJ
 [ tomorrow/NN
 ]
 at/IN
@@ -61336,7 +61336,7 @@ deficit/NN
 [ The/DT
 market/NN
 ]
-needs/VBZ
+needs/JJ
 [ a/DT
 strong/JJ
 signal/NN
@@ -61709,7 +61709,7 @@ bills/NNS
 ]
 ./.
 [ Two-year/NN
-notes/NNS
+notes/JJ
 ]
 ,/,
 refinancing/NN
@@ -61790,7 +61790,7 @@ via/IN
 [ Smith/NNP
 Barney/NNP
 Harris/NNP
-Upham/NNP
+Upham/JJ
 ]
 &/CC
 [ Co/NNP
@@ -61876,7 +61876,7 @@ Lynch/NNP
 ]
 ./.
 [ Eastern/NNP
-Utilities/NNP
+Utilities/JJ
 Associates/NNPS
 ]
 --/:
@@ -61952,7 +61952,7 @@ obligation/NN
 veterans/NN
 '/POS
 tax/NN
-notes/NNS
+notes/JJ
 ]
 ,/,
 [ Series/NNP
@@ -61980,7 +61980,7 @@ general/JJ
 obligation/NN
 tax/NN
 revenue/NN
-notes/NNS
+notes/JJ
 ]
 (/(
 [ Series/NNP
@@ -62151,7 +62151,7 @@ bonds/NNS
 ]
 for/IN
 [ Hahnemann/NN
-University/NNP
+University/JJ
 ]
 ,/,
 [ Series/NNP
@@ -62184,7 +62184,7 @@ Boston/NNP
 Corp/NNP
 ]
 ./.
-[ University/NNP
+[ University/JJ
 ]
 of/IN
 [ Medicine/NNP
@@ -62363,7 +62363,7 @@ market/NN
 [ I/PRP
 ]
 'm/VBP
-not/RB
+not/JJ
 losing/VBG
 [ faith/NN
 ]
@@ -62405,7 +62405,7 @@ But/CC
 [ he/PRP
 ]
 's/POS
-not/RB
+not/JJ
 so/RB
 sure/JJ
 about/IN
@@ -62449,7 +62449,7 @@ Corp./NNP
 's/POS
 American/JJ
 Airlines/NN
-unit/NN
+unit/JJ
 ]
 and/CC
 [ several/JJ
@@ -62484,7 +62484,7 @@ If/IN
 [ I/PRP
 ]
 sell/VB
-now/RB
+now/JJ
 ,/,
 [ I/PRP
 ]
@@ -62530,7 +62530,7 @@ bet/NN
 ]
 'll/MD
 be/VB
-up/RP
+up/JJ
 [ 50/CD
 points/NNS
 ]
@@ -62584,7 +62584,7 @@ crash/NN
 ,/,
 ``/``
 but/CC
-[ no/DT
+[ no/JJ
 one/CD
 ]
 got/VBD
@@ -62671,7 +62671,7 @@ association/NN
 ]
 ,/,
 said/VBD
-[ no/DT
+[ no/JJ
 special/JJ
 bulletins/NN
 ]
@@ -62818,14 +62818,14 @@ for/IN
 buy-out/NN
 ]
 of/IN
-[ UAL/NN
+[ UAL/JJ
 Corp./NNP
 ]
 ,/,
 [ parent/NN
 ]
 of/IN
-[ United/NNP
+[ United/JJ
 Airlines/NN
 ]
 ./.
@@ -62856,7 +62856,7 @@ of/IN
 ``/``
 [ a/DT
 tremendous/JJ
-number/NN
+number/JJ
 ]
 of/IN
 [ signs/NNS
@@ -62873,7 +62873,7 @@ ending/VBG
 [ There/EX
 ]
 's/POS
-[ no/DT
+[ no/JJ
 question/NN
 ]
 that/IN
@@ -62917,7 +62917,7 @@ back/RB
 in/IN
 to/TO
 [ the/DT
-United/NNP
+United/JJ
 bidding/NN
 ]
 with/IN
@@ -62998,7 +62998,7 @@ but/CC
 [ there/EX
 ]
 's/POS
-[ no/DT
+[ no/JJ
 foundation/NN
 ]
 to/TO
@@ -63180,7 +63180,7 @@ to/TO
 ]
 regret/NN
 ,/,
-never/RB
+never/JJ
 went/VBD
 back/RB
 even/RB
@@ -63294,7 +63294,7 @@ market/NN
 ]
 somewhat/NN
 but/CC
-not/RB
+not/JJ
 [ whole/JJ
 hog/NN
 ]
@@ -63348,7 +63348,7 @@ customers/NNS
 ``/``
 have/VBP
 been/VBN
-neutral/NN
+neutral/JJ
 to/TO
 [ cautious/NN
 ]
@@ -63380,7 +63380,7 @@ Arbel/NN
 ,/,
 [ a/DT
 Cornell/NN
-University/NNP
+University/JJ
 ]
 finance/NN
 [ professor/NN
@@ -63417,7 +63417,7 @@ But/CC
 [ it/PRP
 ]
 's/POS
-not/RB
+not/JJ
 only/RB
 [ the/DT
 stock/NN
@@ -63661,7 +63661,7 @@ crowded/VBN
 field/NN
 ]
 for/IN
-[ notebook-sized/NN
+[ notebook-sized/JJ
 computers/NNS
 ]
 is/VBZ
@@ -63684,7 +63684,7 @@ today/NN
 ]
 into/IN
 [ the/DT
-notebook/NN
+notebook/JJ
 field/NN
 ]
 is/VBZ
@@ -63729,7 +63729,7 @@ start-ups/NN
 series/NN
 ]
 of/IN
-[ notebooks/NN
+[ notebooks/JJ
 ]
 extends/NN
 [ a/DT
@@ -63756,7 +63756,7 @@ computer/NN
 ]
 called/VBN
 [ a/DT
-notepad/NN
+notepad/JJ
 ]
 ,/,
 and/CC
@@ -63780,7 +63780,7 @@ machines/NNS
 are/VBP
 still/RB
 considered/VBN
-[ novelties/NN
+[ novelties/JJ
 ]
 ,/,
 with/IN
@@ -63799,7 +63799,7 @@ match/NN
 ./.
 [ Compaq/NN
 's/POS
-notebooks/NN
+notebooks/JJ
 ]
 ,/,
 by/IN
@@ -63816,7 +63816,7 @@ in/IN
 weight/NN
 class/NN
 ]
-not/RB
+not/JJ
 to/TO
 skimp/NN
 on/IN
@@ -63936,7 +63936,7 @@ and/CC
 ]
 are/VBP
 called/VBN
-[ notebooks/NN
+[ notebooks/JJ
 ]
 --/:
 perhaps/RB
@@ -63946,7 +63946,7 @@ misleadingly/NN
 analyst/NN
 ]
 ,/,
-noting/VBG
+noting/JJ
 that/IN
 [ most/JJS
 such/JJ
@@ -63964,7 +63964,7 @@ takes/VBZ
 ]
 to/TO
 [ the/DT
-name/NN
+name/JJ
 ]
 ./.
 ``/``
@@ -63974,7 +63974,7 @@ is/VBZ
 n't/RB
 quite/RB
 [ a/DT
-notebook/NN
+notebook/JJ
 ]
 --/:
 [ I/PRP
@@ -64001,7 +64001,7 @@ of/IN
 [ the/DT
 $/$
 2,400/NN
-notepad/NN
+notepad/JJ
 computer/NN
 ]
 introduced/VBD
@@ -64017,7 +64017,7 @@ Corp./NNP
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Tandy/NNP
@@ -64065,14 +64065,14 @@ may/MD
 be/VB
 too/RB
 ambitiously/NN
-named/VBN
+named/JJ
 ,/,
 but/CC
 [ it/PRP
 ]
-nevertheless/NN
+nevertheless/JJ
 opens/VBZ
-up/RP
+up/JJ
 [ the/DT
 kind/NN
 ]
@@ -64279,7 +64279,7 @@ is/VBZ
 so/RB
 new/JJ
 ,/,
-[ nobody/NN
+[ nobody/JJ
 ]
 knows/VBZ
 yet/RB
@@ -64370,7 +64370,7 @@ of/IN
 ,/,
 [ which/WDT
 ]
-now/RB
+now/JJ
 comprise/NN
 [ 12/CD
 %/NN
@@ -64388,7 +64388,7 @@ sales/NNS
 generally/RB
 [ anything/NN
 ]
-under/IN
+under/JJ
 [ 15/CD
 pounds/NNS
 ]
@@ -64443,7 +64443,7 @@ memory/NN
 also/RB
 has/VBZ
 precluded/NN
-[ use/VB
+[ use/JJ
 ]
 of/IN
 [ the/DT
@@ -64457,7 +64457,7 @@ microprocessors/NN
 found/VBD
 in/IN
 increasing/VBG
-[ numbers/NNS
+[ numbers/JJ
 ]
 of/IN
 [ desktop/NN
@@ -64514,7 +64514,7 @@ while/IN
 [ the/DT
 Poquet/NN
 ]
-needs/VBZ
+needs/JJ
 only/RB
 [ two/CD
 ]
@@ -64526,7 +64526,7 @@ only/RB
 are/VBP
 dismissed/VBN
 by/IN
-[ notebook/NN
+[ notebook/JJ
 makers/NNS
 ]
 ,/,
@@ -64650,7 +64650,7 @@ like/IN
 [ Zenith/NNP
 ]
 and/CC
-now/RB
+now/JJ
 Compaq/NN
 ./.
 [ Compaq/NN
@@ -64689,7 +64689,7 @@ like/IN
 's/POS
 ]
 ,/,
-uses/VBZ
+uses/JJ
 [ an/DT
 Intel/NN
 286/NN
@@ -64838,7 +64838,7 @@ executive/NN
 officer/NN
 ]
 ,/,
-notes/NNS
+notes/JJ
 pointedly/NN
 that/IN
 [ Zenith/NNP
@@ -64847,11 +64847,11 @@ $/$
 2,000/CD
 MinisPort/NN
 ]
-uses/VBZ
+uses/JJ
 [ an/DT
 ]
 ``/``
-[ unconventional/NN
+[ unconventional/JJ
 ]
 ''/''
 [ two-inch/NN
@@ -64865,7 +64865,7 @@ whereas/NN
 new/JJ
 machines/NNS
 ]
-use/VB
+use/JJ
 [ the/DT
 more/RBR
 common/JJ
@@ -64895,7 +64895,7 @@ off/RP
 criticism/NN
 ]
 ,/,
-noting/VBG
+noting/JJ
 that/IN
 [ 3/CD
 1\/2-inch/NN
@@ -64904,7 +64904,7 @@ floppies/NN
 were/VBD
 also/RB
 ``/``
-[ unconventional/NN
+[ unconventional/JJ
 ]
 ''/''
 when/WRB
@@ -64926,7 +64926,7 @@ at/IN
 [ it/PRP
 ]
 as/IN
-not/RB
+not/JJ
 being/VBG
 [ a/DT
 standard/JJ
@@ -65125,7 +65125,7 @@ machine/NN
 ./.
 [ Others/NN
 ]
-undoubtedly/NN
+undoubtedly/JJ
 will/MD
 follow/NN
 ,/,
@@ -65192,7 +65192,7 @@ T-1600/NN
 [ which/WDT
 ]
 also/RB
-uses/VBZ
+uses/JJ
 [ a/DT
 286/NN
 microprocessor/NN
@@ -65299,7 +65299,7 @@ market/NN
 ]
 and/CC
 shows/VBZ
-[ no/DT
+[ no/JJ
 signs/NNS
 ]
 of/IN
@@ -65307,7 +65307,7 @@ trying/VBG
 to/TO
 get/VB
 into/IN
-[ notebooks/NN
+[ notebooks/JJ
 ]
 anytime/NN
 soon/RB
@@ -65332,7 +65332,7 @@ integrated/VBN
 [ circuits/NN
 ]
 for/IN
-[ use/VB
+[ use/JJ
 ]
 in/IN
 [ space/NN
@@ -65410,7 +65410,7 @@ Navy/NNP
 contract/NN
 ]
 to/TO
-upgrade/NN
+upgrade/JJ
 [ aircraft/NN
 electronics/NNS
 ]
@@ -65452,7 +65452,7 @@ index/NN
 ]
 to/TO
 shoot/VB
-up/RP
+up/JJ
 [ 1.1/CD
 %/NN
 ]
@@ -65546,7 +65546,7 @@ risen/VBN
 in/IN
 [ the/DT
 first/JJ
-nine/CD
+nine/JJ
 months/NNS
 ]
 of/IN
@@ -65608,7 +65608,7 @@ year/NN
 earlier/JJR
 and/CC
 were/VBD
-up/RP
+up/JJ
 [ 0.4/CD
 %/NN
 ]
@@ -65686,10 +65686,10 @@ plunge/NN
 [ Stocks/NN
 ]
 of/IN
-[ utilities/NN
+[ utilities/JJ
 ]
 held/VBN
-up/RP
+up/JJ
 relatively/RB
 better/RBR
 than/IN
@@ -65831,7 +65831,7 @@ International/NNP
 Corp./NNP
 ]
 ,/,
-[ Union/NNP
+[ Union/JJ
 Carbide/NNP
 Corp./NNP
 ]
@@ -65902,7 +65902,7 @@ at/IN
 each/DT
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ its/PRP$
 $/$
@@ -65931,7 +65931,7 @@ at/IN
 14.125/NN
 ]
 ,/,
-up/RP
+up/JJ
 from/IN
 [ its/PRP$
 $/$
@@ -65979,7 +65979,7 @@ Commission/NNP
 ]
 are/VBP
 being/VBG
-notified/NN
+notified/JJ
 of/IN
 [ the/DT
 transactions/NNS
@@ -66059,9 +66059,9 @@ maker/NN
 maximum/NN
 ]
 allowed/VBN
-under/IN
+under/JJ
 [ current/JJ
-United/NNP
+United/JJ
 Kingdom/NNP
 government/NN
 restrictions/NNS
@@ -66167,7 +66167,7 @@ shares/NNS
 ]
 or/CC
 put/VB
-up/RP
+up/JJ
 [ more/RBR
 cash/NN
 ]
@@ -66239,7 +66239,7 @@ investor/NN
 does/VBZ
 n't/RB
 put/VB
-up/RP
+up/JJ
 [ the/DT
 extra/JJ
 cash/NN
@@ -66495,7 +66495,7 @@ Inc./NNP
 's/POS
 Northwest/NN
 Airlines/NN
-unit/NN
+unit/JJ
 ]
 ,/,
 [ Pan/NN
@@ -66508,7 +66508,7 @@ Pan/NN
 American/JJ
 World/NNP
 Airways/NN
-unit/NN
+unit/JJ
 ]
 and/CC
 [ Midway/NN
@@ -66537,7 +66537,7 @@ Corp./NNP
 's/POS
 American/JJ
 Airlines/NN
-unit/NN
+unit/JJ
 ]
 and/CC
 [ Delta/NN
@@ -66636,7 +66636,7 @@ said/VBD
 [ they/PRP
 ]
 had/VBD
-[ no/DT
+[ no/JJ
 plans/VBZ
 ]
 to/TO
@@ -66686,11 +66686,11 @@ discounts/NNS
 [ I/PRP
 ]
 can/MD
-not/RB
+not/JJ
 see/VB
 how/WRB
 [ this/DT
-news/NN
+news/JJ
 ]
 by/IN
 [ Hertz/NN
@@ -66699,7 +66699,7 @@ and/CC
 [ Avis/NN
 ]
 can/MD
-not/RB
+not/JJ
 benefit/NN
 [ Budget/NNP
 's/POS
@@ -66765,12 +66765,12 @@ including/VBG
 [ Delta/NN
 ]
 and/CC
-[ USAir/NN
+[ USAir/JJ
 Group/NNP
 Inc./NNP
 's/POS
-USAir/NN
-unit/NN
+USAir/JJ
+unit/JJ
 ]
 ./.
 [ A/DT
@@ -66832,14 +66832,14 @@ with/IN
 Airlines/NN
 ]
 ,/,
-[ UAL/NN
+[ UAL/JJ
 Inc/NNP
 's/POS
-United/NNP
+United/JJ
 Airlines/NN
 ]
 and/CC
-[ USAir/NN
+[ USAir/JJ
 ]
 also/RB
 would/MD
@@ -66899,7 +66899,7 @@ however/RB
 ,/,
 doubt/NN
 [ the/DT
-numbers/NNS
+numbers/JJ
 ]
 were/VBD
 that/IN
@@ -67069,7 +67069,7 @@ program/NN
 ]
 is/VBZ
 [ the/DT
-network/NN
+network/JJ
 's/POS
 first/JJ
 entry/NN
@@ -67126,13 +67126,13 @@ Perth/NN
 [ who/WP
 ]
 was/VBD
-named/VBN
+named/JJ
 [ vice/NN
 president/NN
 ]
 of/IN
 [ late/JJ
-night/NN
+night/JJ
 entertainment/NN
 ]
 in/IN
@@ -67232,7 +67232,7 @@ on/IN
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ General/NNP
@@ -67250,7 +67250,7 @@ on/IN
 ]
 ,/,
 [ a/DT
-unit/NN
+unit/JJ
 ]
 of/IN
 [ Capital/NNP
@@ -67533,7 +67533,7 @@ to/TO
 [ him/PRP
 ]
 ,/,
-noting/VBG
+noting/JJ
 that/IN
 [ sales/NNS
 ]
@@ -67601,7 +67601,7 @@ run/VB
 exchanges/NNS
 ]
 ,/,
-[ networks/NNS
+[ networks/JJ
 ]
 of/IN
 [ automatic/JJ
@@ -67857,7 +67857,7 @@ give/VB
 discounts/NNS
 ]
 to/TO
-[ users/NNS
+[ users/JJ
 ]
 immediately/RB
 ,/,
@@ -67970,7 +67970,7 @@ reluctant/NN
 to/TO
 abandon/VB
 [ this/DT
-notion/NN
+notion/JJ
 ]
 ,/,
 insisting/NN
@@ -67998,7 +67998,7 @@ after/IN
 [ a/DT
 little/JJ
 bigger/JJR
-niche/NN
+niche/JJ
 ]
 ,/,
 ''/''
@@ -68023,7 +68023,7 @@ out/RP
 to/TO
 be/VB
 [ good/JJ
-news/NN
+news/JJ
 ]
 for/IN
 [ the/DT
@@ -68056,7 +68056,7 @@ trying/VBG
 to/TO
 do/VBP
 ,/,
-unsuccessfully/RB
+unsuccessfully/JJ
 ,/,
 for/IN
 [ weeks/NNS
@@ -68134,7 +68134,7 @@ After/IN
 [ all/DT
 ]
 ,/,
-until/IN
+until/JJ
 [ a/DT
 few/JJ
 years/NNS
@@ -68217,7 +68217,7 @@ view/NN
 ,/,
 ''/''
 says/VBZ
-[ University/NNP
+[ University/JJ
 ]
 of/IN
 [ Chicago/NNP
@@ -68238,7 +68238,7 @@ rest/NN
 ]
 of/IN
 [ the/DT
-nation/NN
+nation/JJ
 ]
 ./.
 [ Its/PRP$
@@ -68254,7 +68254,7 @@ business/NN
 conditions/NNS
 ]
 ,/,
-nor/CC
+nor/JJ
 do/VBP
 [ they/PRP
 ]
@@ -68305,7 +68305,7 @@ said/VBD
 [ There/EX
 ]
 's/POS
-[ nothing/NN
+[ nothing/JJ
 ]
 rational/NN
 about/IN
@@ -68363,13 +68363,13 @@ discourage/VB
 foreign/JJ
 investors/NNS
 ]
-upon/IN
+upon/JJ
 [ whom/WP
 ]
 [ the/DT
 U.S./NNP
 ]
-now/RB
+now/JJ
 relies/VBZ
 for/IN
 [ financial/JJ
@@ -68469,7 +68469,7 @@ Fed/NNP
 ,/,
 [ which/WDT
 ]
-until/IN
+until/JJ
 [ Friday/NNP
 ]
 had/VBD
@@ -68483,7 +68483,7 @@ ease/VB
 ]
 ,/,
 is/VBZ
-now/RB
+now/JJ
 poised/NN
 to/TO
 pour/VB
@@ -68494,7 +68494,7 @@ into/IN
 economy/NN
 ]
 if/IN
-needed/VBN
+needed/JJ
 to/TO
 soothe/NN
 [ the/DT
@@ -68511,7 +68511,7 @@ that/IN
 ]
 does/VBZ
 n't/RB
-necessarily/RB
+necessarily/JJ
 mean/VB
 [ a/DT
 fundamental/NN
@@ -68619,7 +68619,7 @@ loans/NNS
 ]
 ,/,
 are/VBP
-usually/RB
+usually/JJ
 among/IN
 [ the/DT
 few/JJ
@@ -68717,7 +68717,7 @@ market/NN
 drop/NN
 ]
 has/VBZ
-now/RB
+now/JJ
 apparently/RB
 convinced/VBN
 [ foreign/JJ
@@ -69045,7 +69045,7 @@ be/VB
 insufficient/NN
 to/TO
 pick/VB
-up/RP
+up/JJ
 [ the/DT
 slack/JJ
 ]
@@ -69118,7 +69118,7 @@ squeezed/VBN
 ''/''
 [ Mr./NNP
 Chimerine/NN
-notes/NNS
+notes/JJ
 ]
 ./.
 [ The/DT
@@ -69155,7 +69155,7 @@ sheet/NN
 can/MD
 withstand/VB
 [ an/DT
-unanticipated/NN
+unanticipated/JJ
 storm/NN
 ]
 ;/:
@@ -69167,7 +69167,7 @@ company/NN
 ]
 may/MD
 end/NN
-up/RP
+up/JJ
 in/IN
 [ bankruptcy/NN
 court/NN
@@ -69225,7 +69225,7 @@ events/NNS
 ]
 ,/,
 [ Harvard/NNP
-University/NNP
+University/JJ
 economist/NN
 Benjamin/NN
 Friedman/NN
@@ -69242,7 +69242,7 @@ be/VB
 able/JJ
 to/TO
 live/VBP
-up/RP
+up/JJ
 to/TO
 [ its/PRP$
 tough/JJ
@@ -69282,7 +69282,7 @@ economic/JJ
 horizon/NN
 ]
 right/NN
-now/RB
+now/JJ
 is/VBZ
 n't/RB
 [ recession/NN
@@ -69299,7 +69299,7 @@ reasons/NNS
 outbreak/NN
 ]
 of/IN
-[ uncontrolled/NN
+[ uncontrolled/JJ
 inflation/NN
 ]
 ./.
@@ -69572,7 +69572,7 @@ taking/VBG
 ]
 from/IN
 [ the/DT
-nation/NN
+nation/JJ
 's/POS
 success/NN
 ]
@@ -69692,7 +69692,7 @@ of/IN
 industry/NN
 ]
 's/POS
-now/RB
+now/JJ
 [ fading/NN
 boom/NN
 ]
@@ -69792,7 +69792,7 @@ of/IN
 ]
 had/VBD
 racked/NN
-up/RP
+up/JJ
 [ eight/CD
 consecutive/JJ
 record/NN
@@ -69856,7 +69856,7 @@ in/IN
 [ which/WDT
 ]
 is/VBZ
-used/VBN
+used/JJ
 in/IN
 packaging/NN
 and/CC
@@ -69944,7 +69944,7 @@ Barney/NNP
 ]
 ,/,
 [ Harris/NNP
-Upham/NNP
+Upham/JJ
 ]
 &/CC
 [ Co./NNP
@@ -70132,7 +70132,7 @@ for/IN
 [ its/PRP$
 own/JJ
 production/NN
-needs/VBZ
+needs/JJ
 ]
 ,/,
 such/JJ
@@ -70264,7 +70264,7 @@ by/IN
 [ drought/NN
 ]
 in/IN
-[ northern/NN
+[ northern/JJ
 Europe/NNP
 ]
 and/CC
@@ -70297,7 +70297,7 @@ pharmaceutical/JJ
 business/NN
 ]
 are/VBP
-narrowing/NN
+narrowing/JJ
 ./.
 [ Searle/NN
 ]
@@ -70437,7 +70437,7 @@ inventory/NN
 reductions/NNS
 ]
 are/VBP
-near/IN
+near/JJ
 [ an/DT
 end/NN
 ]
@@ -70524,7 +70524,7 @@ projections/NN
 are/VBP
 in/IN
 [ the/DT
-neighborhood/NN
+neighborhood/JJ
 ]
 of/IN
 [ 50/CD
@@ -70607,7 +70607,7 @@ supply/NN
 and/CC
 develop/VB
 [ new/JJ
-uses/VBZ
+uses/JJ
 ]
 for/IN
 [ polypropylene/NN
@@ -70792,7 +70792,7 @@ polyethylene/NN
 producer/NN
 ]
 ,/,
-[ Union/NNP
+[ Union/JJ
 Carbide/NNP
 Corp./NNP
 ]
@@ -70852,7 +70852,7 @@ billion/CD
 [ Quantum/NN
 ]
 and/CC
-[ Union/NNP
+[ Union/JJ
 Carbide/NNP
 all/DT
 ]
@@ -70877,7 +70877,7 @@ in/IN
 U.S./NNP
 ]
 and/CC
-[ non-U.S./NN
+[ non-U.S./JJ
 capital/NN
 markets/NNS
 ]
@@ -70913,7 +70913,7 @@ of/IN
 [ 8.55/CD
 %/NN
 senior/JJ
-notes/NNS
+notes/JJ
 due/JJ
 Oct./NNP
 15/CD
@@ -70967,7 +70967,7 @@ above/IN
 Treasury/NNP
 's/POS
 10-year/JJ
-note/NN
+note/JJ
 ]
 ./.
 [ Rated/NN
@@ -70993,14 +70993,14 @@ Corp./NNP
 ]
 ,/,
 [ the/DT
-non-callable/NN
+non-callable/JJ
 issue/NN
 ]
 will/MD
 be/VB
 sold/VBN
 through/IN
-[ underwriters/NNS
+[ underwriters/JJ
 ]
 led/VBN
 by/IN
@@ -71042,7 +71042,7 @@ yield/NN
 ]
 ./.
 [ The/DT
-non-callable/NN
+non-callable/JJ
 issue/NN
 ]
 ,/,
@@ -71072,7 +71072,7 @@ above/IN
 Treasury/NNP
 's/POS
 10-year/JJ
-note/NN
+note/JJ
 ]
 ./.
 [ Rated/NN
@@ -71096,7 +71096,7 @@ will/MD
 be/VB
 sold/VBN
 through/IN
-[ underwriters/NNS
+[ underwriters/JJ
 ]
 led/VBN
 by/IN
@@ -71286,7 +71286,7 @@ of/IN
 [ stripped/VBN
 mortgage/NN
 securities/NNS
-underwritten/NN
+underwritten/JJ
 ]
 by/IN
 [ BT/NN
@@ -71398,7 +71398,7 @@ principal/NN
 from/IN
 [ the/DT
 ]
-underlying/VBG
+underlying/JJ
 [ Freddie/NNP
 Mac/NNP
 8/CD
@@ -71478,7 +71478,7 @@ yield/NN
 [ There/EX
 ]
 were/VBD
-[ no/DT
+[ no/JJ
 major/JJ
 Eurobond/NN
 ]
