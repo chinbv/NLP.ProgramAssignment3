@@ -145,12 +145,57 @@ def generate_testTokens(s):
         #     print "should have inserted it"
 
 
-        # pattern = '[A-Z]'
+        capitalPattern = re.compile(r'[A-Z]\S+')
+        capitalMatch = capitalPattern.match(''.join(currToken))
+        capitalToken = None
+        if capitalMatch != None:
+            capitalToken = capitalMatch.group()
+            # print "capitalToken is " + str(capitalToken)
 
-        # foundToken = re.search(pattern, currToken)
-        # if foundToken.group() != None:
-        #     foundToken.group()
-        #     print "foundToken match: " + str(foundToken)
+        cardinalPattern = re.compile(r'[0-9].+')
+        cardinalMatch = cardinalPattern.match(''.join(currToken))
+        # print "cardinalMatch " + str(cardinalMatch)
+        cardinalToken = None
+        if cardinalMatch != None:
+            cardinalToken = cardinalMatch.group()
+
+            # print "cardinalGroup " + str(cardinalGroup)
+
+        specificEndingPattern = re.compile(r'\w+(?:\?|\.|ly\b)')
+        endingMatch = specificEndingPattern.match(''.join(currToken))
+        endingToken = None
+        if endingMatch != None:
+            endingToken = endingMatch.group()
+            # print "capitalToken is " + str(capitalToken)
+
+        specificStartPattern = re.compile(r'\b[unUn]\w+')
+        startMatch = specificStartPattern.match(''.join(currToken))
+        unToken = None
+        if startMatch != None:
+            unToken = startMatch.group()
+            # print "capitalToken is " + str(capitalToken)
+
+        specificStart1Pattern = re.compile(r'\b[inIn]\w+')
+        start1Match = specificStart1Pattern.match(''.join(currToken))
+        inToken = None
+        if start1Match != None:
+            inToken = start1Match.group()
+            # print "capitalToken is " + str(capitalToken)
+
+
+
+        # capitalSearchTerm = re.search(capitalPattern, currToken)
+        # capitalToken = capitalSearchTerm.group()
+        #
+        # print "CAPITAL TOKEN: " + str(capitalToken)
+        # cardinalToken = re.search(cardinalPattern, currToken)
+        # endingToken = re.search(specificEndingPattern, currToken)
+        # unToken = re.search(specificStartPattern, currToken)
+        # inToken = re.search(specificStart1Pattern, currToken)
+        # if capitalToken.group() != None:
+        #     capitalToken.group()
+        #     print "capitalToken match: " + str(capitalToken)
+
 
         def openBracket():
             print "[",
@@ -158,32 +203,35 @@ def generate_testTokens(s):
         def closeBracket():
             print "]"
 
-        # def capitalNoun():
-        #     if foundToken.group() != None:
-        #         # foundToken.group()
-        #         # print "foundToken match: " + str(foundToken)
-        #     # print "reached here"
-        #         theMaxPOS = "NNP"
-        #         print currToken + "/" + str(theMaxPOS)
+        def capitalNoun():
+            # print "REACHED HERE"
+            theMaxPOS = "NNP"
+            print currToken + "/" + str(theMaxPOS)
+        def cardinalNumber():
+            # print "REACHED HERE"
+            theMaxPOS = "CD"
+            print currToken + "/" + str(theMaxPOS)
+        def specificEnding():
+            theMaxPOS = "RB"
+            print currToken + "/" + str(theMaxPOS)
+
+        def specificStart():
+            theMaxPOS = "JJ"
+            print currToken + "/" + str(theMaxPOS)
+
+        def specificStart1():
+            theMaxPOS = "JJ"
+            print currToken + "/" + str(theMaxPOS)
 
         def default():
             #print "default:"
+
+            resultingPOS = wordDict.get(currToken,None)
+            # print "resultingPOS: " + str(resultingPOS)
+            theMaxPOS = findMostFrequent(resultingPOS)
             # cardinalNumber = re.compile(r'[0-9]')
             # if cardinalNumber.match(''.join(currToken)):
             #     theMaxPOS = "CD"
-
-            # specificEnding = re.compile(r'\w+(?:\?|\.|gy\b)')
-            # if specificEnding.match(''.join(currToken)):
-            #     theMaxPOS = "RB"
-
-            specificStart = re.compile(r'\b[unUn]\w+')
-            if specificStart.match(''.join(currToken)):
-                theMaxPOS = "JJ"
-
-            else:
-                resultingPOS = wordDict.get(currToken,None)
-            # print "resultingPOS: " + str(resultingPOS)
-                theMaxPOS = findMostFrequent(resultingPOS)
             # print "theMaxPOS: " + str(theMaxPOS)
             # for i in punct:
             #     # print i
@@ -196,7 +244,11 @@ def generate_testTokens(s):
         switcher = {
             '[': openBracket,
             ']': closeBracket,
-            # foundToken: capitalNoun,
+            capitalToken: capitalNoun,
+            cardinalToken: cardinalNumber,
+            endingToken: specificEnding,
+            unToken: specificStart,
+            inToken: specificStart1,
         }
 
         def switch(currToken):
