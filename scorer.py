@@ -1,5 +1,84 @@
 # -*- coding: utf-8 -*-
 
+##############################################################################################################################################################################################################################################################################
+##############################################################################################################################################################################################################################################################################
+#####
+##### Brandon Chin
+##### Monday, March 18th, 2019
+##### CMSC 416 - Natural Language Processing
+##### Programming Assignment 3 - POS Tagger
+#####
+##### 1. The Problem
+##### Write a perl (or python3) program called tagger.(pl|py) which will take as input a training file containing part of speech tagged text, and a file containing text to be part of speech tagged.
+#####
+##### 2. Example Input/Output
+#####
+##### [Input] python tagger.py pos-train.txt pos-test.txt >  pos-test-with-tags.txt
+#####
+##### [pos-train.txt] [ Pierre/NNP Vinken/NNP ]
+##### [pos-train.txt] ,/,
+##### [pos-train.txt] [ 61/CD years/NNS ]
+##### [pos-train.txt] old/JJ ,/, will/MD join/VB
+##### [pos-train.txt] [ the/DT board/NN ]
+#####
+##### [pos-test.txt] No ,
+##### [pos-test.txt] [ it ]
+##### [pos-test.txt] [ was n't Black Monday ]
+##### [pos-test.txt] .
+##### [pos-test.txt] But while
+##### [pos-test.txt] [ the New York Stock Exchange ]
+#####
+##### [pos-test-with-tags.txt] No/NNP
+##### [pos-test-with-tags.txt] ,/,
+##### [pos-test-with-tags.txt] [ it/PRP
+##### [pos-test-with-tags.txt] ]
+##### [pos-test-with-tags.txt] [ was/VBD
+##### [pos-test-with-tags.txt] n't/RB
+##### [pos-test-with-tags.txt] Black/NNP
+##### [pos-test-with-tags.txt] Monday/NNP
+##### [pos-test-with-tags.txt] ]
+##### [pos-test-with-tags.txt] ./.
+#####
+##### [Input] python scorer.py pos-test-with-tags.txt pos-test-key.txt
+#####
+##### [pos-test-key.txt] No/RB ,/,
+##### [pos-test-key.txt] [ it/PRP ]
+##### [pos-test-key.txt] [ was/VBD n't/RB Black/NNP Monday/NNP ]
+##### [pos-test-key.txt] ./.
+##### [pos-test-key.txt] But/CC while/IN
+##### [pos-test-key.txt] [ the/DT New/NNP York/NNP Stock/NNP Exchange/NNP ]
+##### [pos-test-key.txt] did/VBD n't/RB
+#####
+##### [Output] 85.6997043503% CORRECT
+##### [Output] 14.3002956497% INCORRECT
+##### [Output] JJ|IN NNP 1
+##### [Output] RP$ PRP$ 491
+##### [Output] PRP$ NNP 19
+##### [Output] VBG JJ 2
+##### [Output] VBG NN 261
+##### [Output] VBG NNP 31
+##### [Output] VBD VB 10
+##### [Output] VBD NN 142
+##### [Output] VBD VBD 1460
+##### [Output] VBD VBN 218
+##### [Output] VBD JJ 4
+##### [Output] VBD NNP 3
+#####
+##### 3. Algorithm
+#####
+##### #1. Read the arguments from the command line to in order to build a dictionary (train) of words and possible POS in the tagger.py
+#####
+##### #2. With the dictionary of words and possible parts of speeches, read the test file to then output to a new file the words with the most frequent
+#####     part of speech found in the dictionary. If there are any additional rules for tagging a word with a part of speech, it will be used here
+#####
+##### #3. With this new file that has the words from the test file with the tagger.py assigned parts of speech, the scorer.py will compare this file to the key.
+#####     The key will return the percentage of correctly guessed parts of speeches when comparing the two files, as well as the confusion matrix
+#####
+##############################################################################################################################################################################################################################################################################
+##############################################################################################################################################################################################################################################################################
+
+### Rules and Accuracy
+##
 ## 1. With no additional rules except for most frequent pos
 # 84.4396733774% CORRECT
 # 15.5603266226% INCORRECT

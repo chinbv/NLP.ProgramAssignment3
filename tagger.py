@@ -3,54 +3,75 @@
 ##############################################################################################################################################################################################################################################################################
 #####
 ##### Brandon Chin
-##### Tuesday, February 19th, 2019
+##### Monday, March 18th, 2019
 ##### CMSC 416 - Natural Language Processing
-##### Programming Assignment 2 - Ngram Modeling
+##### Programming Assignment 3 - POS Tagger
 #####
 ##### 1. The Problem
-##### Design and implement a Python3 program called ngram.py, that will learn an N-gram language model from an arbitrary number of plain text files.
-##### The program should generate a given number of sentences based on that N-gram model.
+##### Write a perl (or python3) program called tagger.(pl|py) which will take as input a training file containing part of speech tagged text, and a file containing text to be part of speech tagged.
 #####
 ##### 2. Example Input/Output
 #####
-##### [Input] python ngram.py 3 10 theMenofBoru.Jack.A.Nelson.txt theOsbornes.E.F.Benson.txt blackIvory.R.M.Ballantyne.txt
-##### [Output] Command line settings: ngram.py n = 3 m = 10
-##### [Output] Sentence number #1:
-##### [Output] bradley has another map.
-##### [Output] Sentence number #2:
-##### [Output] harold agreed with you about things of far greater import , had got some nice thick pieces of raw flesh , so plausible through its naturalness , that he's in the slavemarket of zanzibar.
-##### [Output] Sentence number #3:
-##### [Output] white ivory do come from the source of american power and the rich tropical foliage of that distressing species.
-##### [Output] Sentence number #4:
-##### [Output] 'twere better to enjoy a picture , i don't mind if i am over things like that.
-##### [Output] Sentence number #5:
-##### [Output] today she could see that , whenever he had acted on no secret and mysterious tips from the bush and poured a small antelope , which soon reduced them to go through.
-##### [Output] Sentence number #6:
-##### [Output] down in a style that has been out : savages have no money , and campequipage into bundles of a carter's horse , and mopped his streaming forehead with a band of manganja men and the awful cruelties that goes the pace of thatlor’ ,
-#####          my dear sir , don't be a woman short at dinner and giving a little to doan' sole hisself to him had come down , ” claude turned to harold and his flesh was deeply lacerated by the slavers.
-##### [Output] Sentence number #7:
-##### [Output] d'ye think it right to a thing in a day on the chiefnot very heavily , and reptiles , all that in this one defeat to get in return is this consistent.
-##### [Output] Sentence number #8:
-##### [Output] providence , however , turned the corrugated building into a coil which hung down their backs and limbs.
-##### [Output] Sentence number #9:
-##### [Output] contrast them with an appetite that was biondinetti all over , ” it required no gifts of perception whatever to their satisfaction , as they pleased.
-##### [Output] Sentence number #10:
-##### [Output] “but claude , and wherever you put on.
+##### [Input] python tagger.py pos-train.txt pos-test.txt >  pos-test-with-tags.txt
+#####
+##### [pos-train.txt] [ Pierre/NNP Vinken/NNP ]
+##### [pos-train.txt] ,/,
+##### [pos-train.txt] [ 61/CD years/NNS ]
+##### [pos-train.txt] old/JJ ,/, will/MD join/VB
+##### [pos-train.txt] [ the/DT board/NN ]
+#####
+##### [pos-test.txt] No ,
+##### [pos-test.txt] [ it ]
+##### [pos-test.txt] [ was n't Black Monday ]
+##### [pos-test.txt] .
+##### [pos-test.txt] But while
+##### [pos-test.txt] [ the New York Stock Exchange ]
+#####
+##### [pos-test-with-tags.txt] No/NNP
+##### [pos-test-with-tags.txt] ,/,
+##### [pos-test-with-tags.txt] [ it/PRP
+##### [pos-test-with-tags.txt] ]
+##### [pos-test-with-tags.txt] [ was/VBD
+##### [pos-test-with-tags.txt] n't/RB
+##### [pos-test-with-tags.txt] Black/NNP
+##### [pos-test-with-tags.txt] Monday/NNP
+##### [pos-test-with-tags.txt] ]
+##### [pos-test-with-tags.txt] ./.
+#####
+##### [Input] python scorer.py pos-test-with-tags.txt pos-test-key.txt
+#####
+##### [pos-test-key.txt] No/RB ,/,
+##### [pos-test-key.txt] [ it/PRP ]
+##### [pos-test-key.txt] [ was/VBD n't/RB Black/NNP Monday/NNP ]
+##### [pos-test-key.txt] ./.
+##### [pos-test-key.txt] But/CC while/IN
+##### [pos-test-key.txt] [ the/DT New/NNP York/NNP Stock/NNP Exchange/NNP ]
+##### [pos-test-key.txt] did/VBD n't/RB
+#####
+##### [Output] 85.6997043503% CORRECT
+##### [Output] 14.3002956497% INCORRECT
+##### [Output] JJ|IN NNP 1
+##### [Output] RP$ PRP$ 491
+##### [Output] PRP$ NNP 19
+##### [Output] VBG JJ 2
+##### [Output] VBG NN 261
+##### [Output] VBG NNP 31
+##### [Output] VBD VB 10
+##### [Output] VBD NN 142
+##### [Output] VBD VBD 1460
+##### [Output] VBD VBN 218
+##### [Output] VBD JJ 4
+##### [Output] VBD NNP 3
 #####
 ##### 3. Algorithm
 #####
-##### #1. Read the arguments from the command line to determine number of sentences (m) using the specified size ngram (n) and the text files to build your corpus
+##### #1. Read the arguments from the command line to in order to build a dictionary (train) of words and possible POS in the tagger.py
 #####
-##### #2. Break each word/punctuation into a token, removing certain punctuations and record the frequency of each token, also inserting <start> at the
-#####     beginning of the sentence, and <end> at the end of a sentence (ending punctuation)
+##### #2. With the dictionary of words and possible parts of speeches, read the test file to then output to a new file the words with the most frequent
+#####     part of speech found in the dictionary. If there are any additional rules for tagging a word with a part of speech, it will be used here
 #####
-##### #3. With frequency recorded, generate probabilities for the words that appear after the word that you are currently on
-#####
-##### #4. Build the sentences based on the probabilities and a random generated number to help you choose the following word, thereby building the sentence
-#####
-##### #5. Continue until reaching an ending punctuation, which should end the sentence, and then begin building a new sentence
-#####
-##### #6. Do this for the specified number of sentences (m) using the specified size ngram (n) which is determined in the command line argument
+##### #3. With this new file that has the words from the test file with the tagger.py assigned parts of speech, the scorer.py will compare this file to the key.
+#####     The key will return the percentage of correctly guessed parts of speeches when comparing the two files, as well as the confusion matrix
 #####
 ##############################################################################################################################################################################################################################################################################
 ##############################################################################################################################################################################################################################################################################
